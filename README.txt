@@ -23,17 +23,17 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 = Gallery Demos =
 
-[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/?robo_gallery_table=cars-gallery-demo)
+[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/gallery/cars-gallery-demo/)
 
-[Grid Layout Gallery Demo with Fade hover effect](http://robosoft.co/demo/?robo_gallery_table=custom-layout)
+[Grid Layout Gallery Demo with Fade hover effect](http://robosoft.co/demo/gallery/custom-layout/)
 
-[Multi Categories Polaroid style Movie Gallery Demo with classic layout](http://robosoft.co/demo/?robo_gallery_table=gallery-demo-movie)
+[Multi Categories Polaroid style Movie Gallery Demo with classic layout](http://robosoft.co/demo/gallery/gallery-demo-movie/)
 
-[Design Sketch Gallery Demo with grid layout](http://robosoft.co/demo/?robo_gallery_table=gallery-design)
+[Design Sketch Gallery Demo with grid layout](http://robosoft.co/demo/gallery/gallery-design/)
 
-[Multi Categories Gallery Demo with custom interface colors and classic layout](http://robosoft.co/demo/?robo_gallery_table=push-effect-demo)
+[Multi Categories Gallery Demo with custom interface colors and classic layout](http://robosoft.co/demo/gallery/push-effect-demo/)
 
-[Video Gallery Demo with grid layout](http://robosoft.co/demo/?robo_gallery_table=design-video-gallery)
+[Video Gallery Demo with grid layout](http://robosoft.co/demo/gallery/design-video-gallery)
 
 
 = Gallery Key Features =
@@ -84,17 +84,17 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 = Useful Gallery Links =
 
-[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/?robo_gallery_table=cars-gallery-demo)
+[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/gallery/cars-gallery-demo/)
 
-[Grid Layout Gallery Demo with Fade hover effect](http://robosoft.co/demo/?robo_gallery_table=custom-layout)
+[Grid Layout Gallery Demo with Fade hover effect](http://robosoft.co/demo/gallery/custom-layout/)
 
-[Multi Categories Polaroid style Movie Gallery Demo with classic layout](http://robosoft.co/demo/?robo_gallery_table=gallery-demo-movie)
+[Multi Categories Polaroid style Movie Gallery Demo with classic layout](http://robosoft.co/demo/gallery/gallery-demo-movie/)
 
-[Design Sketch Gallery Demo with grid layout](http://robosoft.co/demo/?robo_gallery_table=gallery-design)
+[Design Sketch Gallery Demo with grid layout](http://robosoft.co/demo/gallery/gallery-design/)
 
-[Multi Categories Gallery Demo with custom interface colors and classic layout](http://robosoft.co/demo/?robo_gallery_table=push-effect-demo)
+[Multi Categories Gallery Demo with custom interface colors and classic layout](http://robosoft.co/demo/gallery/push-effect-demo/)
 
-[Video Gallery Demo with grid layout](http://robosoft.co/demo/?robo_gallery_table=design-video-gallery)
+[Video Gallery Demo with grid layout](http://robosoft.co/demo/gallery/design-video-gallery)
 
 [Technical Support for Robo Gallery](http://robosoft.co/robogallery)
 
