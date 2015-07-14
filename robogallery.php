@@ -1,16 +1,16 @@
 <?php
 /**
- * @link              http://robosoft.co
+ * @link              http://robosoft.co/robogallery
  * @since             1.0.0
  * @package           Robo_Gallery
  *
  * @wordpress-plugin
  * Plugin Name:       Robo Gallery
- * Plugin URI:        http://robosoft.co/gallery
+ * Plugin URI:        http://robosoft.co/robogallery
  * Description:       A responsive, easy and elegant way to show gallery.
  * Version:           1.0.0
  * Author:            RoboSoft (c)
- * Author URI:        http://robosoft.co
+ * Author URI:        http://robosoft.co/robogallery
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       rbs_gallery
