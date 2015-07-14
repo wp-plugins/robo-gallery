@@ -18,7 +18,6 @@
  */
 
 if ( ! defined( 'WPINC' ) )  die;
-define( 'WP_DEBUG', true );
 define(ROBO_GALLERY, 1); 
 define(ROBO_GALLERY_VERSION, '0.0.9'); 
 
