@@ -13,9 +13,9 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 == Description ==
 
-#### [Most Easy and Powerful plugin to create a gallery on WordPress.](http://robosoft.co/demo/?robo_gallery_table=gallery-demo-movie)
+#### [Most Easy and Powerful plugin to create a gallery on WordPress.](http://robosoft.co/robogallery/#overview)
 
-#### If you looking for fast, easy gallery with simple and very beautiful, highly customizable design [here is it...](http://robosoft.co/demo/?robo_gallery_table=cars-gallery-demo) Gallery where even newbie in Wordpress will be able to create your first gallery in few minutes and at the same time Wordpress professionals get advanced tools and freedom of creativity. Just download this Gallery and you'll not look for any other gallery any more! [Fall in Love with this Gallery like we do!](http://robosoft.co/demo/?robo_gallery_table=custom-layout)
+#### If you looking for fast, easy gallery with simple and very beautiful, highly customizable design [here is it...](http://robosoft.co/robogallery/#overview) Gallery where even newbie in Wordpress will be able to create your first gallery in few minutes and at the same time Wordpress professionals get advanced tools and freedom of creativity. Just download this Gallery and you'll not look for any other gallery any more! [Fall in Love with this Gallery like we do!](http://robosoft.co/robogallery/#overview)
 
 = Install and create your first Wordpress gallery in few minutes =
 
