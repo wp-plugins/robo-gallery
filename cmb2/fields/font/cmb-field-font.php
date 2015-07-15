@@ -62,7 +62,7 @@ function jt_cmb2_render_font_field_callback( $field, $value, $object_id, $object
 	    <label class="col-sm-2 control-label" for="<?php echo $field_type_object->_id( 'enabled' ); ?>'">
 	    	<?php echo esc_html( $field_type_object->_text( 'font_hfont_text', 'Show' ) ); ?>
 	    </label>
-	     <div class="col-sm-<?php echo $level?'8':'10'; ?>">
+	     <div class="col-sm-<?php echo $level?'8 rbs_disabled':'10'; ?>">
 	     	<?php
 			echo 
 				'<input type="checkbox" data-toggle="toggle" data-onstyle="info" class="rbs_action_element" ' 

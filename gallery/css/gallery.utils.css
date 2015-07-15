@@ -1,9 +1,11 @@
 
-  .rbs-img {
+
+	.rbs-img {
     /* Box-model */
     display: none; 
     float: left;
     /*width: 20%;*/
+    
   }
 
   .rbs-img-hidden, .not-loaded-before-search{
@@ -43,6 +45,7 @@
     -webkit-border-radius: 0px; 
     -moz-border-radius: 0px; 
     border-radius: 0px;
+    border: none !important; /* rbs */
   }
   
   .rbs-img img{

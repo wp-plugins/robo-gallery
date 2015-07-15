@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, responsive gallery, mobile gallery, photo gallery, fullscreen gallery, Polaroid gallery, image gallery, image gallery plugin, batch upload, video gallery 
 Requires at least: 3.3
 Tested up to: 4.2.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -386,6 +386,12 @@ If any problem occurs, please contact us.
 
 
 == Changelog ==
+
+= 1.0.1 =
+*   Updates of admin backend functionality
+*   Fixed categories error
+*   Fixed images sorting
+*   Fixed thumbnails layout functionality 
  
 = 1.0 =
 *   First release

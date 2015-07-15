@@ -229,17 +229,17 @@ class roboGallery extends roboGalleryParent{
 			$this->getSource($size);
 		}
 		
-		$colums = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'colums', true );
-		if(count($colums)){
-			if( isset($colums['autowidth']) ){
-				if($colums['colums']) $this->helper->setValue( 'columns',  $colums['colums'], 'int' );
-				$this->helper->setValue( 'columnWidth', 'auto' );
-			} elseif($colums['width']){ 
-				$this->helper->setValue( 'columnWidth',  $colums['width'], 'int' );
-			}
-			$resolutions=array( $this->addWidth($colums, 1), $this->addWidth($colums, 2), $this->addWidth($colums, 3) );
-			if( count($resolutions) ){
-				$this->helper->setValue( 'resolutions',  '['.implode( ' , ', $resolutions ).']', 'raw' );
+		/* robo_gallery */
+		if($this->pro){ 
+			$this->setColumns();
+		} else {
+			$colums = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'colums', true );
+			if(count($colums)){
+				$columns = $this->addWidth($colums, 3);
+				if( $columns ){
+					$columns .= ', {"columnWidth": "auto" , "columns":2 , "maxWidth": 650}, {"columnWidth": "auto" , "columns":4 , "maxWidth": 960}';
+					$this->helper->setValue( 'resolutions',  '[ '.$columns .']', 'raw' );
+				}
 			}
 		}
 
@@ -264,6 +264,10 @@ class roboGallery extends roboGalleryParent{
 		
 		$this->selectImages = new roboGalleryImages($this->id);
 		$this->selectImages->setSize( $width , $height, $this->thumbsource, $this->orderby );
+
+		/* robo_gallery */
+		if ( $this->pro ) $this->setCCL();
+
 		$this->selectImages->getImages();
 
 		$this->helper->setOption( 'overlayEffect', 'string');
@@ -283,8 +287,8 @@ class roboGallery extends roboGalleryParent{
 		$this->helper->setOption( 'noMoreEntriesWord', 'string');
 
 		$this->helper->setOption( 'horizontalSpaceBetweenBoxes', 'int');
-		$this->helper->setOption( 'verticalSpaceBetweenBoxes', 'int');
-		
+		$this->helper->setOption( 'verticalSpaceBetweenBoxes', 'int');	
+
 		/* robo_gallery */
 		if ( $this->pro ) $this->rbsOverlayStyle .= $this->getOverlayBg();
 			else $this->rbsOverlayStyle .= 'background: rgb(255, 255, 255)';

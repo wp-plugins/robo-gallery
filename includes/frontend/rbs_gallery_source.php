@@ -22,12 +22,14 @@ class roboGalleryImages{
 	public $height		= 0;
 	public $thumbsource = '';
 	public $orderby = '';
+	public $lazyLoad = 1;
 
 
 	function __construct($attr){
  		if( isset($attr) && (int) $attr ){
 			$this->id = (int) $attr;
  		}
+ 		++$this->lazyLoad;
  	}
 
  	function setSize( $width , $height, $thumbsource, $orderby ){
@@ -39,7 +41,7 @@ class roboGalleryImages{
 
  	function getImages(){
  		if(!$this->id) return false;
-
+ 		++$this->lazyLoad;
 		$tempImages = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'galleryImages', true );
 		for ($i=0; $i < count($tempImages) ; $i++){
 			$this->imgArray[] = array( 'id'=> $tempImages[$i], 'catid'=> $this->id );
@@ -54,10 +56,11 @@ class roboGalleryImages{
 		$my_wp_query = new WP_Query();
  		$all_wp_pages = $my_wp_query->query(array(
  				'post_type' => ROBO_GALLERY_TYPE_POST,
- 				'orderby'   => array( 'menu_order' => 'ASC', 'title' => 'DESC' )
-				//'order' 	=> 'DESC',
+ 				'orderby'   => array( 'menu_order'=> 'DESC', 'order'=> 'ASC', 'title'=> 'DESC' ),
+ 				'posts_per_page' => $this->lazyLoad,
 
  		));
+
  		//print_r($all_wp_pages);
 		$children = get_page_children( $this->id, $all_wp_pages );
 		//print_r($children);

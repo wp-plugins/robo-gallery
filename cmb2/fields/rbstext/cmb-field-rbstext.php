@@ -25,7 +25,7 @@ $level = $field->args('level')?1:0;
 <div class="form-horizontal rbs_delete_up">
 	<div class="form-group">
 	    <label class="col-sm-2 control-label" for="<?php echo $field_type_object->_id(); ?>"><?php echo esc_html(  $field->args('name') ); ?></label>
-	    <div class="<?php echo $field->args('small')?'col-sm-4':'col-sm-8'; ?>">
+	    <div class="<?php echo $field->args('small')?'col-sm-4':'col-sm-8'; echo ($level?' rbs_disabled':'') ?>">
 		    <?php echo $field_type_object->input( array(
 				'name'  		=> $field_type_object->_name( ),
 				'id'    		=> $field_type_object->_id( ),

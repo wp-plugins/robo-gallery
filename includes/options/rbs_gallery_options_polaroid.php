@@ -29,6 +29,7 @@ $polaroid_group->add_field( array(
 	'deffault'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
 	'depends' 		=> '.rbs_polaroid_block',
 	'bootstrap_style'=> 1,
+/*	'level'			=> !ROBO_GALLERY_PRO,*/
     'before_row' 	=> '
 <div class="rbs_block"><br/>',
 	'after_row'		=> '

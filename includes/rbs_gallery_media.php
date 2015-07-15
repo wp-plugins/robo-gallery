@@ -21,7 +21,7 @@ function hide_attachment_field() {
 	.".compat-attachment-fields tr.compat-field-rsg_gallery_type_link,"
 	.".compat-attachment-fields tr.compat-field-rsg_gallery_video_link,"
 	.".compat-attachment-fields tr.compat-field-rsg_gallery_effect,"
-	.".compat-attachment-fields tr.compat-field-rsg_gallery_link{display:none;}</style>";
+	.".compat-attachment-fields tr.compat-field-rsg_gallery_link{display:none; ".(!ROBO_GALLERY_PRO?"z-index: 1000;opacity: 0.4;pointer-events: none;":"") ."}</style>";
 		//}
 }
 add_action('admin_head', 'hide_attachment_field');
@@ -40,7 +40,7 @@ add_action('admin_head', 'hide_attachment_field');
 		$form_fields[ROBO_GALLERY_PREFIX.'gallery_line'] = array(
 			'label' => '',
 			'input' => 'html',
-			'html' 	=> '<h4>'.__('Robo Gallery', 'rbs_gallery').'</h4>'
+			'html' 	=> ( !ROBO_GALLERY_PRO ?'<br/><br/><span>Available in PRO Version Robo Gallery</span>':'<h4>'.__('Robo Gallery', 'rbs_gallery').'</h4>')
 		);
 		
 		$value = get_post_meta( $post->ID, ROBO_GALLERY_PREFIX.'gallery_col', true );

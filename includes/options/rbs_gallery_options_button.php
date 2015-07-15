@@ -26,6 +26,7 @@ $button_group->add_field( array(
 	'name' 			=> __('Show Menu', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'menu',
 	'type' 			=> 'switch',
+	'level'			   => !ROBO_GALLERY_PRO,
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
 	'before_row'	=> '<div class="rbs_block"><br/>',

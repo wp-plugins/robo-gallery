@@ -12,7 +12,7 @@
 */
 
 jQuery(function(){
-	var roboGalleryDialog = jQuery("#rbs_showInformation").appendTo("body");
+	var roboGalleryDialog = jQuery("#rbs_showInformation")/*.appendTo("body")*/;
 	
 	var bodyClass = roboGalleryDialog.data("body");
 	if(bodyClass) jQuery("body").addClass(bodyClass);

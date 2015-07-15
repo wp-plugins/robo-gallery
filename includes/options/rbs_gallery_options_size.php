@@ -60,6 +60,7 @@ $size_group->add_field( array(
 	'type' 			=> 'colums',
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
+	'level'			=> !ROBO_GALLERY_PRO,
     'before_row' 	=> '
 				<div role="tabpanel" class="tab-pane" id="thumb_colums_options"><br/>',
 	'after_row' => '

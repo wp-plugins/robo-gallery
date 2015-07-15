@@ -19,6 +19,7 @@ function jt_cmb2_colums_field( $metakey, $post_id = 0 ) {
 function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $object_type, $field_type_object ) {
 	//print_r($value);
 	// make sure we specify each part of the value we need.
+	$level = $field->args('level')?1:0;
 
 	$value = wp_parse_args( $value, array(
 		 'width' =>  '300', 'colums' => 4,
@@ -48,12 +49,15 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 						<th>Auto Size</th>
 						<th>Custom Size</th>
 						<th>Columns Count</th>
+						<?php if($level){ ?>
+							<th style="width: 55px;"> </th>
+						<?php } ?>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td class="vert-align"><strong>Default</strong></td>
-						<td><?php
+						<td class="<?php echo $level?' rbs_disabled':''; ?>"><?php
 						echo 
 							'<input type="checkbox" data-toggle="toggle" data-onstyle="info" class="rbs_colums_auto" ' 
 							.'name="'.$field_type_object->_name( '[autowidth]' ).'" '
@@ -64,7 +68,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							.'data-colums-id="'.$field_type_object->_id( '_colums' ).'" '
 							.'>';
 						 ?></td>
-						 <td>
+						 <td  class="<?php echo $level?' rbs_disabled':''; ?>">
 						 	<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[width]' ),
@@ -75,7 +79,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?> px
 						</td>
-						<td>
+						<td class="<?php echo $level?' rbs_disabled':''; ?>">
 							<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[colums]' ),
@@ -86,10 +90,13 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?>
 						</td>
+						<?php if($level){ ?>
+							<td  class="vert-align rbs-block-pro" ><?php echo ROBO_GALLERY_ICON_PRO; ?></td>
+						<?php } ?>
 					</tr>
 					<tr>
 						<td class="vert-align">960</td>
-						<td><?php
+						<td  class="<?php echo $level?' rbs_disabled':''; ?>"><?php
 						echo 
 							'<input type="checkbox" data-toggle="toggle" data-onstyle="info" class="rbs_colums_auto" ' 
 							.'name="'.$field_type_object->_name( '[autowidth1]' ).'" '
@@ -100,7 +107,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							.'data-colums-id="'.$field_type_object->_id( '_colums1' ).'" '
 							.'>';
 						 ?></td>
-						 <td>
+						 <td  class="<?php echo $level?' rbs_disabled':''; ?>">
 						 	<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[width1]' ),
@@ -111,7 +118,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?> px
 						</td>
-						<td>
+						<td class="<?php echo $level?' rbs_disabled':''; ?>">
 							<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[colums1]' ),
@@ -122,10 +129,13 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?>
 						</td>
+						<?php if($level){ ?>
+							<td  class="vert-align rbs-block-pro" ><?php echo ROBO_GALLERY_ICON_PRO; ?></td>
+						<?php } ?>
 					</tr>
 					<tr>
 						<td class="vert-align">650</td>
-						<td><?php
+						<td class="<?php echo $level?' rbs_disabled':''; ?>"><?php
 						echo 
 							'<input type="checkbox" data-toggle="toggle" data-onstyle="info" class="rbs_colums_auto" ' 
 							.'name="'.$field_type_object->_name( '[autowidth2]' ).'" '
@@ -136,7 +146,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							.'data-colums-id="'.$field_type_object->_id( '_colums2' ).'" '
 							.'>';
 						 ?></td>
-						 <td>
+						 <td class="<?php echo $level?' rbs_disabled':''; ?>">
 						 	<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[width2]' ),
@@ -147,7 +157,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?> px
 						</td>
-						<td>
+						<td class="<?php echo $level?' rbs_disabled':''; ?>">
 							<?php
 							echo $field_type_object->input( array(
 								'name'  => $field_type_object->_name( '[colums2]' ),
@@ -158,6 +168,9 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?>
 						</td>
+						<?php if($level){ ?>
+							<td  class="vert-align rbs-block-pro" ><?php echo ROBO_GALLERY_ICON_PRO; ?></td>
+						<?php } ?>
 					</tr>
 					<tr>
 						<td class="vert-align">450</td>
@@ -194,6 +207,9 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 							) );
 							 ?>
 						</td>
+						<?php if($level){ ?>
+							<td> </td>
+						<?php } ?>
 					</tr>
 				</tbody>
 			</table>

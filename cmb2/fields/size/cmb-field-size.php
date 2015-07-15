@@ -41,8 +41,9 @@ function jt_cmb2_render_size_field_callback( $field, $value, $object_id, $object
     	<label class="col-sm-2 control-label" for="<?php echo $field_type_object->_id( '_orderby' ); ?>'">
     		<?php echo esc_html( $field_type_object->_text( 'size_orderby_text', 'Order By' ) ); ?>
     	</label>
+
 	    <div class="col-sm-<?php echo $level?'9':'10'; ?>">
-			<div class="btn-group rbs_checkbox" data-toggle="buttons">
+			<div class="btn-group rbs_checkbox <?php echo $level?' rbs_disabled':''; ?>" data-toggle="buttons">
 			<?php
 				echo rbs_size_get_source_row( 'categoryD',  'Category',$field_type_object->_name('[orderby]'), $value['orderby'], 'glyphicon glyphicon-menu-down' );
 				echo rbs_size_get_source_row( 'categoryU',  'Category',$field_type_object->_name('[orderby]'), $value['orderby'], 'glyphicon glyphicon-menu-up' );
@@ -70,7 +71,7 @@ function jt_cmb2_render_size_field_callback( $field, $value, $object_id, $object
     		<?php echo esc_html( $field_type_object->_text( 'size_source_text', 'Source' ) ); ?>
     	</label>
 	    <div class="col-sm-<?php echo $level?'8':'10'; ?>">
-			<div class="btn-group rbs_checkbox" data-toggle="buttons">
+			<div class="btn-group rbs_checkbox<?php echo $level?' rbs_disabled rbs-block-pro':''; ?>" data-toggle="buttons">
 			<?php
 				echo rbs_size_get_source_row( 'thumbnail',  'Thumbnail',$field_type_object->_name('[source]'), $value['source'] );
 				echo rbs_size_get_source_row( 'medium',  	'Medium', 	$field_type_object->_name('[source]'), $value['source'] );

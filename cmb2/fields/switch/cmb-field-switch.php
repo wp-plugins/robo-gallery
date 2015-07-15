@@ -30,9 +30,9 @@ if($bs){
 <div class="form-horizontal rbs_delete_up">
 	<div class="form-group">
 	    <label class="col-sm-2 control-label" for="<?php echo $field_type_object->_id(); ?>'"><?php echo $field->args('name'); ?></label>
-	    <div class="col-sm-<?php echo $level?'8':'10'; ?>">
+	    <div class="col-sm-<?php echo $level?'8 rbs_disabled':'10'; ?>">
 	<?php 
-} else {
+} else { 
 	?>
 	<div>
 		<div class="alignleft">
