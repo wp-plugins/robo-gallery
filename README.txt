@@ -382,8 +382,6 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 
 If any problem occurs, please contact us.
 
-= WordPress Photo Gallery User Guide =
-
 
 == Changelog ==
 
@@ -398,5 +396,8 @@ If any problem occurs, please contact us.
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+  Upgraded backend functionality. Fixed categories errors, images sorting and thumbnails layout functionality 
+   
 = 1.0 =
   This is first release of the plugin
