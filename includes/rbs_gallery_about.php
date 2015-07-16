@@ -23,7 +23,7 @@ echo '
 	</div>
 	<div class="rbs_about_string2">
 		'.__( 'More details about Robo Gallery you can see on our website', 	'rbs_gallery' ).':  
-		<a href="http://www.robosoft.co" alt="robosoft.co">robosoft.co</a>
+		<a href="http://www.robosoft.co/robogallery/" alt="robosoft.co">robosoft.co</a>
 	</div>
 	';
 if(!ROBO_GALLERY_PRO){

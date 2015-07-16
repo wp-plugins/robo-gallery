@@ -48,6 +48,10 @@ class roboGallery extends roboGalleryParent{
 	public $rbsDescStyle = '';
 	public $rbsDescHoverStyle = '';
 
+	public $rbsLightboxStyle = '';
+	public $rbsTextLightboxStyle = '';
+
+
  	public $javaScript = '';
  	public $javaScriptStyle = '';
 
@@ -94,11 +98,16 @@ class roboGallery extends roboGalleryParent{
 		
 	}	
 
+	/*
+		$hover - 	0   - hover style
+					1  	+ hover style
+					2   - mainID
+	*/
 	public function addJavaScriptStyle($styleValue, $styleName = '', $hover='1'){
 		if(isset($this->{$styleValue.'Style'}) && $this->{$styleValue.'Style'} ){
-			$this->javaScriptStyle.= '#'.$this->galleryId.' '.$styleName.'{'.$this->{$styleValue.'Style'}.'}';
+			$this->javaScriptStyle.= ($hover!=2?'#'.$this->galleryId.' ':'').$styleName.'{'.$this->{$styleValue.'Style'}.'}';
 		}
-		if( $hover && isset($this->{$styleValue.'HoverStyle'}) && $this->{$styleValue.'HoverStyle'} ){
+		if( $hover==1 && isset($this->{$styleValue.'HoverStyle'}) && $this->{$styleValue.'HoverStyle'} ){
 			$this->javaScriptStyle.= '#'.$this->galleryId.' '.$styleName.':hover{'.$this->{$styleValue.'HoverStyle'}.'}';
 		}
 	}
@@ -280,7 +289,7 @@ class roboGallery extends roboGalleryParent{
 		$this->helper->setOption( 'loadMoreWord', 'string');
 
 		$loadingBgColor = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'loadingBgColor', true );
-		if($loadingBgColor) $this->rbsImageLoadingStyle .=  'background-color: '.$loadingBgColor;
+		if($loadingBgColor) $this->rbsImageLoadingStyle .=  'background-color: '.$loadingBgColor.';';
 
 		$this->helper->setValue( 'loadMoreClass',  $this->getButtonStyle('button') );
 
@@ -291,7 +300,7 @@ class roboGallery extends roboGalleryParent{
 
 		/* robo_gallery */
 		if ( $this->pro ) $this->rbsOverlayStyle .= $this->getOverlayBg();
-			else $this->rbsOverlayStyle .= 'background: rgb(255, 255, 255)';
+			else $this->rbsOverlayStyle .= 'background: rgb(255, 255, 255);';
 
 		$polaroidOn = get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'polaroidOn', true );
 		if($polaroidOn){
@@ -331,6 +340,24 @@ class roboGallery extends roboGalleryParent{
 		
 		/* robo_gallery */
 		if ( $this->pro ) 	$this->setDescHover();
+
+		if( get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'lightboxSocial', true ) ){
+			$this->helper->setValue( 'facebook',  	'true', 'raw' );
+			$this->helper->setValue( 'twitter',  	'true', 'raw' );
+			$this->helper->setValue( 'googleplus',  'true', 'raw' );
+			$this->helper->setValue( 'pinterest',  	'true', 'raw' );
+		}
+
+		/* robo_gallery */
+		if ( $this->pro && method_exists( $this ,'setLightboxBg') ){
+			$this->setLightboxBg();
+		}
+		
+		/* v 1.0.2 */
+		$lightboxColor = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxColor', true );
+		if($lightboxColor) $this->rbsTextLightboxStyle .=  'color: '.$lightboxColor.';';
+		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
+
 
 		$this->addJavaScriptStyle('rbsBox', '.rbs-img-container');
 		$this->addJavaScriptStyle('rbsTitle','.rbsTitle',1);

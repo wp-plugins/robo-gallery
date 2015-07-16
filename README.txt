@@ -1,10 +1,10 @@
-﻿=== Robo Gallery ===
+﻿=== Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, responsive gallery, mobile gallery, photo gallery, fullscreen gallery, Polaroid gallery, image gallery, image gallery plugin, batch upload, video gallery 
 Requires at least: 3.3
 Tested up to: 4.2.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -357,6 +357,18 @@ Yes, you can use generated direct link inside particular gallery settings
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
 
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= Is it possible to create target blank links? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+
+= Is it possible to insert video as gallery link ? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have video link field in gallery image options, where you can define some custom link to the online video.
+
 == Screenshots ==
 
 1. Gallery Demo 1
@@ -382,8 +394,15 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 
 If any problem occurs, please contact us.
 
-
 == Changelog ==
+
+= 1.0.2 = 
+By request of our gallery users we add new features:
+*   Added new lightbox settings block
+*   Added ability to edit background color of the lightbox
+*   Added ability to change transparency of the background in lightbox
+*   Added color and transparency settings for lightbox text
+*   Added function for enable/disable social buttons in lightbox
 
 = 1.0.1 =
 *   Updates of admin backend functionality
@@ -395,6 +414,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+  By request of our customers: added new lightbox settings. Background color, text color, social buttons enable/disable.
 
 = 1.0.1 =
   Upgraded backend functionality. Fixed categories errors, images sorting and thumbnails layout functionality 

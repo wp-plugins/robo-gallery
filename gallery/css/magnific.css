@@ -289,6 +289,7 @@ img.mfp-img {
   line-height: 18px;
   color: #f3f3f3;
   word-wrap: break-word;
+  /*font-weight: bolder;*/
   padding-right: 36px; }
 
 .mfp-image-holder .mfp-content {

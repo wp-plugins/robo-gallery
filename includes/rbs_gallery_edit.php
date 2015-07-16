@@ -37,6 +37,8 @@ function rbs_gallery_group_metabox() {
 
 	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_polaroid.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_polaroid.php';
 
+	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_lightbox.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_lightbox.php';
+
 	if( !ROBO_GALLERY_PRO && file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_info.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_info.php';
 	
 
