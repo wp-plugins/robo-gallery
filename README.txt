@@ -397,7 +397,7 @@ If any problem occurs, please contact us.
 == Changelog ==
 
 = 1.0.2 = 
-By request of our gallery users we add new features:
+*   By request of our gallery users we add new features:
 *   Added new lightbox settings block
 *   Added ability to edit background color of the lightbox
 *   Added ability to change transparency of the background in lightbox
