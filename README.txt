@@ -419,7 +419,7 @@ When you install new version of the gallery all settings of the created gallerie
 
 = Do you have some gallery setup video guide? =
 
-Yes. We have video [gallery guides here] (https://www.youtube.com/channel/UCy1PU1Tk6zX9Ipz64v-BpKA/videos)
+Yes. We have video [gallery guides here](https://www.youtube.com/channel/UCy1PU1Tk6zX9Ipz64v-BpKA/videos)
 
 = Where to find gallery functionality details? =
 
