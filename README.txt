@@ -413,6 +413,18 @@ Yes, you can change gallery lightbox background transparency in gallery settings
     PHP 5.x
     MySQL 5.x
 
+= How to save pre-configured galleries when you install new version of the gallery? =
+
+When you install new version of the gallery all settings of the created galleries will be saved in database automatically. Even if you uninstall old version of the gallery and install new copy of the gallery settings of the old gallery version will be saved in database.
+
+= Do you have some gallery setup video guide? =
+
+Yes. We have video [gallery guides here] (https://www.youtube.com/channel/UCy1PU1Tk6zX9Ipz64v-BpKA/videos)
+
+= Where to find gallery functionality details? =
+
+All details of the gallery , including key features description you can find [Gallery details](http://robosoft.co/robogallery/)
+	
 If any problem occurs, please contact us.
 
 == Changelog ==
