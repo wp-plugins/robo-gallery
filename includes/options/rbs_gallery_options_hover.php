@@ -64,7 +64,7 @@ $hover_group->add_field( array(
 	'id'               => ROBO_GALLERY_PREFIX . 'overlayEffect',
 	'type'             => 'rbsselect',
 	'show_option_none' => false,
-	'default'          => 'push-up',
+	'default'          => 'fade',
 	'options'          => array(
 		 'push-up' 				=> __( 'push-up' , 'cmb' ),
 		 'push-down'	 		=> __( 'push-down' , 'cmb' ),

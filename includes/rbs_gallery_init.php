@@ -78,7 +78,7 @@ function create_post_type_robo_gallery() {
           'menu_icon'     => 'dashicons-format-gallery',
     ));
    /* to-do options */
-  /* global $wp_rewrite; $wp_rewrite->flush_rules();*/
+   global $wp_rewrite; $wp_rewrite->flush_rules();
 }
 add_action( 'init', 'create_post_type_robo_gallery' );
 
@@ -92,13 +92,16 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && !ROBO_GALLE
 
 
 if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST &&  rbs_gallery_is_edit_page('new') && !ROBO_GALLERY_PRO ){
-    add_action( 'load-post-new.php', function() {
-        $n=1;
-        $my_wp_query = new WP_Query();
-        ++$n;
-        $all_wp_pages = $my_wp_query->query(array( 'post_type' => ROBO_GALLERY_TYPE_POST ));
-        if( count($all_wp_pages) >= ++$n ) wp_redirect( "edit.php?post_type=robo_gallery_table&showproinfo=1" );
-    });    
+    if(!function_exists('rbs_gallery_redirect')){
+    	function rbs_gallery_redirect (){
+    		 $n=1;
+        	$my_wp_query = new WP_Query();
+        	++$n;
+        	$all_wp_pages = $my_wp_query->query(array( 'post_type' => ROBO_GALLERY_TYPE_POST ));
+        	if( count($all_wp_pages) >= ++$n ) wp_redirect( "edit.php?post_type=robo_gallery_table&showproinfo=1" );
+    	}
+    	add_action( 'load-post-new.php', 'rbs_gallery_redirect' );  
+    }  
 }
 
 

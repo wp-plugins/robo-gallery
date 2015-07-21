@@ -45,7 +45,7 @@ $loading_group->add_field( array(
 	'id' 			=> ROBO_GALLERY_PREFIX . 'boxesToLoadStart',
 	'type' 			=> 'slider',
 	'bootstrap_style'=> 1,
-	'default'		=> 4,
+	'default'		=> 12,
 	'min'			=> 1,
 	'max'			=> 50,
 ));
@@ -54,7 +54,7 @@ $loading_group->add_field(array(
 	'id' 			=> ROBO_GALLERY_PREFIX . 'boxesToLoad',
 	'type' 			=> 'slider',
 	'bootstrap_style'=> 1,
-	'default'		=> 4,
+	'default'		=> 8,
 	'min'			=> 1,
 	'max'			=> 50,
 ));

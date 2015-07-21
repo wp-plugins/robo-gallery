@@ -1,6 +1,6 @@
 /*
 *      Robo Gallery     
-*      Version: 1.0
+*      Version: 1.0.4
 *      By Robosoft
 *
 *      Contact: http://robosoft.co
@@ -30,8 +30,7 @@ jQuery(function(){
 				'text' : robo_gallery_trans.closeButton,
 				'class' : 'button-default',
 				'click' : function() { jQuery(this).dialog('close'); }
-		},
-		{
+		},{
 				'text' : robo_gallery_trans.insertButton,
 				'class' : 'button-primary',
 				'click' : function() { 
@@ -40,9 +39,11 @@ jQuery(function(){
         			window.parent.tb_remove();
 					jQuery(this).dialog('close'); 
 				}
-		}
-		],
+		}],
 		open: function( event, ui ) {}
 	});
-	jQuery('#insert-robo-gallery').click(function(event) { roboGalleryDialog.dialog('open'); return false; });
+	jQuery(document).on( 'click', '#insert-robo-gallery', function(event) { 
+		roboGalleryDialog.dialog('open'); 
+		return false; 
+	});
 });

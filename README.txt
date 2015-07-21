@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/robogallery
 Tags: add gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive gallery, responsive galleries, mobile gallery, mobile galleries, responsive images gallery, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery, gallery decription, gallery image, gallery lightbox, Gallery Plugin, gallery shortcode, gallery slider, gelary, gellary, gellery, google, grid gallery, Polaroid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, images gallery, jquery, jquery gallery, links, media, media gallery, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photo gallery, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, plugin gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive gallery, responsive image gallery, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, video gallery, view images, view pictures, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wordpress portfolio plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery,  multi-categories gallery,  multi categories galleries
 Requires at least: 3.3
 Tested up to: 4.2.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,6 +70,11 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Optional mobile touch support** - our gallery support mobile devices and you can customize gallery layout settings for different screen sizes
 *   **Custom ordering of the images** - ordering for all images of the gallery could be easily changed manually in media manager or you can find order by options in general gallery settings
 *   **Ability to insert gallery to the Wordpress post, page, widget** - every gallery could be insert in to post, page or widget with build in shortcode tag or using wizard button - shortcode generator in post or page editor
+*   **Gallery lightbox social buttons** - in gallery settings you can turn on/off social buttons
+*   **Gallery lightbox background color** - in gallery lightbox settings you can change color of the background with comfortable color selector
+*   **Gallery lightbox background transparency** - in gallery lightbox settings you can change transparency of the background with comfortable color selector
+*   **Gallery lightbox font color** - in gallery lightbox settings you can change color of the font with comfortable color selector
+*   **Gallery lightbox font transparency** - in gallery lightbox settings you can change transparency of the font with comfortable color selector
 
 = Gallery Advantages =
 
@@ -369,6 +374,22 @@ Yes. When you open gallery media manager you'll see there list of the gallery im
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have video link field in gallery image options, where you can define some custom link to the online video.
 
+= How to turn off social buttons in gallery lightbox ? =
+
+When you open gallery settings you can find there gallery lightbox settings block, where you can turn off social buttons in gallery lightbox on the front end.
+
+= Where to change font color of the gallery lightbox text? =
+
+When you open gallery settings you can find there gallery lightbox settings block, where you can gallery lightbox text color using color selector.
+
+= Is it possible to change background color of the gallery lightbox ? =
+
+Yes, you can change background color of the gallery lightbox. When you open gallery settings you can find there gallery lightbox settings block, where you can change color of the gallery lightbox background.
+
+= Is it possible to change transparency of the gallery lightbox background ? =
+
+Yes, you can change gallery lightbox background transparency in gallery settings. Yes, you can change background color of the gallery lightbox. When you open gallery settings you can find there gallery lightbox settings block. When you open color selector for the gallery lightbox background you'll see there additional slider option for transparency value.
+
 == Screenshots ==
 
 1. Gallery Demo 1
@@ -396,6 +417,13 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.0.3 = 
+*   Added compatibility with editor plugins 
+*   More stable workflow with Wordpress editors 
+*   Added support of the old versions of the PHP (which didn't support anonymous functions)
+*   Updated default settings set
+*   Updated algorithm of the files paths processing
+
 = 1.0.2 = 
 *   By request of our gallery users we add new features:
 *   Added new lightbox settings block
@@ -414,6 +442,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+  By request of our customers: updated plugin workflow with editors, old PHP version support, paths management 
 
 = 1.0.2 =
   By request of our customers: added new lightbox settings. Background color, text color, social buttons enable/disable.
