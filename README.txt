@@ -78,13 +78,15 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 = Gallery Advantages =
 
-*  **Images and Videos** - Robo Gallery support different type of the content. You can upload to the gallery images, insert links to the video on Youtube or Vimeo.
-*  **Borders and Shadows** - All borders and shadows of the gallery thumbnails have multiply configuration options. You can fully customize size, color, transparency of gallery interface. Shadow also have additional blur option for gallery thumbnails shadow. All options could be configured with slider control or defined values manually in edit fields of the gallery options. 
-*  **Styling Text** - All text on the front end gallery interface could be styled in backend. For title and description of the gallery images we have advanced settings for customization of the font. You can select font style, size and colors for the static and hovered text of the front end gallery interface elements. Use HTML tags in gallery thumbnails description.
-*  **Icons Library** - For link and zoom gallery buttons integrated advanced icons selector with library of the hundreds icons. Every gallery button have fully customizable color settings for borders, backgrounds, icon colors of the gallery thumbnails. Different for static and hovered gallery buttons.
-*  **Color Selectors** - For all front end gallery interface elements implemented very comfortable color selector. With color selector your can define color multiply ways. For every gallery interface element you can select transparency for the color. Colors could be defined in HEX or RGB style.
-*  **Advanced Media Manager** - Upload of the images into gallery implemented with advanced drag and drop media manager. Batch upload of the gallery images by one click. Gallery media manager have wide set of the options for sorting gallery images, crope, rotate, flip, scale of the original gallery image.
-*  **Custom Layout** - Advanced options for customization layout of the gallery. Ability to define custom size and columns amount of the gallery for different screen resolution. Ability to enable auto size option different way for every gallery screen size resolution.
+*  **Gallery Images and Videos** - Robo Gallery support different type of the content. You can upload to the gallery images, insert links to the video on Youtube or Vimeo.
+*  **Gallery Borders and Shadows** - All borders and shadows of the gallery thumbnails have multiply configuration options. You can fully customize size, color, transparency of gallery interface. Shadow also have additional blur option for gallery thumbnails shadow. All options could be configured with slider control or defined values manually in edit fields of the gallery options. 
+*  **Styling Text of the Gallery** - All text on the front end gallery interface could be styled in backend. For title and description of the gallery images we have advanced settings for customization of the font. You can select font style, size and colors for the static and hovered text of the front end gallery interface elements. Use HTML tags in gallery thumbnails description.
+*  **Gallery Icons Library** - For link and zoom gallery buttons integrated advanced icons selector with library of the hundreds icons. Every gallery button have fully customizable color settings for borders, backgrounds, icon colors of the gallery thumbnails. Different for static and hovered gallery buttons.
+*  **Gallery Color Selectors** - For all front end gallery interface elements implemented very comfortable color selector. With color selector your can define color multiply ways. For every gallery interface element you can select transparency for the color. Colors could be defined in HEX or RGB style.
+*  **Advanced Media Manager of the Gallery** - Upload of the images into gallery implemented with advanced drag and drop media manager. Batch upload of the gallery images by one click. Gallery media manager have wide set of the options for sorting gallery images, crope, rotate, flip, scale of the original gallery image.
+*  **Gallery Custom Layout** - Advanced options for customization layout of the gallery. Ability to define custom size and columns amount of the gallery for different screen resolution. Ability to enable auto size option different way for every gallery screen size resolution.
+*  **Gallery Lightbox customization** - Gallery lightbox support set of advanced functionality. You can easily enable social buttons in gallery lightbox or change galley images description font color. With color selector you can change color and transparency of the gallery lightbox background. 
+*  **Gallery Compatibility** -  Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some erros, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
 
 
 = Useful Gallery Links =
@@ -424,6 +426,10 @@ Yes. We have video [gallery guides here](https://www.youtube.com/channel/UCy1PU1
 = Where to find gallery functionality details? =
 
 All details of the gallery , including key features description you can find [Gallery details](http://robosoft.co/robogallery/)
+
+= Gallery Compatibility = 
+
+Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some erros, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
 	
 If any problem occurs, please contact us.
 
