@@ -140,7 +140,7 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
-= How i can create custom (grid) layout of the thumbnails? =
+= How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
@@ -391,6 +391,10 @@ Yes, you can change background color of the gallery lightbox. When you open gall
 = Is it possible to change transparency of the gallery lightbox background ? =
 
 Yes, you can change gallery lightbox background transparency in gallery settings. Yes, you can change background color of the gallery lightbox. When you open gallery settings you can find there gallery lightbox settings block. When you open color selector for the gallery lightbox background you'll see there additional slider option for transparency value.
+
+= How to change amount of the columns in gallery layout? =
+
+In gallery general settings you can find gallery thumbnails columns options which could depend of the device screen size. You can define different gallery columns amount for different resolution.
 
 == Screenshots ==
 
