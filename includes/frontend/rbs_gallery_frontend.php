@@ -29,9 +29,6 @@ function robo_gallery_shortcode( $attr ) {
  	$retHTML = '';
 	if( isset($attr) && isset($attr['id']) ){
 		//$id = $attr['id'];
-
-		
-		
 		$gallery = new roboGallery($attr);
 		$retHTML = $gallery->getGallery();
 	}	

@@ -106,6 +106,12 @@ $view_group->add_field( array(
 	'name' 			=> __('Shadow Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'hover-shadow-options',
 	'type' 			=> 'shadow',
+	'default'		=> array(
+			'color' => 'rgba(34, 25, 25, 0.4)', 
+			'hshadow' 	=> '1',
+			'vshadow' 	=> '3',
+			'bshadow'	=> '3',
+		),
 	'after_row'		=>'
         			</div>
 				</div>
@@ -121,7 +127,7 @@ $view_group->add_field( array(
 	'name' 			=> __('Border', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'border',
 	'type' 			=> 'switch',
-	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
 	'depends' 		=> '.rbs_border_tabs',
     'bootstrap_style'=> 1,
     'before_row' 	=> '<br/>',

@@ -22,8 +22,8 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 	$level = $field->args('level')?1:0;
 
 	$value = wp_parse_args( $value, array(
-		 'width' =>  '300', 'colums' => 4,
-		 'width1' => '300', 'colums1' => 4,
+		 'width' =>  '300', 'colums' => 3,
+		 'width1' => '300', 'colums1' => 3,
 		 'width2' => '300', 'colums2' => 2,
 		 'width3' => '300', 'colums3' => 1,
 

@@ -246,7 +246,7 @@ class roboGallery extends roboGalleryParent{
 			if(count($colums)){
 				$columns = $this->addWidth($colums, 3);
 				if( $columns ){
-					$columns .= ', {"columnWidth": "auto" , "columns":2 , "maxWidth": 650}, {"columnWidth": "auto" , "columns":4 , "maxWidth": 960}';
+					$columns .= ', {"columnWidth": "auto" , "columns":2 , "maxWidth": 650}, {"columnWidth": "auto" , "columns":3 , "maxWidth": 960}';
 					$this->helper->setValue( 'resolutions',  '[ '.$columns .']', 'raw' );
 				}
 			}
@@ -300,7 +300,7 @@ class roboGallery extends roboGalleryParent{
 
 		/* robo_gallery */
 		if ( $this->pro ) $this->rbsOverlayStyle .= $this->getOverlayBg();
-			else $this->rbsOverlayStyle .= 'background: rgb(255, 255, 255);';
+			else $this->rbsOverlayStyle .= 'background: rgba(7, 7, 7, 0.5);';
 
 		$polaroidOn = get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'polaroidOn', true );
 		if($polaroidOn){

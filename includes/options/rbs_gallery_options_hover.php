@@ -50,8 +50,8 @@ $hover_group->add_field( array(
     'id'   			=> ROBO_GALLERY_PREFIX.'background',
     'type' 			=> 'rbstext',
     'class'			=> 'form-control rbs_color rbs_hover_bg_color',
-    'data-default' 	=>  '#ffffff',
-    'default'  		=> '#ffffff',
+    'data-default' 	=>  'rgba(7, 7, 7, 0.5)',
+    'default'  		=> 'rgba(7, 7, 7, 0.5)',
 	'data-alpha'    => 'true',
 	'data-css-style'=> 'backgroundColor',
 	'data-demo-class'=> '.rbs_hover_demo',
@@ -64,7 +64,7 @@ $hover_group->add_field( array(
 	'id'               => ROBO_GALLERY_PREFIX . 'overlayEffect',
 	'type'             => 'rbsselect',
 	'show_option_none' => false,
-	'default'          => 'fade',
+	'default'          => 'direction-aware-fade',
 	'options'          => array(
 		 'push-up' 				=> __( 'push-up' , 'cmb' ),
 		 'push-down'	 		=> __( 'push-down' , 'cmb' ),
@@ -94,8 +94,8 @@ $hover_group->add_field( array(
 	'bootstrap_style'=> 1,
     'default'		=> array(
     	'enabled'	=> rbs_gallery_set_checkbox_default_for_new_post(1),
-    	'color'		=> '#000000',
-    	'colorHover'=> '#000000',
+    	'color'		=> 'rgb(255, 255, 255)',
+    	'colorHover'=> 'rgb(255, 255, 255)',
     	'fontBold'  => 'bold',
     	'fontSize'  => '12',
     ),
@@ -144,10 +144,10 @@ $hover_group->add_field( array(
 
     	'color'		=> '#ffffff',
     	'colorHover'=> '#ffffff',
-    	'colorBg'	=> '#e54028',
-    	'colorBgHover'	=> '#b73725',
-    	
-    	'fontSize'  => '20',
+    	'colorBg'	=> 'rgb(13, 130, 241)',
+    	'colorBgHover'	=> 'rgb(6, 70, 130)',
+    	'borderSize'	=> '2',
+    	'fontSize'  => '16',
     ),
     'icon'			=> 1,
     'before_row'	=> '

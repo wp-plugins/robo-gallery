@@ -20,10 +20,10 @@ function jt_cmb2_shadow_field( $metakey, $post_id = 0 ) {
 function jt_cmb2_render_shadow_field_callback( $field, $value, $object_id, $object_type, $field_type_object ) {
 
 	$value = wp_parse_args( $value, array(
-		'color' 	=> 'rgba(34, 25, 25, 0.89)',
-		'hshadow' 	=> '5',
+		'color' 	=> 'rgba(34, 25, 25, 0.4)',
+		'hshadow' 	=> '0',
 		'vshadow' 	=> '5',
-		'bshadow'	=> '6',
+		'bshadow'	=> '7',
 	) );
 ?>
 <div class="form-horizontal">
