@@ -431,6 +431,10 @@ Yes. We have video [gallery guides here](https://www.youtube.com/channel/UCy1PU1
 
 All details of the gallery , including key features description you can find [Gallery details](http://robosoft.co/robogallery/)
 
+= Do you have some limits for images amount in your gallery? =
+
+No, we don't have any limits for gallery images amount. You can upload as much images into your gallery as you need.
+
 = Gallery Compatibility = 
 
 Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some erros, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
