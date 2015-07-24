@@ -148,7 +148,7 @@ In our gallery we implemented layout based on columns amount. So you can general
 
 Yes, in gallery options you can turn on/off border option
 
-= How to customize boder of the gallery thumbnails? =
+= How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbanil borders
 
@@ -158,7 +158,7 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 = How to make shadow for the gallery thumbnails? =
 
-Shadows of the thumbnails you can chstomize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
+Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
 
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
@@ -182,7 +182,7 @@ In admin section of the gallery you'll find columns options which provide you ad
 
 = How to use multi-category functionality of the gallery? =
 
-In our gallery we implemented multi-categories structure. Every gallery category could have child and parrent gallery, which you can manually define in gallery settings
+In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
 
 = How to enable lazy load in gallery options? =
 
@@ -206,7 +206,7 @@ Every gallery image have additional fields where you can define custom link, tit
 
 = Is it possible to customize gallery image caption ? =
 
-In gallery settings you can find images manager where you can change settigns of every image, one of the option it's caption of the image
+In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
 = Is it possible to use HTML in image description ? =
 
@@ -226,11 +226,11 @@ In gallery settings you can enable custom caption settings where you can customi
 
 = How to change font size of the gallery image description text? =
 
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settigns you can change size of the text
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
 = How to change font color of the gallery image description text? =
 
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settigns you can change color of the text
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
 = How to change ordering of the gallery images? =
 
@@ -282,7 +282,7 @@ Yes, all labels of the front end interface of the gallery is customizable. Label
 
 = How to make gallery with no space between thumbnails of the gallery? =
 
-If you wish to make section with gallery without spacing between thumbnails you need just set hosrizontal and vertical spacing to 0 in gallery thumbnails view options
+If you wish to make section with gallery without spacing between thumbnails you need just set horizontal and vertical spacing to 0 in gallery thumbnails view options
 
 = How to change width of the gallery thumbnails border? =
 
@@ -302,7 +302,7 @@ When you enable border in gallery settings you will see multiply options for cus
 
 = How to customize gallery hover effect shutter layout? =
 
-In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In temaplte we have implemented some build in tags which gonna help you to build in soome gallery images elemenets into hover
+In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
 
 = Which tags build in shutter of gallery hover template customization ? =
 
@@ -332,29 +332,29 @@ In our gallery we have 2 buttons for every gallery thumbnail. Zoom button and li
 
 No, we don't have any limits for amount of the images in gallery
 
-= Do you have some limit for images size in gallery ? =
+= Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery. 
 
-= Do you have some limits for images types in gallery ? =
+= Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
-= Is it possible create gallery in Wordpress post with Gallery ? =
+= Is it possible create gallery in Wordpress post with Gallery? =
 
 Yes, you can insert gallery into post with shortcode tag
 
-= Is it possible create gallery on Wordpress page with Gallery ? =
+= Is it possible create gallery on Wordpress page with Gallery? =
 
 Yes, you can insert gallery into page with shortcode tag
 
-= Is it possible create gallery in Wordpress widget with Gallery ? =
+= Is it possible create gallery in Wordpress widget with Gallery? =
 
 Yes, you can insert gallery into widget with shortcode tag
 
-= How to insert gallery into Wordpress page or post ? =
+= How to insert gallery into Wordpress page or post? =
 
-When you create gallery in plugin galleries manager you can go to the post or page editor and ther using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -372,11 +372,11 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
-= Is it possible to insert video as gallery link ? =
+= Is it possible to insert video as gallery link? =
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have video link field in gallery image options, where you can define some custom link to the online video.
 
-= How to turn off social buttons in gallery lightbox ? =
+= How to turn off social buttons in gallery lightbox? =
 
 When you open gallery settings you can find there gallery lightbox settings block, where you can turn off social buttons in gallery lightbox on the front end.
 
@@ -384,7 +384,7 @@ When you open gallery settings you can find there gallery lightbox settings bloc
 
 When you open gallery settings you can find there gallery lightbox settings block, where you can gallery lightbox text color using color selector.
 
-= Is it possible to change background color of the gallery lightbox ? =
+= Is it possible to change background color of the gallery lightbox? =
 
 Yes, you can change background color of the gallery lightbox. When you open gallery settings you can find there gallery lightbox settings block, where you can change color of the gallery lightbox background.
 
