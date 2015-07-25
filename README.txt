@@ -396,6 +396,10 @@ Yes, you can change gallery lightbox background transparency in gallery settings
 
 In gallery general settings you can find gallery thumbnails columns options which could depend of the device screen size. You can define different gallery columns amount for different resolution.
 
+= How to delete title, author, date above the gallery of the gallery post? =
+
+Actually settings of all this main elements of the gallery post is inherited from the the general wordpress posts settings. So you can turn in off the same way as it's manage in general posts, not only gallery posts.
+
 == Screenshots ==
 
 1. Gallery Demo 1
