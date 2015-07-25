@@ -33,29 +33,40 @@ if(!function_exists('robo_gallery_fix_menu')){
 }
 
 
-
-add_action('admin_menu', 'robo_gallery_about_submenu_page');
-function robo_gallery_about_submenu_page() {
-	add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'About Robo Gallery', 'About', 'manage_options', 'robo-gallery-about', function(){
-		 rbs_gallery_include('rbs_gallery_about.php', ROBO_GALLERY_INCLUDES_PATH);
-	} );
+if(!function_exists('robo_gallery_about_submenu_page')){
+	add_action('admin_menu', 'robo_gallery_about_submenu_page');
+	function robo_gallery_about_submenu_page() {
+		add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'About Robo Gallery', 'About', 'manage_options', 'robo-gallery-about', 'robo_gallery_about_submenu_page_render' );
+	}
+	function robo_gallery_about_submenu_page_render(){
+		rbs_gallery_include('rbs_gallery_about.php', ROBO_GALLERY_INCLUDES_PATH);
+	}
 }
 
-add_action('admin_menu', 'robo_gallery_support_submenu_page');
-function robo_gallery_support_submenu_page() {
-	add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Support', 'Support', 'manage_options', 'robo-gallery-support', function(){ 
-			echo '<script> window.open("http://robosoft.co/go.php?product=gallery&task=support", "_bank"); window.open("edit.php?post_type=robo_gallery_table", "_self"); </script>'; 
-	} );
+if(!function_exists('robo_gallery_support_submenu_page')){
+	add_action('admin_menu', 'robo_gallery_support_submenu_page');
+	function robo_gallery_support_submenu_page() {
+		add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Support', 'Support', 'manage_options', 'robo-gallery-support', 'robo_gallery_support_submenu_page_render');
+	}
+	function robo_gallery_support_submenu_page_render(){
+		echo '<script> window.open("http://robosoft.co/go.php?product=gallery&task=support", "_bank"); window.open("edit.php?post_type=robo_gallery_table", "_self"); </script>'; 
+	}
 }
 
-add_action('admin_menu', 'robo_gallery_demo_submenu_page');
-function robo_gallery_demo_submenu_page() {
-	add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Demo', 'Gallery Demo', 'manage_options', 'robo-gallery-demo', function(){} );
+if(!function_exists('robo_gallery_submenu_empty')){ function robo_gallery_submenu_empty(){} }
+
+if(!function_exists('robo_gallery_demo_submenu_page')){
+	add_action('admin_menu', 'robo_gallery_demo_submenu_page');
+	function robo_gallery_demo_submenu_page() {
+		add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Demo', 'Gallery Demo', 'manage_options', 'robo-gallery-demo', 'robo_gallery_submenu_empty' );
+	}
 }
 
-add_action('admin_menu', 'robo_gallery_guides_submenu_page');
-function robo_gallery_guides_submenu_page() {
-	add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Video Guides', 'Video Guides', 'manage_options', 'robo-gallery-guides', function(){} );
+if(!function_exists('robo_gallery_guides_submenu_page')){
+	add_action('admin_menu', 'robo_gallery_guides_submenu_page');
+	function robo_gallery_guides_submenu_page() {
+		add_submenu_page( 'edit.php?post_type=robo_gallery_table', 'Robo Gallery Video Guides', 'Video Guides', 'manage_options', 'robo-gallery-guides', 'robo_gallery_submenu_empty' );
+	}
 }
 
 if(!function_exists('rbs_gallery_menuConfig')){

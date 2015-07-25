@@ -447,6 +447,10 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.0.5 = 
+*   Updated compatibility functionality
+*   Minor bugs fixed
+
 = 1.0.4 = 
 *   Changed default settings of the gallery
 *   Default gallery settings the same as Movie Gallery demo 
@@ -476,6 +480,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.0.5 =
+  Updated compatibility functionality, minor bugs fixed 
 
 = 1.0.4 =
   By request of our customers: Default gallery settings the same as Movie Gallery demo 
