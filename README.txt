@@ -398,7 +398,11 @@ In gallery general settings you can find gallery thumbnails columns options whic
 
 = How to delete title, author, date above the gallery of the gallery post? =
 
-Actually settings of all this main elements of the gallery post is inherited from the the general wordpress posts settings. So you can turn in off the same way as it's manage in general posts, not only gallery posts.
+Actually settings of all this main elements of the gallery post is inherited from the the general Wordpress posts settings. So you can turn in off the same way as it's manage in general posts, not only gallery posts.
+
+= Which permissions do I need to have on server for proper gallery installation? =
+
+Our gallery do not require any special permissions for installation of the gallery or during upload of the gallery images. All requirements are basic: our gallery have the same requirements as Wordpress have.
 
 == Screenshots ==
 
