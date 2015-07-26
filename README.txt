@@ -439,6 +439,10 @@ All details of the gallery , including key features description you can find [Ga
 
 No, we don't have any limits for gallery images amount. You can upload as much images into your gallery as you need.
 
+= Why images do not show on gallery after upload? =
+
+There's few reasons of the such problem in gallery. In the case if you already upload images into gallery and images just do not show in gallery on the front end from begin you need to check folder permissions or contact our support to get fast reply
+
 = Gallery Compatibility = 
 
 Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some erros, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
