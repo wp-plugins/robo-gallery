@@ -8,7 +8,7 @@
  * Plugin Name:       Robo Gallery
  * Plugin URI:        http://robosoft.co/robogallery
  * Description:       A responsive, easy and elegant way to show gallery.
- * Version:           1.0.5
+ * Version:           1.0.6
  * Author:            RoboSoft (c)
  * Author URI:        http://robosoft.co/robogallery
  * License:           GPL-2.0+
@@ -20,7 +20,7 @@
 if ( ! defined( 'WPINC' ) )  die;
 //define( 'WP_DEBUG', true );
 define(ROBO_GALLERY, 1); 
-define(ROBO_GALLERY_VERSION, '1.0.0'); 
+define(ROBO_GALLERY_VERSION, '1.0.6'); 
 
 define(ROBO_GALLERY_PATH, plugin_dir_path( __FILE__ ));
 
