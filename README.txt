@@ -113,6 +113,7 @@ Get a free copy of the Robo Gallery Pro version as bonus for translating our plu
 **List of the languages we translate Robo Gallery so far:**
 
 *  **English** - default
+*  **Russian**
 
 == Installation ==
 

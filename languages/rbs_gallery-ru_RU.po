@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
-"POT-Creation-Date: 2015-07-12 17:23+0200\n"
-"PO-Revision-Date: 2015-07-12 17:23+0200\n"
+"POT-Creation-Date: 2015-07-27 23:01+0200\n"
+"PO-Revision-Date: 2015-07-27 23:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -25,112 +25,112 @@ msgstr "Настройка меню"
 msgid "Show Menu"
 msgstr "Показать меню"
 
-#: options/rbs_gallery_options_button.php:35
+#: options/rbs_gallery_options_button.php:36
 msgid "Show Root"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:43
+#: options/rbs_gallery_options_button.php:44
 msgid "Root Label"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:50
+#: options/rbs_gallery_options_button.php:51
 msgid "Show self"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:59
+#: options/rbs_gallery_options_button.php:60
 msgid "Style"
 msgstr "Стиль"
 
-#: options/rbs_gallery_options_button.php:66
+#: options/rbs_gallery_options_button.php:67
 msgid "normal"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:67
+#: options/rbs_gallery_options_button.php:68
 msgid "flat"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:68
-msgid "3d"
-msgstr ""
-
 #: options/rbs_gallery_options_button.php:69
+msgid "3d"
+msgstr "3D"
+
+#: options/rbs_gallery_options_button.php:70
 msgid "border"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:75
+#: options/rbs_gallery_options_button.php:76
 msgid "Color"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:82
+#: options/rbs_gallery_options_button.php:83
 msgid "gray"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:83
+#: options/rbs_gallery_options_button.php:84
 msgid "blue"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:84
+#: options/rbs_gallery_options_button.php:85
 msgid "green"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:85
+#: options/rbs_gallery_options_button.php:86
 msgid "orange"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:86
+#: options/rbs_gallery_options_button.php:87
 msgid "red"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:87
+#: options/rbs_gallery_options_button.php:88
 msgid "purple"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:92
+#: options/rbs_gallery_options_button.php:93
 msgid "Rounds"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:98
-#: options/rbs_gallery_options_button.php:114
+#: options/rbs_gallery_options_button.php:99
+#: options/rbs_gallery_options_button.php:115
 msgid "Normal"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:99
+#: options/rbs_gallery_options_button.php:100
 msgid "Rounded"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:100
+#: options/rbs_gallery_options_button.php:101
 msgid "Pill"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:101
+#: options/rbs_gallery_options_button.php:102
 msgid "Circle "
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:106
+#: options/rbs_gallery_options_button.php:107
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
-#: options/rbs_gallery_options_button.php:112
+#: options/rbs_gallery_options_button.php:113
 msgid "Jumbo"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:113
+#: options/rbs_gallery_options_button.php:114
 msgid "Large"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:115
+#: options/rbs_gallery_options_button.php:116
 msgid "Small"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:116
+#: options/rbs_gallery_options_button.php:117
 msgid "Tiny "
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:121
+#: options/rbs_gallery_options_button.php:122
 msgid "Left Padding"
 msgstr ""
 
-#: options/rbs_gallery_options_button.php:132
+#: options/rbs_gallery_options_button.php:133
 msgid "Bottom Padding"
 msgstr ""
 
@@ -155,10 +155,11 @@ msgid "Template"
 msgstr ""
 
 #: options/rbs_gallery_options_hover.php:49
+#: options/rbs_gallery_options_lightbox.php:48
 #: options/rbs_gallery_options_loading.php:79
-#: options/rbs_gallery_options_polaroid.php:52
+#: options/rbs_gallery_options_polaroid.php:53
 msgid "Bg Color"
-msgstr ""
+msgstr "Цвет фона"
 
 #: options/rbs_gallery_options_hover.php:63 rbs_gallery_media.php:118
 msgid "Effect"
@@ -229,7 +230,7 @@ msgid "Show Title"
 msgstr ""
 
 #: options/rbs_gallery_options_hover.php:105
-#: options/rbs_gallery_options_polaroid.php:45
+#: options/rbs_gallery_options_polaroid.php:46 rbs_gallery_widget.php:72
 msgid "Title"
 msgstr ""
 
@@ -239,7 +240,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:107
 msgid "Zoom Button"
-msgstr ""
+msgstr "Кнопка масштаба"
 
 #: options/rbs_gallery_options_hover.php:108
 msgid "Description"
@@ -251,7 +252,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:137
 msgid "Zoom Icon"
-msgstr ""
+msgstr "Значок масштабирования"
 
 #: options/rbs_gallery_options_hover.php:160
 msgid "Show Description"
@@ -279,8 +280,8 @@ msgstr ""
 
 #: options/rbs_gallery_options_info.php:18
 #: options/rbs_gallery_options_info.php:31
-#: options/rbs_gallery_options_infowide.php:18 rbs_gallery_about.php:62
-#: rbs_gallery_about.php:63 rbs_gallery_list.php:29
+#: options/rbs_gallery_options_infowide.php:18 rbs_gallery_about.php:63
+#: rbs_gallery_about.php:64 rbs_gallery_list.php:29
 #: rbs_gallery_topblock.php:20
 msgid "Get Pro version"
 msgstr ""
@@ -290,6 +291,18 @@ msgstr ""
 msgid ""
 "with PRO version you get more advanced functionality and even more "
 "flexibility in settings"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:18
+msgid "Lightbox Options"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:26
+msgid "Social Buttons"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:37
+msgid "Text Color"
 msgstr ""
 
 #: options/rbs_gallery_options_loading.php:18
@@ -318,7 +331,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_loading.php:63
 msgid "Wait Thumbs Load"
-msgstr ""
+msgstr "Ожидать загрузки миниатюр"
 
 #: options/rbs_gallery_options_loading.php:71
 msgid "Wait No Matter What"
@@ -344,31 +357,31 @@ msgstr ""
 msgid "Polaroid Style"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:39
+#: options/rbs_gallery_options_polaroid.php:40
 msgid "Source"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:46
+#: options/rbs_gallery_options_polaroid.php:47
 msgid "Desc"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:47
+#: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:63
+#: options/rbs_gallery_options_polaroid.php:64
 msgid "Align"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:69
+#: options/rbs_gallery_options_polaroid.php:70
 msgid "left"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:70
+#: options/rbs_gallery_options_polaroid.php:71
 msgid "right"
 msgstr ""
 
-#: options/rbs_gallery_options_polaroid.php:71
+#: options/rbs_gallery_options_polaroid.php:72
 msgid "center"
 msgstr ""
 
@@ -410,7 +423,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_view.php:28
 msgid "Radius"
-msgstr ""
+msgstr "Радиус"
 
 #: options/rbs_gallery_options_view.php:41
 msgid "Hor. Space"
@@ -441,24 +454,24 @@ msgstr ""
 msgid "Hover Shadow"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:121
+#: options/rbs_gallery_options_view.php:127
 msgid "Border"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:131
-#: options/rbs_gallery_options_view.php:165
+#: options/rbs_gallery_options_view.php:137
+#: options/rbs_gallery_options_view.php:171
 msgid "Border options"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:138
+#: options/rbs_gallery_options_view.php:144
 msgid "Border Options"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:139
+#: options/rbs_gallery_options_view.php:145
 msgid "Hover Border Options"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:150
+#: options/rbs_gallery_options_view.php:156
 msgid "Hover Border"
 msgstr ""
 
@@ -470,67 +483,67 @@ msgstr ""
 msgid "More details about Robo Gallery you can see on our website"
 msgstr ""
 
-#: rbs_gallery_about.php:28
+#: rbs_gallery_about.php:31
 msgid "Robo Gallery Pro Features"
 msgstr ""
 
-#: rbs_gallery_about.php:31
+#: rbs_gallery_about.php:34
 msgid "Unlimited amount of the galleries"
 msgstr ""
 
-#: rbs_gallery_about.php:32
+#: rbs_gallery_about.php:35
 msgid "Unlimited amount of images in galleries"
 msgstr ""
 
-#: rbs_gallery_about.php:35
+#: rbs_gallery_about.php:38
 msgid "Custom hover style for border"
 msgstr ""
 
-#: rbs_gallery_about.php:36
+#: rbs_gallery_about.php:39
 msgid "Custom hover style for shadow"
 msgstr ""
 
-#: rbs_gallery_about.php:39
+#: rbs_gallery_about.php:42
 msgid "Unlimited multi-categories"
 msgstr ""
 
-#: rbs_gallery_about.php:40
+#: rbs_gallery_about.php:43
 msgid "High quality thumbnails"
 msgstr ""
 
-#: rbs_gallery_about.php:43
+#: rbs_gallery_about.php:46
 msgid "Gallery widget"
 msgstr ""
 
-#: rbs_gallery_about.php:44
+#: rbs_gallery_about.php:47
 msgid "Random ordering"
 msgstr ""
 
-#: rbs_gallery_about.php:47
+#: rbs_gallery_about.php:50
 msgid "Gallery menu colors"
 msgstr ""
 
-#: rbs_gallery_about.php:48
+#: rbs_gallery_about.php:51
 msgid "Gallery menu styles"
 msgstr ""
 
-#: rbs_gallery_about.php:51
+#: rbs_gallery_about.php:54
 msgid "Custom images ordering"
 msgstr ""
 
-#: rbs_gallery_about.php:52
+#: rbs_gallery_about.php:55
 msgid "Customizable hover style"
 msgstr ""
 
-#: rbs_gallery_about.php:55
+#: rbs_gallery_about.php:58
 msgid "Custom hover background color"
 msgstr ""
 
-#: rbs_gallery_about.php:56
+#: rbs_gallery_about.php:59
 msgid "Advanced images description settings"
 msgstr ""
 
-#: rbs_gallery_about.php:66
+#: rbs_gallery_about.php:69
 msgid "All Rights Reserved"
 msgstr ""
 
@@ -572,7 +585,7 @@ msgstr ""
 
 #: rbs_gallery_init.php:68 rbs_gallery_init.php:69
 msgid "Add Gallery"
-msgstr ""
+msgstr "Добавить галерею"
 
 #: rbs_gallery_init.php:70
 msgid "Edit Gallery"
@@ -609,7 +622,7 @@ msgstr ""
 
 #: rbs_gallery_media.php:86
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: rbs_gallery_media.php:110
 msgid "inherit"
@@ -629,10 +642,6 @@ msgstr ""
 
 #: rbs_gallery_widget.php:45
 msgid "New gallery"
-msgstr ""
-
-#: rbs_gallery_widget.php:72
-msgid "Title:"
 msgstr ""
 
 #: rbs_gallery_widget.php:77
