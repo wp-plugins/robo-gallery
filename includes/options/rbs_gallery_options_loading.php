@@ -15,7 +15,7 @@
 
 $loading_group = new_cmb2_box( array(
     'id' 			=> ROBO_GALLERY_PREFIX.'loading_metabox',
-    'title' 		=> '<span class="dashicons dashicons-performance"></span> '.__('Loading options','rbs_gallery'),
+    'title' 		=> '<span class="dashicons dashicons-performance"></span> '.__('Loading Options','rbs_gallery'),
     'object_types' 	=> array( ROBO_GALLERY_TYPE_POST ),
     'context' 		=> 'normal',
     'show_names' 	=> false,

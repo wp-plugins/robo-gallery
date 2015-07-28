@@ -114,6 +114,7 @@ Get a free copy of the Robo Gallery Pro version as bonus for translating our plu
 
 *  **English** - default
 *  **Russian**
+*  **Ukrainian**
 
 == Installation ==
 

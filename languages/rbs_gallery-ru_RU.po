@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
-"POT-Creation-Date: 2015-07-27 23:01+0200\n"
-"PO-Revision-Date: 2015-07-27 23:03+0200\n"
+"POT-Creation-Date: 2015-07-27 23:18+0200\n"
+"PO-Revision-Date: 2015-07-27 23:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:76
 msgid "Color"
-msgstr ""
+msgstr "Цвет"
 
 #: options/rbs_gallery_options_button.php:83
 msgid "gray"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:85
 msgid "green"
-msgstr ""
+msgstr "зеленое"
 
 #: options/rbs_gallery_options_button.php:86
 msgid "orange"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:122
 msgid "Left Padding"
-msgstr ""
+msgstr "Отступ с лева"
 
 #: options/rbs_gallery_options_button.php:133
 msgid "Bottom Padding"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:33 rbs_gallery_media.php:74
 msgid "Off"
-msgstr ""
+msgstr "Откл"
 
 #: options/rbs_gallery_options_hover.php:34
 msgid "Options"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:35
 msgid "Template"
-msgstr ""
+msgstr "Шаблон"
 
 #: options/rbs_gallery_options_hover.php:49
 #: options/rbs_gallery_options_lightbox.php:48
@@ -163,7 +163,7 @@ msgstr "Цвет фона"
 
 #: options/rbs_gallery_options_hover.php:63 rbs_gallery_media.php:118
 msgid "Effect"
-msgstr ""
+msgstr "Эффект"
 
 #: options/rbs_gallery_options_hover.php:69 rbs_gallery_media.php:95
 msgid "push-up"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:106
 msgid "Link Button"
-msgstr ""
+msgstr "Значок Ссылки"
 
 #: options/rbs_gallery_options_hover.php:107
 msgid "Zoom Button"
@@ -248,7 +248,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:117
 msgid "Link Icon"
-msgstr ""
+msgstr "Значок Ссылки"
 
 #: options/rbs_gallery_options_hover.php:137
 msgid "Zoom Icon"
@@ -256,7 +256,7 @@ msgstr "Значок масштабирования"
 
 #: options/rbs_gallery_options_hover.php:160
 msgid "Show Description"
-msgstr ""
+msgstr "Показывать описание"
 
 #: options/rbs_gallery_options_hover.php:181
 msgid "Description Template"
@@ -269,7 +269,7 @@ msgstr ""
 #: options/rbs_gallery_options_images.php:27
 #: options/rbs_gallery_options_images.php:29
 msgid "Manage Images"
-msgstr ""
+msgstr "Управление Картинками"
 
 #: options/rbs_gallery_options_images.php:28
 msgid ""
@@ -299,22 +299,19 @@ msgstr ""
 
 #: options/rbs_gallery_options_lightbox.php:26
 msgid "Social Buttons"
-msgstr ""
+msgstr "Кнопки Соц. Сетей"
 
 #: options/rbs_gallery_options_lightbox.php:37
 msgid "Text Color"
-msgstr ""
+msgstr "Цвет текста"
 
 #: options/rbs_gallery_options_loading.php:18
-msgid "Loading options"
+#: options/rbs_gallery_options_loading.php:35
+msgid "Loading Options"
 msgstr ""
 
 #: options/rbs_gallery_options_loading.php:26
 msgid "Lazy Load"
-msgstr ""
-
-#: options/rbs_gallery_options_loading.php:35
-msgid "Loading Options"
 msgstr ""
 
 #: options/rbs_gallery_options_loading.php:36
@@ -355,7 +352,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_polaroid.php:26
 msgid "Polaroid Style"
-msgstr ""
+msgstr "Стиль Поларойд"
 
 #: options/rbs_gallery_options_polaroid.php:40
 msgid "Source"
@@ -407,7 +404,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_size.php:40
 msgid "Size Options"
-msgstr ""
+msgstr "Настройки размера"
 
 #: options/rbs_gallery_options_size.php:47
 msgid "Custom Ratio"
@@ -427,11 +424,11 @@ msgstr "Радиус"
 
 #: options/rbs_gallery_options_view.php:41
 msgid "Hor. Space"
-msgstr ""
+msgstr "Хор. отступ"
 
 #: options/rbs_gallery_options_view.php:51
 msgid "Ver. Space"
-msgstr ""
+msgstr "Верт. Отступ"
 
 #: options/rbs_gallery_options_view.php:64
 msgid "Shadow"
@@ -444,7 +441,7 @@ msgstr ""
 #: options/rbs_gallery_options_view.php:81
 #: options/rbs_gallery_options_view.php:106
 msgid "Shadow Options"
-msgstr ""
+msgstr "Настройки тени"
 
 #: options/rbs_gallery_options_view.php:82
 msgid "Hover Shadow Options"
@@ -553,11 +550,11 @@ msgstr ""
 
 #: rbs_gallery_button.php:23 rbs_gallery_list.php:28
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: rbs_gallery_button.php:24
 msgid "Insert"
-msgstr ""
+msgstr "Вставить"
 
 #: rbs_gallery_button.php:30
 msgid "Add Robo Gallery"
@@ -577,7 +574,7 @@ msgstr ""
 
 #: rbs_gallery_init.php:21
 msgid "Available in"
-msgstr ""
+msgstr "Доступно в "
 
 #: rbs_gallery_init.php:67
 msgid "Galleries List"
@@ -589,7 +586,7 @@ msgstr "Добавить галерею"
 
 #: rbs_gallery_init.php:70
 msgid "Edit Gallery"
-msgstr ""
+msgstr "Редактировать галерею "
 
 #: rbs_gallery_list.php:27
 msgid "Get Robo Gallery Pro version"
@@ -599,10 +596,12 @@ msgstr ""
 msgid ""
 "You can create only 3 galleries. Update to PRO to get unlimited galleries"
 msgstr ""
+"Вы можете создать только 3 галереи. Обновите на PRO версию чтобы убрать это "
+"ограничение."
 
 #: rbs_gallery_list.php:55
 msgid "Shortcode"
-msgstr ""
+msgstr "Shortcode"
 
 #: rbs_gallery_media.php:58
 msgid "Column"
@@ -610,11 +609,11 @@ msgstr ""
 
 #: rbs_gallery_media.php:65
 msgid "Link"
-msgstr ""
+msgstr "Ссылка"
 
 #: rbs_gallery_media.php:73
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #: rbs_gallery_media.php:78
 msgid "Blank Link"
@@ -642,11 +641,14 @@ msgstr ""
 
 #: rbs_gallery_widget.php:45
 msgid "New gallery"
-msgstr ""
+msgstr "Новая галерея"
 
 #: rbs_gallery_widget.php:77
 msgid "Gallery:"
 msgstr ""
+
+msgid "Title:"
+msgstr "Title:"
 
 #~ msgid "Get PRO Version"
 #~ msgstr "Get PRO Version"

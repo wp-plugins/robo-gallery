@@ -1,20 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Robo Gallery\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2015-07-27 23:18+0200\n"
-"PO-Revision-Date: 2015-07-27 23:18+0200\n"
+"PO-Revision-Date: 2015-07-28 19:06+0200\n"
 "Last-Translator: \n"
-"Language-Team: RoboSoft Team <team@robosoft.co>\n"
-"Language: en_US\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.2\n"
-"X-Poedit-Basepath: ../includes\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: options/rbs_gallery_options_button.php:18
 msgid "Menu Options"
@@ -42,7 +40,7 @@ msgstr "Style"
 
 #: options/rbs_gallery_options_button.php:67
 msgid "normal"
-msgstr "Normal"
+msgstr "normal"
 
 #: options/rbs_gallery_options_button.php:68
 msgid "flat"
@@ -58,7 +56,7 @@ msgstr "border"
 
 #: options/rbs_gallery_options_button.php:76
 msgid "Color"
-msgstr "Color"
+msgstr "Колір"
 
 #: options/rbs_gallery_options_button.php:83
 msgid "gray"
@@ -70,7 +68,7 @@ msgstr "blue"
 
 #: options/rbs_gallery_options_button.php:85
 msgid "green"
-msgstr "green"
+msgstr "зелений"
 
 #: options/rbs_gallery_options_button.php:86
 msgid "orange"
@@ -162,7 +160,7 @@ msgstr "Bg Color"
 
 #: options/rbs_gallery_options_hover.php:63 rbs_gallery_media.php:118
 msgid "Effect"
-msgstr "Effect"
+msgstr "Ефект"
 
 #: options/rbs_gallery_options_hover.php:69 rbs_gallery_media.php:95
 msgid "push-up"
@@ -243,7 +241,7 @@ msgstr "Zoom Button"
 
 #: options/rbs_gallery_options_hover.php:108
 msgid "Description"
-msgstr "Description"
+msgstr "Опис"
 
 #: options/rbs_gallery_options_hover.php:117
 msgid "Link Icon"
@@ -376,7 +374,7 @@ msgstr "Align"
 
 #: options/rbs_gallery_options_polaroid.php:70
 msgid "left"
-msgstr "left"
+msgstr "зліва"
 
 #: options/rbs_gallery_options_polaroid.php:71
 msgid "right"
@@ -554,7 +552,7 @@ msgstr "Robo Gallery"
 
 #: rbs_gallery_button.php:23 rbs_gallery_list.php:28
 msgid "Close"
-msgstr "Close"
+msgstr "Закрити"
 
 #: rbs_gallery_button.php:24
 msgid "Insert"
@@ -582,7 +580,7 @@ msgstr "Available in"
 
 #: rbs_gallery_init.php:67
 msgid "Galleries List"
-msgstr "Galleries List"
+msgstr "Галереї"
 
 #: rbs_gallery_init.php:68 rbs_gallery_init.php:69
 msgid "Add Gallery"
@@ -650,14 +648,14 @@ msgstr "New gallery"
 msgid "Gallery:"
 msgstr "Gallery:"
 
-#~ msgid "Loading options"
-#~ msgstr "Loading options"
+msgid "Loading options"
+msgstr "Loading options"
 
-#~ msgid "Title:"
-#~ msgstr "Title:"
+msgid "Title:"
+msgstr "Title:"
 
-#~ msgid "Get PRO Version"
-#~ msgstr "Get PRO Version"
+msgid "Get PRO Version"
+msgstr "Get PRO Version"
 
-#~ msgid "Get PRO version"
-#~ msgstr "Get PRO version"
+msgid "Get PRO version"
+msgstr "Get PRO version"
