@@ -410,6 +410,11 @@ Our gallery do not require any special permissions for installation of the galle
 
 Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements.
 
+= How I can make gallery only with one size pictures but I would like to arrange gallery with pictures of the different size - one
+big, several smaller? =
+
+In our gallery you can define different amount of the columns for the images thumbnails and every gallery image could have different width which measuring by columns of the images thumbnails. For example you can define 2 column size for the image 1 and 3 columns size for image 5 but the rest of the gallery images could stay with default one columnt value in images settings. 
+
 == Screenshots ==
 
 1. Gallery Demo 1
