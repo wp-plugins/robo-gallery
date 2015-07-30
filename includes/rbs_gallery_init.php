@@ -126,6 +126,8 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
 		'rbstext/cmb-field-rbstext.php',
 		'rbstextarea/cmb-field-rbstextarea.php',
 		'font/cmb-field-font.php',
+		'rbsgallery/cmb-field-rbsgallery.php',
+		
     ), ROBO_GALLERY_CMB_FILEDS_PATH);
    
     rbs_gallery_include('rbs_gallery_edit.php', ROBO_GALLERY_INCLUDES_PATH);

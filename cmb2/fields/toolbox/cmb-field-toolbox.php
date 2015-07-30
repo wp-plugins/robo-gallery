@@ -49,9 +49,17 @@ class RBS_TOOLBOX {
 		}
 
 		//admin.base
-		wp_enqueue_script( 	'rbs-toolbox-admin-edit', ROBO_GALLERY_URL.'js/admin/edit.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
-		wp_enqueue_style ( 	'rbs-toolbox-admin-edit',  ROBO_GALLERY_URL.'css/admin/edit.css' );
+		wp_register_script( 	'rbs-toolbox-admin-edit', ROBO_GALLERY_URL.'js/admin/edit.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		
+		$translation_array = array(
+			'rbs_info_clone_text' => __( 'disabled because you select gallery clone option', 'tbs_robo_gallery' ),
+		);
+		wp_localize_script( 'rbs-toolbox-admin-edit', 'rbs_toolbox_translation', $translation_array );
+		wp_enqueue_script( 'rbs-toolbox-admin-edit' );
+
+		wp_enqueue_style ( 	'rbs-toolbox-admin-edit',  ROBO_GALLERY_URL.'css/admin/edit.css' );
+
+
 		//bootstrap
 		wp_enqueue_script( 	'rbs_bootstrap', 			ROBO_GALLERY_URL.'addons/bootstrap/js/bootstrap.min.js', 		array('jquery'), ROBO_GALLERY_VERSION, true);
 		wp_enqueue_style ( 	'rbs_bootstrap', 			ROBO_GALLERY_URL.'addons/bootstrap/css/bootstrap.css',			array(), ROBO_GALLERY_VERSION, 'all');
@@ -60,13 +68,13 @@ class RBS_TOOLBOX {
 		//checkbox
 		wp_enqueue_script( 'rbs-toolbox-toggles-js', 	ROBO_GALLERY_URL.'addons/toggles/js/bootstrap-toggle.min.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_style(  'rbs-toolbox-toggles-css',	ROBO_GALLERY_URL.'addons/toggles/css/bootstrap-toggle.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-		
+
 		//iconPicker
 		wp_enqueue_script( 	'rbs-toolbox-iconset', 		ROBO_GALLERY_URL.'addons/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.1.0.min.js', 		array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_script( 	'rbs-toolbox-icon', 		ROBO_GALLERY_URL.'addons/bootstrap-iconpicker/js/bootstrap-iconpicker.js', 							array( 'jquery', 'rbs-toolbox-iconset' ), ROBO_GALLERY_VERSION, true );		
 		wp_enqueue_style( 	'rbs-toolbox-icon-css', 	ROBO_GALLERY_URL.'addons/bootstrap-iconpicker/css/bootstrap-iconpicker.css', 						array(), ROBO_GALLERY_VERSION, 'all' );
 		wp_enqueue_style( 	'rbs-toolbox-icon-fonts', 	ROBO_GALLERY_URL.'addons/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/css/font-awesome.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-		
+			
 		//color
 		wp_enqueue_script( 'rbs-toolbox-color-tinycolor', ROBO_GALLERY_URL.'addons/color/bootstrap.colorpickersliders.tinycolor.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_script( 'rbs-toolbox-color', ROBO_GALLERY_URL.'addons/color/bootstrap.colorpickersliders.js', 						array( 'jquery' ), ROBO_GALLERY_VERSION, true );
@@ -75,7 +83,7 @@ class RBS_TOOLBOX {
 		//slider
 		wp_enqueue_script( 'rbs-toolbox-bootstrap-slider', ROBO_GALLERY_URL.'addons/bootstrap-slider/js/bootstrap-slider.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_style( 'rbs-toolbox-bootstrap-slider', ROBO_GALLERY_URL.'addons/bootstrap-slider/css/bootstrap-slider.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-		
+	
 		//select
 		wp_enqueue_script('rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/js/bootstrap-select.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_style( 'rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/css/bootstrap-select.css', 	array(), ROBO_GALLERY_VERSION, 'all' );

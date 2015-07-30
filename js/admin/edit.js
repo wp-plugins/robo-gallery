@@ -58,7 +58,6 @@ jQuery(function(){
 	jQuery('.rbs_action_element_select').change();
 
 
-	//jQuery(".rbs_delete_up").parent().removeClass('cmb-td').parent().removeClass('cmb-row');
 	if(!ROBO_GALLERY_PRO){
 		jQuery("#rsg_hover").change( function () {
 			var el = jQuery(this);
@@ -94,6 +93,34 @@ jQuery(function(){
 				break;
 		}
 	});
+
+	var rbsBlockId = { 
+		"block1": jQuery('#rsg_lightbox_metabox'), 
+		"block2":jQuery('#rsg_size_metabox'), 
+		"block3":jQuery('#rsg_view_metabox'), 
+		"block4":jQuery('#rsg_hover_metabox'), 
+		"block5":jQuery('#rsg_button_metabox'),
+		"block6":jQuery('#rsg_loading_metabox'),
+		"block7":jQuery('#rsg_polaroid_metabox'),
+	},
+	rbsAllBlockClass = function (type){
+		jQuery.each( rbsBlockId, function(index, el) {
+			if(type!=0){
+				el.find('.inside').addClass('rbs_disabled_block');
+				if( el.find('.hndle.ui-sortable-handle > .rbs_info_clone_text').length==0  ){
+					el.find('.hndle.ui-sortable-handle > span').after('<span class="rbs_info_clone_text"> <span class="dashicons dashicons-info"></span> ['+rbs_toolbox_translation.rbs_info_clone_text+']</span>');
+				}
+			} else {
+				el.find('.inside').removeClass('rbs_disabled_block');	
+				el.find('.hndle.ui-sortable-handle > .rbs_info_clone_text').remove();
+			} 
+		});
+	};
+
+	jQuery('#rsg_options').on("change", function(){
+		//alert(rbs_toolbox_translation.rbs_info_clone_text)
+		rbsAllBlockClass( jQuery(this).val() );
+	}).change();
 
 	//jQuery('.rbs_hover_bg_color').val();
 });

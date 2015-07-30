@@ -38,7 +38,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 
 	echo "<script> var ROBO_GALLERY_PRO = ".ROBO_GALLERY_PRO.";</script>";
 	?>
-<div class="form-horizontal rbs_delete_up">
+<div class="form-horizontal">
 
 	<div class="form-group">
 		 <div class="col-sm-10 col-sm-offset-1">

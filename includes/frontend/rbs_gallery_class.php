@@ -15,6 +15,8 @@
 class roboGallery extends roboGalleryUtils{
 
  	public $id = 0;
+ 	public $options_id = 0;
+ 	public $real_id = 0;
 
  	public $returnHtml = '';
  	public $options = array();
@@ -66,7 +68,14 @@ class roboGallery extends roboGalleryUtils{
  		$this->galleryId 	= 'rbs_gallery_'.uniqid();
  		
  		if( isset($attr) && isset($attr['id']) ){
+
 			$this->id = $attr['id'];
+			$options_id = (int) get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'options', true );
+			if($options_id){
+				$this->real_id = $this->id;
+				$this->options_id = $options_id;
+				$this->id = $options_id;
+			}
 			$this->helper->setId( $this->id );
  		}
  	}
@@ -196,7 +205,15 @@ class roboGallery extends roboGalleryUtils{
 			}
 		}
 		
+		if($this->options_id){
+			$this->id = $this->real_id;
+		}
 		$this->selectImages = new roboGalleryImages($this->id);
+		if($this->options_id){
+			$this->id = $this->options_id;
+		}
+
+
 		$this->selectImages->setSize( $width , $height, $this->thumbsource, $this->orderby );
 
 		/* robo_gallery */

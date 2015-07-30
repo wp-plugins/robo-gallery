@@ -3068,6 +3068,9 @@ body #post .rbs_block  {
     margin-bottom: 0;
     text-align: right;
   }
+  #post .rbs_block .form-horizontal .control-label.text-left {
+    text-align: left;
+  }
 }
 #post .rbs_block .form-horizontal .has-feedback .form-control-feedback {
   right: 15px;

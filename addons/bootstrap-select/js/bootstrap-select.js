@@ -1216,7 +1216,7 @@
 
 jQuery(function(){
   jQuery(".rbs_select").selectpicker({ });
-
+  jQuery("#rsg_options").selectpicker({ });
   /*jQuery(".rbs_slider").on("slide", function(slideEvt) {
     var spanObj = jQuery(this).data('slider-span');
    // alert(spanObj);

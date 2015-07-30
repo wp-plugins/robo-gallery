@@ -33,6 +33,7 @@ $images_group->add_field(array(
 ));
 
 
+
 /*    $hover_group->add_field(    
 	array(
 	    'name' => 'Add Image to Gallery',
