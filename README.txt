@@ -24,8 +24,8 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 [youtube https://www.youtube.com/watch?v=m9XIeqMnhYI&feature=youtu.be]
 
-= Gallery Demos =
-
+> = Gallery Demos =
+>
 >[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/gallery/cars-gallery-demo/)
 >
 >[Grid Layout Gallery Demo with Fade hover effect](http://robosoft.co/demo/gallery/custom-layout/)
@@ -92,7 +92,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *  **Gallery Compatibility** -  Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some erros, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
 
 
->= Useful Gallery Links =
+> = Useful Gallery Links =
 >
 >[Multi Categories Cars Gallery Demo](http://robosoft.co/demo/gallery/cars-gallery-demo/)
 >
