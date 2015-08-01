@@ -457,6 +457,10 @@ All details of the gallery , including key features description you can find [Ga
 
 No, we don't have any limits for gallery images amount. You can upload as much images into your gallery as you need.
 
+= Why description of the gallery images do not show? =
+
+If you sure that you defined gallery images description but you can't see it on the front end please check few following things: In our gallery images have two descriptions fields: caption and description. At the same time in hover settings you can select which exactly text do you wish to see on hovered gallery thumbnails, namely image caption or image description.
+
 = Why images do not show on gallery after upload? =
 
 There's few reasons of the such problem in gallery. In the case if you already upload images into gallery and images just do not show in gallery on the front end from begin you need to check folder permissions or contact our support to get fast reply
