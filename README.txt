@@ -465,6 +465,13 @@ If you sure that you defined gallery images description but you can't see it on 
 
 There's few reasons of the such problem in gallery. In the case if you already upload images into gallery and images just do not show in gallery on the front end from begin you need to check folder permissions or contact our support to get fast reply
 
+= How would I be able to change the thumbnail image to something different than the main gallery image? =
+
+you just need to define it in combination of the general gallery size and amount of the gallery matrix columns. For example if you
+define default size of the gallery 900px and 3 columns then your gallery thumbnails will be around 300px. You should
+include in your calculation paddings, borders. Everything , in gallery layout, calculating automatically, but you can manager all 
+the process!
+
 = Gallery Compatibility = 
 
 Gallery implemented in native Wordpress style. All code implemented based on Wordpress api and base classes. Also we tried in our gallery code avoid conflicts with other plugins and libraries. If you accordantly meet with some errors, conflicts or other related problems feel free to [contact us](http://robosoft.co/clients) and we'll to sort everything in short time.
