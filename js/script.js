@@ -11,11 +11,11 @@
 *      Available only in http://robosoft.co/
 */
 
-jQuery(function(){
+(function($) {
 	jQuery('.robo_gallery').each( function(){
 		var objectOptions = window[ jQuery(this).data('options') ];
 		//console.log(objectOptions);
 		var realOptions = jQuery.extend({},objectOptions);
 		jQuery(this).collagePlus( realOptions ); 
 	});
-});
+})(jQuery);
