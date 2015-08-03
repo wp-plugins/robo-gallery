@@ -78,6 +78,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Gallery lightbox background transparency** - in gallery lightbox settings you can change transparency of the background with comfortable color selector
 *   **Gallery lightbox font color** - in gallery lightbox settings you can change color of the font with comfortable color selector
 *   **Gallery lightbox font transparency** - in gallery lightbox settings you can change transparency of the font with comfortable color selector
+*   **Clone gallery** - if you have hundreds of galleries on the website this feature is really useful for you! Clone settings of another gallery to apply it to another galleries. So you can copy styles of the source gallery to as much galleries  as you need just by one click.
 
 = Gallery Advantages =
 
