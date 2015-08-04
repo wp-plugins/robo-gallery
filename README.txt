@@ -14,7 +14,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 == Description ==
 
 > #### We're looking for testers!
-> [Get a chance to get PRO version of the Robo Gallery for FREE. Just tell us your feedback related with your experience of plugin usage! Report if you had some problems or just if you have some cool features ideas! Just post ticket with your report and you could be the one who get PRO version for FREE](http://robosoft.co/clients)
+> [Get a chance to get PRO version of the Robo Gallery for FREE. Just tell us your feedback related with your experience of plugin usage! Report if you had some problems or if you have some features ideas! Just post ticket with your report and you could be the one who get PRO version for FREE](http://robosoft.co/clients/index.php?option=com_content&view=article&id=1&Itemid=6)
 
 #### [Most Easy and Powerful plugin to create a gallery on WordPress.](http://robosoft.co/robogallery/#overview)
 
