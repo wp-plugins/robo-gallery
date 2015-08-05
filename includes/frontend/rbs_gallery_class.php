@@ -88,14 +88,22 @@ class roboGallery extends roboGalleryUtils{
 		wp_enqueue_style( 'robo-gallery-rbs-button',ROBO_GALLERY_URL.'addons/button/buttons.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
 	}
 
-	function robo_gallery_scripts() {
-		wp_enqueue_script( 'jquery', false, array(), false, true);
-		wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/jquery.evemb.min.js', 			array( 'jquery' ), ROBO_GALLERY_VERSION );
-		wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/jquery.utils.min.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION );
-		wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/jquery.magnific.min.js', array( 'jquery' ), ROBO_GALLERY_VERSION );
-		wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/jquery.collagePlus.min.js', 		array( 'jquery' ), ROBO_GALLERY_VERSION );   
-		wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/script.js', 							array( 'jquery' ), ROBO_GALLERY_VERSION );   
-		
+	function robo_gallery_scripts() { 
+		if(  get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='build'  ){
+			wp_enqueue_script( 'jquery', false, array(), false, true);
+			wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/jquery.evemb.min.js', 			array( 'jquery' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/jquery.utils.min.js', 			array( 'jquery' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/jquery.magnific.min.js', 		array( 'jquery' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/jquery.collagePlus.min.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION );   
+			wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/script.js', 							array( 'jquery' ), ROBO_GALLERY_VERSION );   
+		} else {
+			wp_enqueue_script( 'robo-gallery-rbjquer', 	ROBO_GALLERY_URL.'gallery/js/alt/rbjquer.min.js', 			array( ), 						 ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/alt/jquery.evemb.min.js', 			array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/alt/jquery.utils.min.js', 			array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/alt/jquery.magnific.min.js', 		array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/alt/jquery.collagePlus.min.js', 	array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );   
+			wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/alt/script.js', 						array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION ); 
+		}
 	}	
 
 	/*
