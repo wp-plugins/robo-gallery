@@ -80,7 +80,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Gallery lightbox font transparency** - in gallery lightbox settings you can change transparency of the font with comfortable color selector
 *   **Clone gallery** - if you have hundreds of galleries on the website this feature is really useful for you! Clone settings of another gallery to apply it to another galleries. So you can copy styles of the source gallery to as much galleries  as you need just by one click.
 *   **Custom Thumbnails Shadows** - shadow it's very stylish element of the thumbnail images on the front end. You can make your gallery looks absolutely different with different styled shadow.
-
+*   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
 
 = Gallery Advantages =
 
@@ -139,7 +139,7 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 = How to upload images to the gallery? =
 
-When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you opena gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
+When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
 = How to define size of the gallery images thumbnails? =
 
