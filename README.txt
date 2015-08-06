@@ -133,6 +133,10 @@ You don't need do any additional configurations or manual code changes. You can 
 
 Just install it using regular Wordpress plugins installing mechanism.  If you have some questions related with our plugin feel free to contact our support team we happy to help you!
 
+= Do you have some conflict in gallery back end? =
+
+If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
+
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you opena gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
