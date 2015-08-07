@@ -137,6 +137,10 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
+= What can I do if some gallery interface elements in backend do not work properly? =
+
+If you have some conflict in gallery back end you can sort it with new compatibility option.  If combobox element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
+
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
@@ -317,7 +321,7 @@ When you enable border in gallery settings you will see multiply options for cus
 
 In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
 
-= Which tags build in shutter of gallery hover template customization ? =
+= Which tags build in shutter of gallery hover template customization? =
 
 For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
 
