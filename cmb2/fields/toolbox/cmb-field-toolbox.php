@@ -19,6 +19,12 @@ class RBS_TOOLBOX {
 		add_action( 'cmb2_render_toolbox', array( $this, 'rbs_cmb2_render_toolbox_field_callback' ), 10, 5 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'rbs_setup_admin_scripts' ) );
 		if(!ROBO_GALLERY_PRO) add_action( 'in_admin_header', array( $this, 'rbs_setup_admin_header' ) );
+		add_action( 'in_admin_header', array( $this, 'rbs_setup_admin_script' ) );
+	}
+	
+	public function rbs_setup_admin_script(){
+		echo "<script>"
+			."</script>";
 	}
 
 	public function rbs_cmb2_render_toolbox_field_callback(){}
@@ -84,10 +90,11 @@ class RBS_TOOLBOX {
 		wp_enqueue_script( 'rbs-toolbox-bootstrap-slider', ROBO_GALLERY_URL.'addons/bootstrap-slider/js/bootstrap-slider.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
 		wp_enqueue_style( 'rbs-toolbox-bootstrap-slider', ROBO_GALLERY_URL.'addons/bootstrap-slider/css/bootstrap-slider.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
 	
-		//select
-		wp_enqueue_script('rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/js/bootstrap-select.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
-		wp_enqueue_style( 'rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/css/bootstrap-select.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-	
+		if(!get_option(ROBO_GALLERY_PREFIX.'switchStyle', 0)){
+			//select
+			wp_enqueue_script('rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/js/bootstrap-select.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION, true );
+			wp_enqueue_style( 'rbs-toolbox-bootstrap-select', ROBO_GALLERY_URL.'addons/bootstrap-select/css/bootstrap-select.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
+		}
 	}
 }
 $rbs_tololbox = new RBS_TOOLBOX();
