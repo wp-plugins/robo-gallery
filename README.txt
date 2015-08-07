@@ -448,6 +448,10 @@ In our gallery you can define different amount of the columns for the images thu
     PHP 5.x
     MySQL 5.x
 
+= Do you have some problems with backend? =	
+
+Try to change gallery compatibility settings. When you open gallery menu on the left side you'll see gallery Settings section. When you open this settings you'll be able to the select ajax library mode and check results after that. 
+	
 = How to save pre-configured galleries when you install new version of the gallery? =
 
 When you install new version of the gallery all settings of the created galleries will be saved in database automatically. Even if you uninstall old version of the gallery and install new copy of the gallery settings of the old gallery version will be saved in database.
