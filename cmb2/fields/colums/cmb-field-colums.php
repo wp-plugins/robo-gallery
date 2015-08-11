@@ -35,8 +35,7 @@ function jt_cmb2_render_colums_field_callback( $field, $value, $object_id, $obje
 		$value['autowidth3'] = 1;
 		$value['autowidth'] = 1;		
 	}
-
-	echo "<script> var ROBO_GALLERY_PRO = ".ROBO_GALLERY_PRO.";</script>";
+	
 	?>
 <div class="form-horizontal">
 

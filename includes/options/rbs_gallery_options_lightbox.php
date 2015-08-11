@@ -26,11 +26,20 @@ $lightbox_group->add_field( array(
 	'name' 			=> __('Social Buttons', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxSocial',
 	'type' 			=> 'switch', 
-	'deffault'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
 	'bootstrap_style'=> 1,
 	'level'			=> !ROBO_GALLERY_PRO,
     'before_row' 	=> '
 <div class="rbs_block"><br/>',
+));
+
+$lightbox_group->add_field( array(
+	'name' 			=> __('Show Title', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxTitle',
+	'type' 			=> 'switch', 
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
+	'bootstrap_style'=> 1,
+
 ));
 
 $lightbox_group->add_field( array(

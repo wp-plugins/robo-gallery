@@ -44,6 +44,7 @@ class roboGallery extends roboGalleryUtils{
 	public $rbsLightboxStyle = '';
 	public $rbsTextLightboxStyle = '';
 
+	public $rbsTitleLightboxStyle = '';
 
  	public $javaScript = '';
  	public $javaScriptStyle = '';
@@ -120,24 +121,7 @@ class roboGallery extends roboGalleryUtils{
 		}
 	}
 
- 	public function addWidth( $colums, $index ){
- 		$ret = array();
-		if( isset($colums['autowidth'.$index]) ){
-			$ret[] = '"columnWidth": "auto"';
-			if($colums['colums'.$index]) $ret[] =  '"columns":'.$colums['colums'.$index];
-		} elseif($colums['width'.$index]){
-			$ret[] = '"columnWidth": '.$colums['width'.$index];
-		}
-		if( count($ret) ){
-			switch ($index) {
-				case '1': $r = '960'; break;
-				case '2': $r = '650'; break;
-				case '3': $r = '450'; break;
-			}
-			$ret[] = '"maxWidth": '.$r;
-			return '{'.implode( ' , ', $ret ).'}';
-		} else return '';
- 	}
+ 	
 
  	public function addBorder($nameOptions = ''){
  		$border = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.$nameOptions, true );
@@ -306,7 +290,11 @@ class roboGallery extends roboGalleryUtils{
 		/* v 1.0.2 */
 		$lightboxColor = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxColor', true );
 		if($lightboxColor) $this->rbsTextLightboxStyle .=  'color: '.$lightboxColor.';';
-		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
+
+		if(!get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxTitle', true )){
+			$this->rbsTitleLightboxStyle .=  'display: none;';	
+		} 
+		
 
 
 		$this->addJavaScriptStyle('rbsBox', '.rbs-img-container');
@@ -316,6 +304,9 @@ class roboGallery extends roboGalleryUtils{
 		$this->addJavaScriptStyle('rbsLinkIcon','.rbsLinkIcon',1);
 		$this->addJavaScriptStyle('rbsZoomIcon','.rbsZoomIcon',1);
 		$this->addJavaScriptStyle('rbsImageLoading','.image-with-dimensions',0);
+
+		$this->addJavaScriptStyle('rbsTitleLightbox','body .mfp-title',2);
+		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
 
 		if(count($this->selectImages->imgArray)){
 			$this->robo_gallery_styles();
@@ -335,8 +326,7 @@ class roboGallery extends roboGalleryUtils{
 					), 
 					$polaroid_template
 				);
-				/*class="rbs-lightbox"*/
-				//echo $img['effect'];
+
 				$this->returnHtml .= '
 					<div class="rbs-img category'.$img['catid'].'" '.( isset($img['col']) && $img['col'] ?' data-columns="'.$img['col'].'" ' :'').'>
 			            <div class="rbs-img-image rbs-lightbox" '.( isset($img['effect']) && $img['effect'] ?' data-overlay-effect="'.$img['effect'].'" ' :'').' >
@@ -346,7 +336,7 @@ class roboGallery extends roboGalleryUtils{
 			            </div>
 						'.($polaroidDesc && $polaroidOn?'<div class="rbs-img-content" '.($polaroidStyle?' style="'.$polaroidStyle.'" ':'').'>'.$polaroidDesc.'</div>':'').'
 			        </div>';
-			}//class="'.(!$this->hover|| 2==3?' rbs-lightbox':'').'"    //data-overlay-effect="push-up"
+			}
 		}
 		if( $this->returnHtml ){
 			$this->returnHtml = 
@@ -356,9 +346,7 @@ class roboGallery extends roboGalleryUtils{
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';
 		} 
-
 		return $this->returnHtml;
-
  	}
 
 

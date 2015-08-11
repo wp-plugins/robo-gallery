@@ -81,6 +81,25 @@ class roboGalleryUtils extends roboGalleryParent{
 
  	}
 
+ 	public function addWidth( $colums, $index ){
+ 		$ret = array();
+		if( isset($colums['autowidth'.$index]) ){
+			$ret[] = '"columnWidth": "auto"';
+			if($colums['colums'.$index]) $ret[] =  '"columns":'.$colums['colums'.$index];
+		} elseif($colums['width'.$index]){
+			$ret[] = '"columnWidth": '.$colums['width'.$index];
+		}
+		if( count($ret) ){
+			switch ($index) {
+				case '1': $r = '960'; break;
+				case '2': $r = '650'; break;
+				case '3': $r = '450'; break;
+			}
+			$ret[] = '"maxWidth": '.$r;
+			return '{'.implode( ' , ', $ret ).'}';
+		} else return '';
+ 	}
+ 	
  	public function getThumbParams( ){
 
  	}

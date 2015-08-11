@@ -23,8 +23,9 @@ class RBS_TOOLBOX {
 	}
 	
 	public function rbs_setup_admin_script(){
-		echo "<script>"
-			."</script>";
+		echo '<script>'
+				.'var ROBO_GALLERY_PRO = '.ROBO_GALLERY_PRO.';'
+			.'</script>';
 	}
 
 	public function rbs_cmb2_render_toolbox_field_callback(){}
