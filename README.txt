@@ -165,6 +165,10 @@ In our gallery we implemented layout based on columns amount. So you can general
 
 Yes, in gallery options you can turn on/off border option
 
+= How to hide titles of the gallery image in lightbox ? =
+
+In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
+
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
@@ -224,26 +228,6 @@ Every gallery image have additional fields where you can define custom link, tit
 = Is it possible to customize gallery image caption ? =
 
 In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
-
-= Is it possible to use HTML in image description ? =
-
-Yes, you can use HTML tags inside gallery image description field
-
-= How to change font size of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
-
-= How to change font color of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview 
-
-= How to change font style of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
-
-= How to change font size of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
 = How to change font color of the gallery image description text? =
 
@@ -344,50 +328,6 @@ In build library of the icons in gallery you can find 533 icons
 = How many buttons with icons do you have in gallery? =
 
 In our gallery we have 2 buttons for every gallery thumbnail. Zoom button and link button.
-
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery. 
-
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
-= Is it possible create gallery in Wordpress post with Gallery? =
-
-Yes, you can insert gallery into post with shortcode tag
-
-= Is it possible create gallery on Wordpress page with Gallery? =
-
-Yes, you can insert gallery into page with shortcode tag
-
-= Is it possible create gallery in Wordpress widget with Gallery? =
-
-Yes, you can insert gallery into widget with shortcode tag
-
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
-= Is it possible to create direct link on the front end to the gallery? =
-
-Yes, you can use generated direct link inside particular gallery settings
-
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
-
-= How to define custom hover effect for some gallery thumbnail? =
-
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
-= Is it possible to create target blank links? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
 = Is it possible to insert video as gallery link? =
 
