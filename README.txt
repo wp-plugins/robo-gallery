@@ -153,6 +153,10 @@ Our gallery is fully responsive and gallery thumbnails size depend of a lot of f
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
+
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
