@@ -1,7 +1,7 @@
 ﻿=== Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
-Tags: gallery, galleries, image, images, image gallery, photo, photos, photo gallery, picture, pictures, picture gallery, album, albums, photo albums, image album, media, media gallery, thumbnails, thumbnail gallery, thumbnail galleries, slideshow, slideshows, slideshow gallery, slideshow galleries, lightbox, responsive, responsive gallery, responsive galleries, wordpress responsive gallery, add gallery, images gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, best gallery, best gallery plugin, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image gallery plugin, image lightbox, image slider, image slideshow, jquery, jquery gallery, links, multiple pictures, page, pagination gallery, pagination portfolio, photo album,  photoalbum, photogallery, photoset, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries
+Tags: gallery, galleries, image, images, image gallery, photo, photos, photo gallery, picture, pictures, picture gallery, album, albums, photo albums, image album, media, media gallery, thumbnails, thumbnail gallery, thumbnail galleries, slideshow, slideshows, slideshow gallery, slideshow galleries, lightbox,  responsive gallery, responsive galleries, add gallery, images gallery, Polaroid gallery, gallery plugin, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, add galleries, best gallery, mobile gallery, mobile galleries, responsive photo gallery, sortable gallery, sortable galleries, grid gallery, image gallery plugin, image lightbox, image slider, image slideshow, photo album,  photoalbum, photogallery, photoset, plugin for gallery, upload images, upload photos, view images, view pictures, multi categories galleries
 Requires at least: 3.3
 Tested up to: 4.2.4
 Stable tag: 1.1.5
@@ -152,6 +152,18 @@ Our gallery is fully responsive and gallery thumbnails size depend of a lot of f
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery. 
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
+= Is it possible create gallery in Wordpress post with Gallery? =
+
+Yes, you can insert gallery into post with shortcode tag
 
 = Do you have some limits for images amount in gallery? =
 
