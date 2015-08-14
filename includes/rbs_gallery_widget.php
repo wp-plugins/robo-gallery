@@ -28,8 +28,7 @@ class rbs_widget extends WP_Widget {
     echo $args['before_widget'];
     if( ! empty( $title ) )     echo $args['before_title'] . $title . $args['after_title'];
     
-    if( file_exists( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php' ) ){
-    	include_once( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php' );
+    if( function_exists( 'rbs_pro_widget' ) ){
     	rbs_pro_widget($galleryId);
     }
     

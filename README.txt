@@ -1,10 +1,10 @@
 ﻿=== Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
-Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries
+Tags: robo, robo gallery, gallery, galleries, image, images, image gallery, photo, photos, photo gallery, picture, pictures, picture gallery, album, albums, photo albums, image album, media, media gallery, thumbnails, thumbnail gallery, thumbnail galleries, slideshow, slideshows, slideshow gallery, slideshow galleries, lightbox, responsive, responsive gallery, responsive galleries, wordpress responsive gallery, add gallery, images gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, best gallery, best gallery plugin, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image gallery plugin, image lightbox, image slider, image slideshow, jquery, jquery gallery, links, multiple pictures, page, pagination gallery, pagination portfolio, photo album,  photoalbum, photogallery, photoset, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries
 Requires at least: 3.3
 Tested up to: 4.2.4
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -447,6 +447,11 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.1.5 = 
+*   Updated admin interface settings modes
+*   Code optimization
+*   Small bugs fixing
+
 = 1.1.4 =
 *   Added hide image title in lightbox option
 *   Сode optimization
@@ -504,6 +509,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.1.5 =
+Updated admin interface settings modes, code optimization
 
 = 1.1.4 =
 Added hide image title in lightbox option

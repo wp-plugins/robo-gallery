@@ -14,6 +14,8 @@
 
 if( file_exists( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php') ){
 	include_once( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php' );
+} else if( file_exists( ROBO_GALLERY_PATH.'robogallerykey.php') ){
+	include_once( ROBO_GALLERY_PATH.'robogallerykey.php' );
 } else {
 	class roboGalleryParent{ public $pro = 0; }
 }

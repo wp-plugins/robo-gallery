@@ -292,7 +292,7 @@ class roboGallery extends roboGalleryUtils{
 		if($lightboxColor) $this->rbsTextLightboxStyle .=  'color: '.$lightboxColor.';';
 
 		if(!get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxTitle', true )){
-			$this->rbsTitleLightboxStyle .=  'display: none;';	
+			$this->helper->setValue( 'hideTitle',  'true' );
 		} 
 		
 
@@ -305,7 +305,7 @@ class roboGallery extends roboGalleryUtils{
 		$this->addJavaScriptStyle('rbsZoomIcon','.rbsZoomIcon',1);
 		$this->addJavaScriptStyle('rbsImageLoading','.image-with-dimensions',0);
 
-		$this->addJavaScriptStyle('rbsTitleLightbox','body .mfp-title',2);
+		//$this->addJavaScriptStyle('rbsTitleLightbox','body .mfp-title',2);
 		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
 
 		if(count($this->selectImages->imgArray)){
