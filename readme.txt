@@ -169,6 +169,10 @@ Yes, you can insert gallery into post with shortcode tag
 
 No, we don't have any limits for amount of the images in gallery
 
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
