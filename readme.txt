@@ -1,7 +1,7 @@
 ﻿=== Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
-Tags: gallery, galleries, image, images, image gallery, photo, photos, photo gallery, picture, pictures, picture gallery, album, albums, photo albums, image album, media, media gallery, thumbnails, thumbnail gallery, thumbnail galleries, slideshow, slideshows, slideshow gallery, slideshow galleries, lightbox,  responsive gallery, responsive galleries, add gallery, images gallery, Polaroid gallery, gallery plugin, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, add galleries, best gallery, mobile gallery, mobile galleries, responsive photo gallery, sortable gallery, sortable galleries, grid gallery, image gallery plugin, image lightbox, image slider, image slideshow, photo album,  photoalbum, photogallery, photoset, plugin for gallery, upload images, upload photos, view images, view pictures, multi categories galleries
+Tags: robo, robo gallery, gallery, galleries, view, height view, thumb view, panorama, panorama views, different views, image, images, image gallery,  pictures, picture gallery, album, albums, photo albums, image album, media, media gallery, photo, photos, photo gallery, picture,thumbnails, thumbnail gallery,  slideshow gallery, slideshow galleries, fancybox, lightbox, responsive, responsive gallery, thumbnail galleries, slideshow, slideshows, responsive galleries, wordpress responsive gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, best gallery plugin, free photo gallery, singlepic, image captions imagebrowser, watermarks, watermarking, photography, photographer
 Requires at least: 3.3
 Tested up to: 4.2.4
 Stable tag: 1.1.5
@@ -152,6 +152,10 @@ Our gallery is fully responsive and gallery thumbnails size depend of a lot of f
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
 
 = Do you have some limit for images size in gallery? =
 
