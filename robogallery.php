@@ -20,7 +20,7 @@
 if ( ! defined( 'WPINC' ) )  die;
 //define( 'WP_DEBUG', true );
 define(ROBO_GALLERY, 1); 
-define(ROBO_GALLERY_VERSION, '1.1.4'); 
+define(ROBO_GALLERY_VERSION, '1.1.5'); 
 
 define(ROBO_GALLERY_PATH, plugin_dir_path( __FILE__ ));
 
