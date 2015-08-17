@@ -265,6 +265,10 @@ In gallery settings, when enabled custom hover settings you can customize style 
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
 
+= Is it possible to use HTML in image description ? =
+
+Yes, you can use HTML tags inside gallery image description field
+
 = Where to change settings of the image of the gallery? =
 
 Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
