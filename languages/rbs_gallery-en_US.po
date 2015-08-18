@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery\n"
-"POT-Creation-Date: 2015-08-17 08:47+0200\n"
-"PO-Revision-Date: 2015-08-17 08:47+0200\n"
+"POT-Creation-Date: 2015-08-18 08:35+0200\n"
+"PO-Revision-Date: 2015-08-18 08:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: en_US\n"
@@ -432,9 +432,6 @@ msgid "Gallery Size Options"
 msgstr "Gallery Size Options"
 
 #: options/rbs_gallery_options_size.php:30
-msgid "Thumbs options"
-msgstr "Thumbs options"
-
 #: options/rbs_gallery_options_size.php:39
 msgid "Thumbs Options"
 msgstr "Thumbs Options"
@@ -472,9 +469,6 @@ msgid "Shadow"
 msgstr "Shadow"
 
 #: options/rbs_gallery_options_view.php:74
-msgid "Shadow options"
-msgstr "Shadow options"
-
 #: options/rbs_gallery_options_view.php:81
 #: options/rbs_gallery_options_view.php:106
 msgid "Shadow Options"
@@ -710,6 +704,12 @@ msgstr "New gallery"
 #: rbs_gallery_widget.php:76
 msgid "Gallery:"
 msgstr "Gallery:"
+
+#~ msgid "Shadow options"
+#~ msgstr "Shadow options"
+
+#~ msgid "Thumbs options"
+#~ msgstr "Thumbs options"
 
 #~ msgid "Loading options"
 #~ msgstr "Loading options"

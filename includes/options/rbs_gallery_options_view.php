@@ -71,7 +71,7 @@ $view_group->add_field( array(
 ));
 
 $view_group->add_field( array(
-	'name' 			=> __('Shadow options', 'rbs_gallery' ),
+	'name' 			=> __('Shadow Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'shadow-options',
 	'type' 			=> 'shadow',
 	'before_row' 	=> '
@@ -134,7 +134,7 @@ $view_group->add_field( array(
 ));
      
 $view_group->add_field( array(
-	'name' 			=> __('Border options', 'rbs_gallery' ),
+	'name' 			=> __('Border Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'border-options',
 	'type' 			=> 'border',
 	'before_row' 	=> '
@@ -168,7 +168,7 @@ $view_group->add_field( array(
 ));
 
 $view_group->add_field( array(
-	'name' 			=> __('Border options', 'rbs_gallery' ),
+	'name' 			=> __('Border Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'hover-border-options',
 	'type' 			=> 'border',
 	'after_row'		=>'

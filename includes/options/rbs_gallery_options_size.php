@@ -27,7 +27,7 @@ $size_group = new_cmb2_box( array(
 $size_group->add_field( array('type' => 'toolbox'));
 
 $size_group->add_field( array(
-	'name' 			=> __('Thumbs options', 'rbs_gallery' ),
+	'name' 			=> __('Thumbs Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'thumb-size-options',
 	'type' 			=> 'size',
 	'level'			=> !ROBO_GALLERY_PRO,

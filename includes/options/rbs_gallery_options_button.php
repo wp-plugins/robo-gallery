@@ -64,10 +64,10 @@ $button_group->add_field( array(
 	'level'			   => !ROBO_GALLERY_PRO,
 	'default'          => 'border',
 	'options'          => array(
-		 'normal' 	=> __( 'normal' , 	'cmb' ),
+		 'normal' 	=> __( 'Normal' , 	'cmb' ),
 		 'flat' 	=> __( 'flat' , 	'cmb' ),
 		 '3d'		=> __( '3d' , 		'cmb' ),
-		 'border' 	=> __( 'border' , 	'cmb' ),
+		 'border' 	=> __( 'Border' , 	'cmb' ),
 	),
 	
 ));

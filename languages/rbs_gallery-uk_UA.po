@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-07-27 23:18+0200\n"
-"PO-Revision-Date: 2015-07-29 10:05+0200\n"
+"POT-Creation-Date: 2015-08-18 08:35+0200\n"
+"PO-Revision-Date: 2015-08-18 08:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -132,6 +132,30 @@ msgstr ""
 msgid "Bottom Padding"
 msgstr ""
 
+#: options/rbs_gallery_options_copy.php:18
+msgid " Clone Gallery"
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:27
+msgid "Source Gallery"
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:28
+msgid ""
+"When you select here to inherit settings from another gallery you'll not be "
+"able to edit some of the options. Gallery will copy all settings from "
+"selected source."
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:29
+msgid ""
+"Very useful option for the webmasters who planning to create a lot of "
+"galleries. You don't have to configure it every time. Just setup styles of "
+"the gallery in one place and use the same options for another galleries on "
+"your website in another galleries.  Very fast, comfortable, advanced tool to "
+"speed up your workflow!"
+msgstr ""
+
 #: options/rbs_gallery_options_hover.php:18
 msgid "Hover Options"
 msgstr ""
@@ -146,14 +170,14 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:34
 msgid "Options"
-msgstr ""
+msgstr "Параметри"
 
 #: options/rbs_gallery_options_hover.php:35
 msgid "Template"
 msgstr ""
 
 #: options/rbs_gallery_options_hover.php:49
-#: options/rbs_gallery_options_lightbox.php:48
+#: options/rbs_gallery_options_lightbox.php:57
 #: options/rbs_gallery_options_loading.php:79
 #: options/rbs_gallery_options_polaroid.php:53
 msgid "Bg Color"
@@ -224,11 +248,12 @@ msgid "fade"
 msgstr ""
 
 #: options/rbs_gallery_options_hover.php:90
+#: options/rbs_gallery_options_lightbox.php:37
 msgid "Show Title"
 msgstr "Показати заголовок"
 
 #: options/rbs_gallery_options_hover.php:105
-#: options/rbs_gallery_options_polaroid.php:46 rbs_gallery_widget.php:72
+#: options/rbs_gallery_options_polaroid.php:46 rbs_gallery_widget.php:71
 msgid "Title"
 msgstr "Назва"
 
@@ -290,6 +315,8 @@ msgid ""
 "with PRO version you get more advanced functionality and even more "
 "flexibility in settings"
 msgstr ""
+"з Pro версії ви отримаєте більш розширений функціонал і більше гнучкості в "
+"налаштуваннях"
 
 #: options/rbs_gallery_options_lightbox.php:18
 msgid "Lightbox Options"
@@ -299,7 +326,7 @@ msgstr ""
 msgid "Social Buttons"
 msgstr ""
 
-#: options/rbs_gallery_options_lightbox.php:37
+#: options/rbs_gallery_options_lightbox.php:46
 msgid "Text Color"
 msgstr ""
 
@@ -393,9 +420,6 @@ msgid "Gallery Size Options"
 msgstr ""
 
 #: options/rbs_gallery_options_size.php:30
-msgid "Thumbs options"
-msgstr ""
-
 #: options/rbs_gallery_options_size.php:39
 msgid "Thumbs Options"
 msgstr ""
@@ -430,12 +454,9 @@ msgstr ""
 
 #: options/rbs_gallery_options_view.php:64
 msgid "Shadow"
-msgstr ""
+msgstr "Тінь"
 
 #: options/rbs_gallery_options_view.php:74
-msgid "Shadow options"
-msgstr ""
-
 #: options/rbs_gallery_options_view.php:81
 #: options/rbs_gallery_options_view.php:106
 msgid "Shadow Options"
@@ -538,7 +559,7 @@ msgstr ""
 msgid "Advanced images description settings"
 msgstr ""
 
-#: rbs_gallery_about.php:69
+#: rbs_gallery_about.php:69 rbs_gallery_settings.php:63
 msgid "All Rights Reserved"
 msgstr "Всі права захищені"
 
@@ -562,11 +583,11 @@ msgstr "Додати Robo Галерею "
 msgid "Select gallery"
 msgstr ""
 
-#: rbs_gallery_button.php:42 rbs_gallery_widget.php:80
+#: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
 msgid "Configure it in"
 msgstr ""
 
-#: rbs_gallery_button.php:42 rbs_gallery_widget.php:82
+#: rbs_gallery_button.php:42 rbs_gallery_widget.php:81
 msgid "Robo Gallery plugin"
 msgstr ""
 
@@ -623,6 +644,34 @@ msgstr "Відео"
 msgid "inherit"
 msgstr ""
 
+#: rbs_gallery_settings.php:17
+msgid "Compatibility Settings"
+msgstr ""
+
+#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:33
+msgid "jQuery Version"
+msgstr "Версія jQuery "
+
+#: rbs_gallery_settings.php:34 rbs_gallery_settings.php:35
+msgid "Default"
+msgstr ""
+
+#: rbs_gallery_settings.php:37 rbs_gallery_settings.php:38
+msgid "Alternative"
+msgstr ""
+
+#: rbs_gallery_settings.php:44 rbs_gallery_settings.php:47
+msgid "Switch Style"
+msgstr ""
+
+#: rbs_gallery_settings.php:48 rbs_gallery_settings.php:49
+msgid "Modern"
+msgstr ""
+
+#: rbs_gallery_settings.php:51 rbs_gallery_settings.php:52
+msgid "Classic"
+msgstr ""
+
 #: rbs_gallery_widget.php:19
 msgid "Robo Gallery Widget"
 msgstr ""
@@ -631,26 +680,26 @@ msgstr ""
 msgid "Publish gallery on your website."
 msgstr ""
 
-#: rbs_gallery_widget.php:36 rbs_gallery_widget.php:68
+#: rbs_gallery_widget.php:35 rbs_gallery_widget.php:67
 msgid "This widget available in Pro version"
-msgstr ""
+msgstr "Цей віджет доступний у версії Pro"
 
-#: rbs_gallery_widget.php:45
+#: rbs_gallery_widget.php:44
 msgid "New gallery"
 msgstr ""
 
-#: rbs_gallery_widget.php:77
+#: rbs_gallery_widget.php:76
 msgid "Gallery:"
 msgstr ""
 
-msgid "Loading options"
-msgstr "Loading options"
+#~ msgid "Loading options"
+#~ msgstr "Loading options"
 
-msgid "Title:"
-msgstr "Title:"
+#~ msgid "Title:"
+#~ msgstr "Title:"
 
-msgid "Get PRO Version"
-msgstr "Get PRO Version"
+#~ msgid "Get PRO Version"
+#~ msgstr "Get PRO Version"
 
-msgid "Get PRO version"
-msgstr "Get PRO version"
+#~ msgid "Get PRO version"
+#~ msgstr "Get PRO version"
