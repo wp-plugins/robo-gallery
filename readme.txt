@@ -253,6 +253,10 @@ In gallery settings you can find option to enable/disable lazy load, also there 
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
+= How to change font color of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview 
+
 = How to load more function work? =
 
 In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
