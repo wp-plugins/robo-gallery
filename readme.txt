@@ -277,6 +277,10 @@ In gallery settings you can find images manager where you can change settings of
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
+= How to change font style of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+
 = How to change ordering of the gallery images? =
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
