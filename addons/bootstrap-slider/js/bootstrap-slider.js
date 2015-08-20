@@ -1465,10 +1465,3 @@
 
 	return Slider;
 }));
-
-
-
-
-jQuery(function(){
-  jQuery(".rbs_slider").bootstrapSlider({ });
-});

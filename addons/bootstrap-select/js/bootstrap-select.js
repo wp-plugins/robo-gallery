@@ -1214,7 +1214,7 @@
   });
 })(jQuery);
 
-(function($) {
-	jQuery(".rbs_select").selectpicker({ });
-	jQuery("#rsg_options").selectpicker({ });
-})(jQuery);
+//(function($) {
+	//jQuery(".rbs_select").selectpicker({ });
+	//jQuery("#rsg_options").selectpicker({ });
+//})(jQuery);

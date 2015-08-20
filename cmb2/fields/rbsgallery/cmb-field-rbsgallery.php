@@ -49,7 +49,7 @@ function jt_cmb2_render_rbsgallery_field_callback( $field, $value, $object_id, $
 				      'selected'     => $value,
 				      'name'         => $field_type_object->_name(),
 				      'id'           =>$field_type_object->_id(),
-				      'class'		=> 'rbs_select',
+				      'class'		=> 'rbs_select selectpicker',
 				      'echo'    => 1,
 				      'show_option_none' => 'none',
 				      'option_none_value' => '0',

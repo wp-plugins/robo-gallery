@@ -38,13 +38,13 @@ function jt_cmb2_render_rbsselect_field_callback( $field, $value, $object_id, $o
 		      	echo $field_type_object->select(array(
 					'name'  		=> $field_type_object->_name(),
 					'id'    		=> $field_type_object->_id(),
-					'class'   		=> 'rbs_select'.(count($field->args('depends'))?' rbs_action_element_select':''),
+					'class'   		=> 'rbs_select selectpicker'.($field->args('depends') && count($field->args('depends'))?' rbs_action_element_select':''),
 					'options' 		=> rbs_rbsselect_get_options( $field->args('options'),  $value, $field->args('content') ),
-					'data-depends'	=> count($field->args('depends')) ? 1 : 0 ,
+					'data-depends'	=> $field->args('depends') && count($field->args('depends')) ? 1 : 0 ,
 					'desc'    		=> $field_type_object->_desc( true ),
 				));
 
-				if( count($field->args('depends')) ){
+				if( $field->args('depends') && count($field->args('depends')) ){
 				?>
 				<script type="text/javascript">
 					var  <?php echo $field_type_object->_id(); ?>_depends = <?php echo json_encode($field->args('depends')); ?>;

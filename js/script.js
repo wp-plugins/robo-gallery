@@ -16,6 +16,12 @@
 		var objectOptions = window[ jQuery(this).data('options') ];
 		//console.log(objectOptions);
 		var realOptions = jQuery.extend({},objectOptions);
-		jQuery(this).collagePlus( realOptions ); 
+		var gallery = jQuery(this).collagePlus( realOptions ); 
+		if( roboGalleryDelay != undefined && roboGalleryDelay > 0 ){
+			setTimeout(function () {
+				gallery.eveMB('resize');
+				console.log("roboGallery - resize"); 
+			}, roboGalleryDelay);
+		}
 	});
 })(jQuery);

@@ -21,11 +21,7 @@ wp_enqueue_style ( 	'toolbox-gallery-about', ROBO_GALLERY_URL.'css/admin/about.c
 		settings_fields( 'rbs_gallery_settings' ); 
 		do_settings_sections( 'rbs_gallery_settings' ); 
 		 ?>
-
-
 		<table class="form-table">
-			
-
 			<tr>
 				<th scope="row"><?php _e('jQuery Version', 'rbs_gallery'); ?></th>
 				<td>
@@ -54,10 +50,17 @@ wp_enqueue_style ( 	'toolbox-gallery-about', ROBO_GALLERY_URL.'css/admin/about.c
 					</fieldset>
 				</td>
 			</tr>
+			<tr>
+				<th scope="row"><?php _e('Size Calculations Delay', 'rbs_gallery'); ?></th>
+				<td>
+					<input name="<?php echo ROBO_GALLERY_PREFIX.'delay'; ?>" id="<?php echo ROBO_GALLERY_PREFIX.'delay'; ?>" value="<?php echo get_option(ROBO_GALLERY_PREFIX.'delay', '1000'); ?>" class="small-text" type="text"> ms.
+				</td>
+			</tr>
 		</table>
-
-	<p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="Save Changes"  /></p></form>
-
+		<p class="submit">
+			<input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e('Save Changes', 'rbs_gallery'); ?>"  />
+		</p>
+	</form>
 </div>
 <?php 
 echo '<div class="rbs_about_string2">Copyright &copy; 2014 - 2015 RoboSoft '.__('All Rights Reserved', 'rbs_gallery').'.</div>

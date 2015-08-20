@@ -54,6 +54,7 @@ class roboGalleryUtils extends roboGalleryParent{
 	public function compileJavaScript(){
  		return
  		'var '.$this->galleryId.' = {'.$this->helper->getOptionList().'}, '.$this->galleryId.'_css = "'.$this->javaScriptStyle.'",
+		roboGalleryDelay = '.(int)get_option( ROBO_GALLERY_PREFIX.'delay',0).';
 		head = document.head || document.getElementsByTagName("head")[0],
 		style = document.createElement("style");
 		style.type = "text/css";

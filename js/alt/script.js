@@ -16,6 +16,12 @@
 		var objectOptions = window[ rbjQuer(this).data('options') ];
 		//console.log(objectOptions);
 		var realOptions = rbjQuer.extend({},objectOptions);
-		rbjQuer(this).collagePlus( realOptions ); 
+		var gallery = rbjQuer(this).collagePlus( realOptions );
+		if( roboGalleryDelay != undefined && roboGalleryDelay > 0 ){
+			setTimeout(function () {
+				gallery.eveMB('resize');
+				console.log("roboGallery - resize"); 
+			}, roboGalleryDelay);
+		}
 	});
 })(rbjQuer);

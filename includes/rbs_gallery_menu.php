@@ -47,6 +47,7 @@ if(!function_exists('robo_gallery_settings_submenu_page')){
 		//register our settings
 		register_setting( 'rbs_gallery_settings', ROBO_GALLERY_PREFIX.'jqueryVersion' );
 		register_setting( 'rbs_gallery_settings', ROBO_GALLERY_PREFIX.'switchStyle' );
+		register_setting( 'rbs_gallery_settings', ROBO_GALLERY_PREFIX.'delay' );
 		
 		/*register_setting( 'rbs_gallery_settings', 'some_other_option' );
 		register_setting( 'rbs_gallery_settings', 'option_etc' );*/
