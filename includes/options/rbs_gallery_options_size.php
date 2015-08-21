@@ -24,7 +24,7 @@ $size_group = new_cmb2_box( array(
     'closed'        => rbs_gallery_set_checkbox_default_for_new_post(0),
 ));
 
-$size_group->add_field( array('type' => 'toolbox'));
+//$size_group->add_field( array('type' => 'toolbox'));
 
 $size_group->add_field( array(
 	'name' 			=> __('Thumbs Options', 'rbs_gallery' ),

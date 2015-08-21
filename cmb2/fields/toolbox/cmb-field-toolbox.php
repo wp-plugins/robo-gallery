@@ -23,8 +23,8 @@ class RBS_TOOLBOX {
 	
 	public function rbs_setup_admin_script(){
 		echo '<script>'
-				.'var ROBO_GALLERY_PRO = '.ROBO_GALLERY_PRO.';'
-			.'</script>';
+			.'var ROBO_GALLERY_PRO = '.ROBO_GALLERY_PRO.';'
+		.'</script>';
 	}
 
 	public function rbs_setup_admin_header(){
@@ -32,9 +32,9 @@ class RBS_TOOLBOX {
 						.'style="display: none;" '
 						.'data-body="rbs_edit" '
 						.'data-open="0" '
-						.'data-title="'.__('Get Robo Gallery Pro version').'" '
+						.'data-title="'.__('Get Robo Gallery Pro version', 'rbs_gallery').'" '
 						.'data-close="'.__('Close', 'rbs_gallery').'" '
-						.'data-info="'.__('Get Pro version').'"'
+						.'data-info="'.__('Get Pro version', 'rbs_gallery').'"'
 					.'>'
 					.__('This function available in PRO version', 'rbs_gallery')
 				.'</div>';
@@ -49,9 +49,6 @@ class RBS_TOOLBOX {
 			wp_enqueue_script('robo-gallery-info', ROBO_GALLERY_URL.'js/admin/info.js', array( 'jquery' ), ROBO_GALLERY_VERSION, false ); 
 			wp_enqueue_style ('robo-gallery-info', ROBO_GALLERY_URL.'css/admin/info.css', array( ), ROBO_GALLERY_VERSION );
 		}
-
-		
-
 
 		//bootstrap
 		wp_enqueue_script( 	'rbs_bootstrap', 			ROBO_GALLERY_URL.'addons/bootstrap/js/bootstrap.min.js', 		array('jquery'), ROBO_GALLERY_VERSION, false);
@@ -93,8 +90,6 @@ class RBS_TOOLBOX {
 		wp_enqueue_script(  'rbs-toolbox-admin-edit' );
 
 		wp_enqueue_style ( 	'rbs-toolbox-admin-edit',  ROBO_GALLERY_URL.'css/admin/edit.css' );
-
-
 	}
 }
 $rbs_tololbox = new RBS_TOOLBOX();

@@ -101,7 +101,7 @@
 	});
 
 	var rbsBlockId = { 
-		"block1": jQuery('#rsg_lightbox_metabox'), 
+		"block1":jQuery('#rsg_lightbox_metabox'), 
 		"block2":jQuery('#rsg_size_metabox'), 
 		"block3":jQuery('#rsg_view_metabox'), 
 		"block4":jQuery('#rsg_hover_metabox'), 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
-"POT-Creation-Date: 2015-08-18 08:35+0200\n"
-"PO-Revision-Date: 2015-08-18 08:38+0200\n"
+"POT-Creation-Date: 2015-08-21 10:48+0200\n"
+"PO-Revision-Date: 2015-08-21 10:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -42,7 +42,9 @@ msgid "Style"
 msgstr "Стиль"
 
 #: options/rbs_gallery_options_button.php:67
-msgid "normal"
+#: options/rbs_gallery_options_button.php:99
+#: options/rbs_gallery_options_button.php:115
+msgid "Normal"
 msgstr ""
 
 #: options/rbs_gallery_options_button.php:68
@@ -54,7 +56,8 @@ msgid "3d"
 msgstr "3D"
 
 #: options/rbs_gallery_options_button.php:70
-msgid "border"
+#: options/rbs_gallery_options_view.php:127
+msgid "Border"
 msgstr ""
 
 #: options/rbs_gallery_options_button.php:76
@@ -79,7 +82,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:87
 msgid "red"
-msgstr ""
+msgstr "красный"
 
 #: options/rbs_gallery_options_button.php:88
 msgid "purple"
@@ -87,11 +90,6 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:93
 msgid "Rounds"
-msgstr ""
-
-#: options/rbs_gallery_options_button.php:99
-#: options/rbs_gallery_options_button.php:115
-msgid "Normal"
 msgstr ""
 
 #: options/rbs_gallery_options_button.php:100
@@ -172,7 +170,7 @@ msgstr "Откл"
 
 #: options/rbs_gallery_options_hover.php:34
 msgid "Options"
-msgstr ""
+msgstr "Настройки"
 
 #: options/rbs_gallery_options_hover.php:35
 msgid "Template"
@@ -391,11 +389,11 @@ msgstr ""
 
 #: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
-msgstr ""
+msgstr "Подпись"
 
 #: options/rbs_gallery_options_polaroid.php:64
 msgid "Align"
-msgstr ""
+msgstr "Выровнять"
 
 #: options/rbs_gallery_options_polaroid.php:70
 msgid "left"
@@ -403,11 +401,11 @@ msgstr ""
 
 #: options/rbs_gallery_options_polaroid.php:71
 msgid "right"
-msgstr ""
+msgstr "справа"
 
 #: options/rbs_gallery_options_polaroid.php:72
 msgid "center"
-msgstr ""
+msgstr "по центру"
 
 #: options/rbs_gallery_options_shortcode.php:18
 msgid "Gallery Shortcode"
@@ -472,16 +470,9 @@ msgstr ""
 msgid "Hover Shadow"
 msgstr ""
 
-#: options/rbs_gallery_options_view.php:127
-msgid "Border"
-msgstr ""
-
 #: options/rbs_gallery_options_view.php:137
-#: options/rbs_gallery_options_view.php:171
-msgid "Border options"
-msgstr ""
-
 #: options/rbs_gallery_options_view.php:144
+#: options/rbs_gallery_options_view.php:171
 msgid "Border Options"
 msgstr ""
 
@@ -561,7 +552,7 @@ msgstr ""
 msgid "Advanced images description settings"
 msgstr ""
 
-#: rbs_gallery_about.php:69 rbs_gallery_settings.php:63
+#: rbs_gallery_about.php:69 rbs_gallery_settings.php:66
 msgid "All Rights Reserved"
 msgstr ""
 
@@ -650,30 +641,38 @@ msgstr ""
 
 #: rbs_gallery_settings.php:17
 msgid "Compatibility Settings"
-msgstr ""
+msgstr "Параметры совместимости"
 
-#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:33
+#: rbs_gallery_settings.php:26 rbs_gallery_settings.php:29
 msgid "jQuery Version"
 msgstr "Версия jQuery"
 
-#: rbs_gallery_settings.php:34 rbs_gallery_settings.php:35
+#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:31
 msgid "Default"
 msgstr ""
 
-#: rbs_gallery_settings.php:37 rbs_gallery_settings.php:38
+#: rbs_gallery_settings.php:33 rbs_gallery_settings.php:34
 msgid "Alternative"
 msgstr ""
 
-#: rbs_gallery_settings.php:44 rbs_gallery_settings.php:47
+#: rbs_gallery_settings.php:40 rbs_gallery_settings.php:43
 msgid "Switch Style"
 msgstr ""
 
-#: rbs_gallery_settings.php:48 rbs_gallery_settings.php:49
+#: rbs_gallery_settings.php:44 rbs_gallery_settings.php:45
 msgid "Modern"
 msgstr ""
 
-#: rbs_gallery_settings.php:51 rbs_gallery_settings.php:52
+#: rbs_gallery_settings.php:47 rbs_gallery_settings.php:48
 msgid "Classic"
+msgstr ""
+
+#: rbs_gallery_settings.php:54
+msgid "Size Calculations Delay"
+msgstr ""
+
+#: rbs_gallery_settings.php:61
+msgid "Save Changes"
 msgstr ""
 
 #: rbs_gallery_widget.php:19
@@ -696,11 +695,11 @@ msgstr "Новая галерея"
 msgid "Gallery:"
 msgstr ""
 
-msgid "Shadow options"
-msgstr "Shadow options"
+#~ msgid "Shadow options"
+#~ msgstr "Shadow options"
 
-msgid "Thumbs options"
-msgstr "Thumbs options"
+#~ msgid "Thumbs options"
+#~ msgstr "Thumbs options"
 
 #~ msgid "Loading options"
 #~ msgstr "Loading options"
