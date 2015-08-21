@@ -12,14 +12,14 @@
 *      Available only in http://robosoft.co/
 */
 
-if($_GET['showproinfo']){
+if(isset($_GET['showproinfo']) && $_GET['showproinfo']){
 	if(!function_exists('rbs_gallery_showInformation')){
 		function rbs_gallery_showInformation(){
 			wp_enqueue_style("wp-jquery-ui-dialog");
 			wp_enqueue_script('jquery-ui-dialog');
 
 			wp_enqueue_script('robo-gallery-info', ROBO_GALLERY_URL.'js/admin/info.js', array( 'jquery' ), ROBO_GALLERY_VERSION, true ); 
-			wp_enqueue_style ('robo-gallery-info', ROBO_GALLERY_URL.'css/admin/info.css', array( ), ROBO_GALLERY_VERSION );
+			wp_enqueue_style ('robo-gallery-info', ROBO_GALLERY_URL.'css/admin/info.css', array( ), '' );
 			
 			echo '<div id="rbs_showInformation" '
 						.'style="display: none;" '
@@ -50,8 +50,14 @@ if(!function_exists('rbs_custom_columns')){
 	add_action( 'manage_'.ROBO_GALLERY_TYPE_POST.'_posts_custom_column' , 'rbs_custom_columns', 10, 2 );
 }
 
-if(!function_exists('add_rbs_table_columns')){
-	wp_enqueue_style ('robo-gallery-list', ROBO_GALLERY_URL.'css/admin/list.css', array( ), ROBO_GALLERY_VERSION );
+if(!function_exists('add_rbs_table_columns')){	
 	function add_rbs_table_columns($columns) { return array_merge($columns, array('rbs_gallery' => __('Shortcode'),)); }
 	add_filter('manage_'.ROBO_GALLERY_TYPE_POST.'_posts_columns' , 'add_rbs_table_columns');
+}
+
+if(!function_exists('rbs_gallery_robogalleryList')){
+	function rbs_gallery_robogalleryList (){
+		wp_enqueue_style ('robo-gallery-list', ROBO_GALLERY_URL.'css/admin/list.css', array( ), ROBO_GALLERY_VERSION );
+	}
+	add_action( 'in_admin_header', 'rbs_gallery_robogalleryList' );
 }

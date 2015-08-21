@@ -27,7 +27,7 @@ $hover_group->add_field( array(
 	'id'               	=> ROBO_GALLERY_PREFIX . 'hover',
 	'type'             	=> 'rbsselect',
 	'show_option_none' 	=> false,
-	'default'          	=> '1',
+	'default'          	=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'level'			   => !ROBO_GALLERY_PRO,
 	'options'          	=> array(
 		 '0' => __( 'Off' , 		'cmb' ),

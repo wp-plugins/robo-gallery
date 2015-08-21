@@ -113,12 +113,12 @@
 		jQuery.each( rbsBlockId, function(index, el) {
 			if(type!=0){
 				el.find('.inside').addClass('rbs_disabled_block');
-				if( el.find('.hndle.ui-sortable-handle > .rbs_info_clone_text').length==0  ){
-					el.find('.hndle.ui-sortable-handle > span').after('<span class="rbs_info_clone_text"> <span class="dashicons dashicons-info"></span> ['+rbs_toolbox_translation.rbs_info_clone_text+']</span>');
+				if( el.find('.hndle > .rbs_info_clone_text').length==0  ){
+					el.find('.hndle > span').after('<span class="rbs_info_clone_text"> <span class="dashicons dashicons-info"></span> ['+rbs_toolbox_translation.rbs_info_clone_text+']</span>');
 				}
 			} else {
 				el.find('.inside').removeClass('rbs_disabled_block');	
-				el.find('.hndle.ui-sortable-handle > .rbs_info_clone_text').remove();
+				el.find('.hndle > .rbs_info_clone_text').remove();
 			} 
 		});
 	};

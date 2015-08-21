@@ -12,13 +12,13 @@
 *      Available only in http://robosoft.co/
 */
 
-define(ROBO_GALLERY_PREFIX,     'rsg_');
-define(ROBO_GALLERY_TYPE_POST,  'robo_gallery_table');
+define( "ROBO_GALLERY_PREFIX",     'rsg_');
+define( "ROBO_GALLERY_TYPE_POST",  'robo_gallery_table');
 
 
 
-define(ROBO_GALLERY_ICON_PRO,  '<button type="button"  class="btn btn-danger btn-xs rbs-label-pro">Pro</button>');
-define(ROBO_GALLERY_LABEL_PRO, '<span>'.__( 'Available in', 'rbs_gallery' ).'</span> '.ROBO_GALLERY_ICON_PRO);
+define( "ROBO_GALLERY_ICON_PRO",  '<button type="button"  class="btn btn-danger btn-xs rbs-label-pro">Pro</button>');
+define( "ROBO_GALLERY_LABEL_PRO", '<span>'.__( 'Available in', 'rbs_gallery' ).'</span> '.ROBO_GALLERY_ICON_PRO);
 
 if(!function_exists('rbs_gallery_include')){
 	function rbs_gallery_include( $filesForInclude, $path = '' ){
@@ -53,7 +53,7 @@ if(!function_exists('rbs_gallery_get_current_post_type')){
           elseif( $typenow )                                      return $typenow;
           elseif( $current_screen && $current_screen->post_type ) return $current_screen->post_type;
           elseif( isset( $_REQUEST['post_type'] ) )               return sanitize_key( $_REQUEST['post_type'] );
-          elseif (get_post_type($_REQUEST['post']))               return get_post_type($_REQUEST['post']);
+          elseif (isset( $_REQUEST['post'] ) && get_post_type($_REQUEST['post']))               return get_post_type($_REQUEST['post']);
         return null;
     }
 }

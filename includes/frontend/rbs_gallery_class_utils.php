@@ -24,7 +24,7 @@ class roboGalleryUtils extends roboGalleryParent{
 	function getTemplateItem( $item, $class = '', $template = '', $addClass = '' ){
 		$retHtml = ''; 
 		if(count($item)){
-			if( isset($item[enabled]) && $item[enabled] ){
+			if( isset($item['enabled']) && $item['enabled'] ){
 				if(isset($item['fontSize'])) 		$this->{$class.'Style'} .= ' font-size:'.       (int)$item['fontSize'].'px;'
 																			  .' '; 
 				if(isset($item['color'])) 			$this->{$class.'Style'} .= ' color:'.			$item['color'].';';
@@ -64,6 +64,7 @@ class roboGalleryUtils extends roboGalleryParent{
  	}
 
  	public function addShadow($nameOptions = ''){
+ 		$shadowStyle = '';
  		$shadow = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.$nameOptions, true );
  		
 		if( isset($shadow['hshadow'])) 	$shadowStyle.= (int) $shadow['hshadow'].'px ';

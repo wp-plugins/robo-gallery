@@ -29,14 +29,21 @@ class roboGallery extends roboGalleryUtils{
 	public $rbsImageLoadingStyle = '';
 	
 
-	public $linkIconStyle = '';
+/*	public $linkIconStyle = '';
 	public $linkIconHoverStyle = '';
 	
 	public $zoomIconStyle = '';
-	public $zoomIconHoverStyle = '';
+	public $zoomIconHoverStyle = '';*/
+
+	public $rbsLinkIconStyle = '';
+	public $rbsLinkIconHoverStyle = '';
+
+	public $rbsZoomIconStyle = '';
+	public $rbsZoomIconHoverStyle = '';
+
 
 	public $rbsTitleStyle = '';
-	public $rbsTitleStyleHover = '';
+	public $rbsTitleHoverStyle = '';
 
 	public $rbsDescStyle = '';
 	public $rbsDescHoverStyle = '';
@@ -124,6 +131,7 @@ class roboGallery extends roboGalleryUtils{
  	
 
  	public function addBorder($nameOptions = ''){
+ 		$borderStyle = '';
  		$border = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.$nameOptions, true );
 		if( isset($border['width'])){
 			$borderStyle.= (int) $border['width'].'px ';
@@ -141,8 +149,8 @@ class roboGallery extends roboGalleryUtils{
 
  	public function getGallery( ){
  		if( !$this->id ) return ''; 
- 		
- 		$galleryImages = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'galleryImages', true );;
+
+ 		$galleryImages = get_post_meta( $this->options_id && $this->real_id ? $this->real_id : $this->id, ROBO_GALLERY_PREFIX.'galleryImages', true );;
  		if( !$galleryImages || !is_array( $galleryImages ) || !count($galleryImages) || !(int)$galleryImages[0] ) return '';
 
  		$this->helper->setValue( 'filterContainer',  '#'.$this->galleryId.'filter', 'string' );
