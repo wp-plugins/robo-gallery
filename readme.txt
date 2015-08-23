@@ -317,6 +317,10 @@ Gallery have 15 hover animation effects, which could be combined with additional
 
 Yes, gallery have fade hover effect
 
+= How to change font size of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
+
 = Is it possible to change transparency of the hover shutter? =
 
 Yes, it's possible to change transparency in gallery settings
