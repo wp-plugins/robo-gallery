@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery\n"
 "POT-Creation-Date: 2015-08-18 14:02+0200\n"
-"PO-Revision-Date: 2015-08-19 14:12+0200\n"
+"PO-Revision-Date: 2015-08-24 08:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: pl_PL\n"
@@ -307,7 +307,7 @@ msgstr ""
 #: rbs_gallery_about.php:64 rbs_gallery_list.php:29
 #: rbs_gallery_topblock.php:20
 msgid "Get Pro version"
-msgstr ""
+msgstr "Zobacz wersje PRO"
 
 #: options/rbs_gallery_options_info.php:29
 #: options/rbs_gallery_options_infowide.php:28 rbs_gallery_topblock.php:21
@@ -391,7 +391,7 @@ msgstr "Podpis"
 
 #: options/rbs_gallery_options_polaroid.php:64
 msgid "Align"
-msgstr ""
+msgstr "Wyrównanie"
 
 #: options/rbs_gallery_options_polaroid.php:70
 msgid "left"
@@ -584,11 +584,11 @@ msgstr ""
 
 #: rbs_gallery_init.php:21
 msgid "Available in"
-msgstr ""
+msgstr "Dostępne w"
 
 #: rbs_gallery_init.php:67
 msgid "Galleries List"
-msgstr ""
+msgstr "Galerie"
 
 #: rbs_gallery_init.php:68 rbs_gallery_init.php:69
 msgid "Add Gallery"
