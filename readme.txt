@@ -13,9 +13,6 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 == Description ==
 
-> #### We're looking for testers!
-> [Get a chance to get PRO version of the Robo Gallery for FREE. Just tell us your feedback related with your experience of plugin usage! Report if you had some problems or if you have some features ideas! Just post ticket with your report and you could be the one who get PRO version for FREE](http://robosoft.co/clients/index.php?option=com_content&view=article&id=1&Itemid=6)
-
 #### [Most Easy and Powerful plugin to create a gallery on WordPress.](http://robosoft.co/robogallery/#overview)
 
 #### If you looking for fast, easy gallery with simple and very beautiful, highly customizable design [here is it...](http://robosoft.co/robogallery/#overview) Gallery where even newbie in Wordpress will be able to create your first gallery in few minutes and at the same time Wordpress professionals get advanced tools and freedom of creativity. Just download this Gallery and you'll not look for any other gallery any more! [Fall in Love with this Gallery like we do!](http://robosoft.co/robogallery/#overview)
@@ -157,18 +154,6 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= How to change font size of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
-
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
-
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery. 
-
 = Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
@@ -180,6 +165,14 @@ Yes, you can insert gallery into post with shortcode tag
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
+
+= How to change font size of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery. 
 
 = How to insert gallery into Wordpress page or post? =
 
@@ -193,6 +186,10 @@ When you open gallery settings inside you'll find images manager section. Images
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
@@ -204,14 +201,6 @@ Yes, in gallery options you can turn on/off border option
 = How to hide titles of the gallery image in lightbox ? =
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
-
-= Is it possible to create target blank links? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
-
-= How to customize border of the gallery thumbnails? =
-
-In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
 = Is it possible to have different settings for hover and static interface elements? =
 
@@ -228,6 +217,15 @@ You can change size, color and style of gallery thumbnails borders and shadows. 
 = How to make gallery thumbnails with rounded corners? =
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
+
+= Is it possible to create target blank links? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+
+= How to customize border of the gallery thumbnails? =
+
+In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
 
 = How to change spacing between thumbnails? =
 
