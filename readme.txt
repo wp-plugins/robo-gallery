@@ -121,7 +121,7 @@ Get a free copy of the Robo Gallery Pro version as bonus for translating our plu
 *  **Ukrainian**
 
 > #### We're looking for testers!
-> [Get a chance to get PRO version of the Robo Gallery for FREE. Just tell us your feedback related with your experience of plugin usage! Report if you had some problems or if you have some features ideas! Just post ticket with your report and you could be the one who get PRO version for FREE](http://robosoft.co/clients/index.php?option=com_content&view=article&id=1&Itemid=6)
+> [Get a chance to get PRO version of the Robo Gallery for FREE. Just tell us your feedback related with your experience of plugin usage! Report if you had some problems or if you have some features ideas! Just post ticket with your report and you could be the one who get PRO version for FREE](http://robosoft.co/robogallery/#contact)
 
 == Installation ==
 
