@@ -71,6 +71,9 @@ class roboGallery extends roboGalleryUtils{
  	public $orderby = 'categoryD';
  	public $thumbsource = 'medium';
 
+ 	public $styleList = array();
+ 	public $scriptList = array();
+
  	function __construct($attr){
  		$this->helper 		= new rbsHelper();
  		$this->galleryId 	= 'rbs_gallery_'.uniqid();
@@ -89,28 +92,49 @@ class roboGallery extends roboGalleryUtils{
  	}
  	
  	function robo_gallery_styles() {
-		wp_enqueue_style( 'robo-gallery-magnific', 	ROBO_GALLERY_URL.'gallery/css/magnific.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-		wp_enqueue_style( 'robo-gallery-gallery', 	ROBO_GALLERY_URL.'gallery/css/gallery.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
-		wp_enqueue_style( 'robo-gallery-utils', 	ROBO_GALLERY_URL.'gallery/css/gallery.utils.css',array(), ROBO_GALLERY_VERSION, 'all' );
-		wp_enqueue_style( 'robo-gallery-rbs-style', ROBO_GALLERY_URL.'css/style.css', 				array(), ROBO_GALLERY_VERSION, 'all' );
-		wp_enqueue_style( 'robo-gallery-rbs-button',ROBO_GALLERY_URL.'addons/button/buttons.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
+ 		if( get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced' ){
+ 			$this->styleList[] = ROBO_GALLERY_URL.'gallery/css/magnific.css';
+ 			$this->styleList[] = ROBO_GALLERY_URL.'gallery/css/gallery.css';
+ 			$this->styleList[] = ROBO_GALLERY_URL.'gallery/css/gallery.utils.css';
+ 			$this->styleList[] = ROBO_GALLERY_URL.'css/style.css';
+ 			$this->styleList[] = ROBO_GALLERY_URL.'addons/button/buttons.css';
+ 		} else {
+			wp_enqueue_style( 'robo-gallery-magnific', 	ROBO_GALLERY_URL.'gallery/css/magnific.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
+			wp_enqueue_style( 'robo-gallery-gallery', 	ROBO_GALLERY_URL.'gallery/css/gallery.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
+			wp_enqueue_style( 'robo-gallery-utils', 	ROBO_GALLERY_URL.'gallery/css/gallery.utils.css',array(), ROBO_GALLERY_VERSION, 'all' );
+			wp_enqueue_style( 'robo-gallery-rbs-style', ROBO_GALLERY_URL.'css/style.css', 				array(), ROBO_GALLERY_VERSION, 'all' );
+			wp_enqueue_style( 'robo-gallery-rbs-button',ROBO_GALLERY_URL.'addons/button/buttons.css', 	array(), ROBO_GALLERY_VERSION, 'all' );
+		}
 	}
 
 	function robo_gallery_scripts() { 
 		if(  get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='build'  ){
+		
 			wp_enqueue_script( 'jquery', false, array(), false, true);
 			wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/jquery.evemb.min.js', 			array( 'jquery' ), ROBO_GALLERY_VERSION );
 			wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/jquery.utils.min.js', 			array( 'jquery' ), ROBO_GALLERY_VERSION );
 			wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/jquery.magnific.min.js', 		array( 'jquery' ), ROBO_GALLERY_VERSION );
 			wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/jquery.collagePlus.min.js', 	array( 'jquery' ), ROBO_GALLERY_VERSION );   
 			wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/script.js', 							array( 'jquery' ), ROBO_GALLERY_VERSION );   
+		
+		} else if(get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced') {
+
+			$this->scriptList[] = ROBO_GALLERY_URL.'gallery/js/alt/rbjquer.min.js';
+			$this->scriptList[] = ROBO_GALLERY_URL.'gallery/js/alt/jquery.evemb.min.js';
+			$this->scriptList[] = ROBO_GALLERY_URL.'gallery/js/alt/jquery.utils.min.js';
+			$this->scriptList[] = ROBO_GALLERY_URL.'gallery/js/alt/jquery.magnific.min.js';
+			$this->scriptList[] = ROBO_GALLERY_URL.'gallery/js/alt/jquery.collagePlus.min.js';
+			$this->scriptList[] = ROBO_GALLERY_URL.'js/alt/script.js';
+
 		} else {
+
 			wp_enqueue_script( 'robo-gallery-rbjquer', 	ROBO_GALLERY_URL.'gallery/js/alt/rbjquer.min.js', 			array( ), 						 ROBO_GALLERY_VERSION );
-			wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/alt/jquery.evemb.min.js', 			array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
-			wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/alt/jquery.utils.min.js', 			array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
-			wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/alt/jquery.magnific.min.js', 		array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
-			wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/alt/jquery.collagePlus.min.js', 	array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );   
-			wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/alt/script.js', 						array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION ); 
+			wp_enqueue_script( 'robo-gallery-evemb', 	ROBO_GALLERY_URL.'gallery/js/alt/jquery.evemb.min.js', 		array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-utils',  	ROBO_GALLERY_URL.'gallery/js/alt/jquery.utils.min.js', 		array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-magnific', ROBO_GALLERY_URL.'gallery/js/alt/jquery.magnific.min.js', 	array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+			wp_enqueue_script( 'robo-gallery-collage',  ROBO_GALLERY_URL.'gallery/js/alt/jquery.collagePlus.min.js',array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );   
+			wp_enqueue_script( 'robo-gallery-script',  	ROBO_GALLERY_URL.'js/alt/script.js', 						array( 'robo-gallery-rbjquer' ), ROBO_GALLERY_VERSION );
+		
 		}
 	}	
 
@@ -227,6 +251,7 @@ class roboGallery extends roboGalleryUtils{
 		$this->helper->setOption( 'lazyLoad', 'bool');
 		$this->helper->setOption( 'waitUntilThumbLoads', 'bool');
 		$this->helper->setOption( 'waitForAllThumbsNoMatterWhat', 'bool');
+		$this->helper->setOption( 'deepLinking', 'bool');
 		$this->helper->setOption( 'LoadingWord', 'string');
 		$this->helper->setOption( 'loadMoreWord', 'string');
 
@@ -317,8 +342,14 @@ class roboGallery extends roboGalleryUtils{
 		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
 
 		if(count($this->selectImages->imgArray)){
-			$this->robo_gallery_styles();
-			$this->robo_gallery_scripts();
+
+			if( get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced' ){
+				$this->robo_gallery_styles();
+				$this->robo_gallery_scripts();
+			} else {
+				add_action( 'get_footer', array($this, 'robo_gallery_styles') );
+				add_action( 'get_footer', array($this, 'robo_gallery_scripts') );
+			}
 
 			for ($i=0; $i<count($this->selectImages->imgArray); $i++) {
 				
@@ -353,6 +384,17 @@ class roboGallery extends roboGalleryUtils{
 					. $this->returnHtml
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';
+
+				if(count($this->scriptList)){
+					for($i=0;$i<count($this->scriptList);$i++){
+						$this->returnHtml .= ' <script type="text/javascript" src="'.$this->scriptList[$i].'"></script>';
+					}
+				}
+				if(count($this->styleList)){
+					for($i=0;$i<count($this->styleList);$i++){
+						$this->returnHtml .= '<link rel="stylesheet" type="text/css" href="'.$this->styleList[$i].'">';
+					}
+				}
 		} 
 		return $this->returnHtml;
  	}

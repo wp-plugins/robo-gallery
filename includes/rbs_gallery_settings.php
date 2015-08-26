@@ -32,7 +32,13 @@ wp_enqueue_style ( 	'toolbox-gallery-about', ROBO_GALLERY_URL.'css/admin/about.c
 						</label><br />
 						<label title='<?php _e('Alternative', 'rbs_gallery'); ?>'>
 							<input type='radio' name='<?php echo ROBO_GALLERY_PREFIX.'jqueryVersion'; ?>' value='robo' <?php if( get_option(ROBO_GALLERY_PREFIX.'jqueryVersion')=='robo' ) echo " checked='checked'";?>  /> <?php _e('Alternative', 'rbs_gallery'); ?>
-						</label><br />			
+						</label>
+						<p class="description">[for the case if you have jQuery version conflicts on page]</p>
+						<br />
+						<label title='<?php _e('Forced include', 'rbs_gallery'); ?>'>
+							<input type='radio' name='<?php echo ROBO_GALLERY_PREFIX.'jqueryVersion'; ?>' value='forced' <?php if( get_option(ROBO_GALLERY_PREFIX.'jqueryVersion')=='forced' ) echo " checked='checked'";?>  /> <?php _e('Forced include', 'rbs_gallery'); ?>
+						</label>
+						<p class="description">[ for the case when Your theme do not use Wordpress API ]</p>
 					</fieldset>
 				</td>
 			</tr>

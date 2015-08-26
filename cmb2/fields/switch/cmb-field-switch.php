@@ -45,8 +45,8 @@ if($bs){
 				.'id="'. $field_type_object->_id( ).'" '
 				.($field->args('depends')?'data-depends="'.$field->args('depends').'" ':'')
 				.( $value==1 ?'checked="checked" ':'')
-				.'value="1">';
-			?>
+				.'value="1"> <span class="rbs_desc">'.$field->args('desc').'</span>';
+			?> 
  		</div>
  		<?php if($level){ ?>
 			<div class="col-sm-2 rbs-block-pro"><?php echo ROBO_GALLERY_LABEL_PRO; ?></div>

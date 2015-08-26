@@ -22,16 +22,8 @@ $lightbox_group = new_cmb2_box( array(
     'closed'        => rbs_gallery_set_checkbox_default_for_new_post(1),
 ));
 
-$lightbox_group->add_field( array(
-	'name' 			=> __('Social Buttons', 'rbs_gallery' ),
-	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxSocial',
-	'type' 			=> 'switch', 
-	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
-	'bootstrap_style'=> 1,
-	'level'			=> !ROBO_GALLERY_PRO,
-    'before_row' 	=> '
-<div class="rbs_block"><br/>',
-));
+
+
 
 $lightbox_group->add_field( array(
 	'name' 			=> __('Show Title', 'rbs_gallery' ),
@@ -39,7 +31,8 @@ $lightbox_group->add_field( array(
 	'type' 			=> 'switch', 
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
-
+	'before_row' 	=> '
+<div class="rbs_block"><br/>',
 ));
 
 $lightbox_group->add_field( array(
@@ -63,7 +56,27 @@ $lightbox_group->add_field( array(
 	'level'			=> !ROBO_GALLERY_PRO,
     'small'			=> 1,
     'default'  		=> 'rgba(11, 11, 11, 0.8)',
-    'after_row'		=> '
+   
+));
+
+$lightbox_group->add_field( array(
+	'name' 			=> __('Deep Linking', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'deepLinking',
+	'type' 			=> 'switch', 
+	'desc'			=> __('This option enable linking for every particular image ', 'rbs_gallery' ),
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
+	'bootstrap_style'=> 1,
+));
+
+$lightbox_group->add_field( array(
+	'name' 			=> __('Social Buttons', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxSocial',
+	'type' 			=> 'switch', 
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
+	'bootstrap_style'=> 1,
+	'level'			=> !ROBO_GALLERY_PRO,
+     'after_row'		=> '
 </div> '
 ));
+
 	
