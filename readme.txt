@@ -78,6 +78,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Clone gallery** - if you have hundreds of galleries on the website this feature is really useful for you! Clone settings of another gallery to apply it to another galleries. So you can copy styles of the source gallery to as much galleries  as you need just by one click.
 *   **Custom Thumbnails Shadows** - shadow it's very stylish element of the thumbnail images on the front end. You can make your gallery looks absolutely different with different styled shadow.
 *   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
+*   **Advanced Social Sharing** -  advanced social sharing functionality in lightbox. Implemented deep linking functionality.
 
 = Gallery Advantages =
 
