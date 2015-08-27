@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery V 1.2\n"
 "POT-Creation-Date: 2015-08-24 08:45+0200\n"
-"PO-Revision-Date: 2015-08-24 08:47+0200\n"
+"PO-Revision-Date: 2015-08-27 18:28+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: uk_UA\n"
@@ -102,7 +102,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:102
 msgid "Circle "
-msgstr ""
+msgstr "Коло"
 
 #: options/rbs_gallery_options_button.php:107
 msgid "Size"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
-msgstr ""
+msgstr "Підпис"
 
 #: options/rbs_gallery_options_polaroid.php:64
 msgid "Align"
@@ -615,7 +615,7 @@ msgstr "Shortcode"
 
 #: rbs_gallery_media.php:58
 msgid "Column"
-msgstr ""
+msgstr "Колонка"
 
 #: rbs_gallery_media.php:65
 msgid "Link"
@@ -663,7 +663,7 @@ msgstr ""
 
 #: rbs_gallery_settings.php:47 rbs_gallery_settings.php:48
 msgid "Classic"
-msgstr ""
+msgstr "Класичний"
 
 #: rbs_gallery_settings.php:54
 msgid "Size Calculations Delay"

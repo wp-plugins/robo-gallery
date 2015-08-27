@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
 "POT-Creation-Date: 2015-08-21 10:48+0200\n"
-"PO-Revision-Date: 2015-08-24 08:41+0200\n"
+"PO-Revision-Date: 2015-08-27 09:02+0200\n"
 "Last-Translator: \n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -86,7 +86,7 @@ msgstr "красный"
 
 #: options/rbs_gallery_options_button.php:88
 msgid "purple"
-msgstr ""
+msgstr "Пурпурный"
 
 #: options/rbs_gallery_options_button.php:93
 msgid "Rounds"
@@ -189,19 +189,19 @@ msgstr "Эффект"
 
 #: options/rbs_gallery_options_hover.php:69 rbs_gallery_media.php:95
 msgid "push-up"
-msgstr ""
+msgstr "Сдвиг вверх"
 
 #: options/rbs_gallery_options_hover.php:70 rbs_gallery_media.php:96
 msgid "push-down"
-msgstr ""
+msgstr "Сдвиг вниз"
 
 #: options/rbs_gallery_options_hover.php:71 rbs_gallery_media.php:97
 msgid "push-up-100%"
-msgstr ""
+msgstr "Сдвиг вверх 100%"
 
 #: options/rbs_gallery_options_hover.php:72 rbs_gallery_media.php:98
 msgid "push-down-100%"
-msgstr ""
+msgstr "Сдвиг вниз 100%"
 
 #: options/rbs_gallery_options_hover.php:73 rbs_gallery_media.php:99
 msgid "reveal-top"
@@ -283,7 +283,7 @@ msgstr "Показывать описание"
 
 #: options/rbs_gallery_options_hover.php:181
 msgid "Description Template"
-msgstr ""
+msgstr "Шаблон Описания"
 
 #: options/rbs_gallery_options_images.php:18
 msgid "Images Manager"
@@ -454,7 +454,7 @@ msgstr "Верт. Отступ"
 
 #: options/rbs_gallery_options_view.php:64
 msgid "Shadow"
-msgstr ""
+msgstr "Тень"
 
 #: options/rbs_gallery_options_view.php:74
 #: options/rbs_gallery_options_view.php:81
@@ -526,7 +526,7 @@ msgstr ""
 
 #: rbs_gallery_about.php:47
 msgid "Random ordering"
-msgstr ""
+msgstr "Случайный"
 
 #: rbs_gallery_about.php:50
 msgid "Gallery menu colors"
@@ -574,7 +574,7 @@ msgstr "Добавить Robo Галерею"
 
 #: rbs_gallery_button.php:41
 msgid "Select gallery"
-msgstr ""
+msgstr "Выбор галереи"
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
 msgid "Configure it in"
@@ -673,7 +673,7 @@ msgstr ""
 
 #: rbs_gallery_settings.php:61
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: rbs_gallery_widget.php:19
 msgid "Robo Gallery Widget"
