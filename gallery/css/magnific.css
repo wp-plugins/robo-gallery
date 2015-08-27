@@ -126,6 +126,8 @@ button::-moz-focus-inner {
   border: 0; }
 /*  .mfp-container  margin-top: 0;
 margin-bottom:0;  */
+.mfp-close::after,
+.mfp-close::before{display:none;}
 .mfp-container  .mfp-close {
 margin-top: 0;
 margin-bottom:0;
