@@ -208,23 +208,7 @@ In lightbox section of the gallery settings you can find hide title option. If y
 
 = Is it possible to have different settings for hover and static interface elements? =
 
-Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails
-
-= How to make shadow for the gallery thumbnails? =
-
-Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
-= Which parameters I can change for the gallery thumbnails borders and shadows? =
-
-You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
-
-= How to make gallery thumbnails with rounded corners? =
-
-In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
-
-= Is it possible to create target blank links? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
 = How to customize border of the gallery thumbnails? =
 
@@ -243,6 +227,22 @@ Color of every gallery front end interface element could be changed changed in a
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
+= How to make shadow for the gallery thumbnails? =
+
+Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
+
+= Which parameters I can change for the gallery thumbnails borders and shadows? =
+
+You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
+= How to make gallery thumbnails with rounded corners? =
+
+In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
+
+= Is it possible to create target blank links? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+
 = How to use multi-category functionality of the gallery? =
 
 In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
@@ -259,18 +259,6 @@ In gallery settings we have few options which makes you able to select amount of
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview 
 
-= How to load more function work? =
-
-In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
-
-= How to define video for some gallery image? =
-
-Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
-
-= How to define custom link for some gallery images? =
-
-Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
-
 = Is it possible to customize gallery image caption ? =
 
 In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
@@ -282,6 +270,18 @@ In gallery settings, when enabled custom hover settings you can customize style 
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+
+= How to load more function work? =
+
+In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
+
+= How to define video for some gallery image? =
+
+Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
+
+= How to define custom link for some gallery images? =
+
+Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to change ordering of the gallery images? =
 
