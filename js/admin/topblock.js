@@ -17,4 +17,9 @@ jQuery(function(){
 		window.open("http://robosoft.co/go.php?product=gallery&task=gopro",'_blank');
 		if( jQuery(this).is(".rbs_close_dialog") ) window['roboGalleryDialog'].dialog("close");
 	});
+	jQuery('.rbs_getproversionfree_blank').click( function(event ){
+		event.preventDefault();
+		window.open("http://robosoft.co/go.php?product=gallery&task=goprofree",'_blank');
+		if( jQuery(this).is(".rbs_close_dialog") ) window['roboGalleryDialog'].dialog("close");
+	});
 });

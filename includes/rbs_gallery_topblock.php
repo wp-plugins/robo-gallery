@@ -20,6 +20,9 @@ if(!function_exists('rbs_gallery_topblock')){
 			<div class="rbsTopBig"><span class="dashicons dashicons-cart"></span>'.	__( 'Get Pro version' , 'rbs_gallery' ).'</div>
 			<div class="rbsTopSmall">'.__( 'with PRO version you get more advanced functionality and even more flexibility in settings' , 'rbs_gallery' ).' </div>
 		</div>';
+		echo '<div class="rbsTopBlockFree rbs_getproversionfree_blank">
+			<div class="rbsTopSmall"><span class="dashicons dashicons-carrot"></span> '.__( 'Do You wish to get PRO version for FREE ?' , 'rbs_gallery' ).' </div>
+		</div>';
 	}
 	if(!ROBO_GALLERY_PRO) add_action( 'in_admin_header', 'rbs_gallery_topblock' );
 }
