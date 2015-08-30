@@ -138,13 +138,13 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
-= What can I do if some gallery interface elements in backend do not work properly? =
-
-If you have some conflict in gallery back end you can sort it with new compatibility option.  If combobox element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
-
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
+
+= What can I do if some gallery interface elements in backend do not work properly? =
+
+If you have some conflict in gallery back end you can sort it with new compatibility option.  If combobox element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
 
 = How to define size of the gallery images thumbnails? =
 
@@ -182,13 +182,13 @@ No, we don't have any limits for image size in our gallery.
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
-= Where specify description of the gallery images? =
-
-When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
-
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= Where specify description of the gallery images? =
+
+When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
 = How to generate shortcode for Wordpress page, post or widget? =
 
