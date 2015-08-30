@@ -22,4 +22,9 @@ jQuery(function(){
 		window.open("http://robosoft.co/go.php?product=gallery&task=goprofree",'_blank');
 		if( jQuery(this).is(".rbs_close_dialog") ) window['roboGalleryDialog'].dialog("close");
 	});
+	jQuery('.rbs_getproversiontrans_blank').click( function(event ){
+		event.preventDefault();
+		window.open("http://robosoft.co/go.php?product=gallery&task=goprotrans",'_blank');
+		if( jQuery(this).is(".rbs_close_dialog") ) window['roboGalleryDialog'].dialog("close");
+	});
 });

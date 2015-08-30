@@ -24,6 +24,8 @@ define("ROBO_GALLERY_VERSION", '1.2.0');
 
 define("ROBO_GALLERY_PATH", plugin_dir_path( __FILE__ ));
 
+define("ROBO_GALLERY_SPECIAL", 2); 
+
 
 add_action( 'plugins_loaded', 'rbs_gallery_load_textdomain' );
 function rbs_gallery_load_textdomain() {
