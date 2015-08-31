@@ -151,6 +151,10 @@ Our gallery is fully responsive and gallery thumbnails size depend of a lot of f
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
+
 = Is it possible to create direct link on the front end to the gallery? =
 
 Yes, you can use generated direct link inside particular gallery settings
