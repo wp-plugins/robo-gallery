@@ -141,6 +141,10 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
+= How to customize hover effect? =
+
+In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
 = What can I do if some gallery interface elements in backend do not work properly? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  If combobox element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
@@ -149,9 +153,13 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
-= How to customize hover effect? =
+= How to insert gallery into Wordpress page or post? =
 
-In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
+= Is it possible create gallery in Wordpress post with Gallery? =
+
+Yes, you can insert gallery into post with shortcode tag
 
 = How to change quality of the gallery thumbnails? =
 
@@ -165,10 +173,6 @@ Yes, you can use generated direct link inside particular gallery settings
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
-= Is it possible create gallery in Wordpress post with Gallery? =
-
-Yes, you can insert gallery into post with shortcode tag
-
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
@@ -180,10 +184,6 @@ In gallery settings you can enable custom caption settings where you can customi
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery. 
-
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = How to define custom hover effect for some gallery thumbnail? =
 
