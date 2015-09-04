@@ -181,10 +181,6 @@ No, we don't have any limits for amount of the images in gallery
 
 In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
 
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery. 
-
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
@@ -193,9 +189,9 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
-= How to generate shortcode for Wordpress page, post or widget? =
+= Do you have some limit for images size in gallery? =
 
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+No, we don't have any limits for image size in our gallery. 
 
 = How I can create custom (grid) layout of the thumbnails? =
 
@@ -217,6 +213,9 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
 
 = How to change spacing between thumbnails? =
 
