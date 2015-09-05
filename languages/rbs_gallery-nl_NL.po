@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery\n"
 "POT-Creation-Date: 2015-08-18 08:35+0200\n"
-"PO-Revision-Date: 2015-08-31 23:35+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-09-04 18:41+0200\n"
+"Last-Translator: RoboSoft Team <team@robosoft.co>\n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.2\n"
 "X-Poedit-Basepath: ../includes\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -317,7 +317,8 @@ msgstr ""
 #: options/rbs_gallery_options_info.php:18
 #: options/rbs_gallery_options_info.php:31
 #: options/rbs_gallery_options_infowide.php:18 rbs_gallery_about.php:63
-#: rbs_gallery_about.php:64 rbs_gallery_list.php:29 rbs_gallery_topblock.php:20
+#: rbs_gallery_about.php:64 rbs_gallery_list.php:29
+#: rbs_gallery_topblock.php:20
 msgid "Get Pro version"
 msgstr "Koop Pro versie"
 

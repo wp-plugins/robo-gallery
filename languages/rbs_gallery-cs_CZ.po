@@ -1,141 +1,145 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2015-09-05 07:59+0200\n"
-"PO-Revision-Date: \n"
-"Last-Translator: RoboSoft Team <team@robosoft.co>\n"
-"Language-Team: \n"
-"Language: de_DE\n"
+"Project-Id-Version: Robo Gallery\n"
+"POT-Creation-Date: 2015-08-18 08:35+0200\n"
+"PO-Revision-Date: 2015-09-04 18:41+0200\n"
+"Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.2\n"
 "X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: RoboSoft Team <team@robosoft.co>\n"
+"Language: cs_CZ\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: options/rbs_gallery_options_button.php:18
 msgid "Menu Options"
-msgstr "Menüoptionen"
+msgstr "Nastavení menu"
 
 #: options/rbs_gallery_options_button.php:26
 msgid "Show Menu"
-msgstr "Zeige Menü"
+msgstr "Zobrazit Menu"
 
 #: options/rbs_gallery_options_button.php:36
 msgid "Show Root"
-msgstr "Zeige Root"
+msgstr "Zobrazení kořenového adresáře"
 
 #: options/rbs_gallery_options_button.php:44
 msgid "Root Label"
-msgstr "Root Name"
+msgstr "Štítek kořenového adresáře"
 
 #: options/rbs_gallery_options_button.php:51
 msgid "Show self"
-msgstr "Zeige Galerienamen"
+msgstr "Zobrazit vlastní adresář"
 
 #: options/rbs_gallery_options_button.php:60
 msgid "Style"
-msgstr "Stil"
+msgstr "Styl"
 
 #: options/rbs_gallery_options_button.php:67
-#: options/rbs_gallery_options_button.php:99
-#: options/rbs_gallery_options_button.php:115
-msgid "Normal"
-msgstr "Normal"
+msgid "normal"
+msgstr "normálně"
 
 #: options/rbs_gallery_options_button.php:68
 msgid "flat"
-msgstr "Flach"
+msgstr "plošně"
 
 #: options/rbs_gallery_options_button.php:69
 msgid "3d"
-msgstr "3d"
+msgstr "3D"
 
 #: options/rbs_gallery_options_button.php:70
-#: options/rbs_gallery_options_view.php:127
-msgid "Border"
-msgstr "Umrandung"
+msgid "border"
+msgstr "okraj"
 
 #: options/rbs_gallery_options_button.php:76
 msgid "Color"
-msgstr "Farbe"
+msgstr "Barva"
 
 #: options/rbs_gallery_options_button.php:83
 msgid "gray"
-msgstr "Grau"
+msgstr "šedá"
 
 #: options/rbs_gallery_options_button.php:84
 msgid "blue"
-msgstr "Blau"
+msgstr "modrá"
 
 #: options/rbs_gallery_options_button.php:85
 msgid "green"
-msgstr "Grün"
+msgstr "zelená"
 
 #: options/rbs_gallery_options_button.php:86
 msgid "orange"
-msgstr "Orange"
+msgstr "oranžová"
 
 #: options/rbs_gallery_options_button.php:87
 msgid "red"
-msgstr "Rot"
+msgstr "červená"
 
 #: options/rbs_gallery_options_button.php:88
 msgid "purple"
-msgstr "Lila"
+msgstr "purpurová"
 
 #: options/rbs_gallery_options_button.php:93
 msgid "Rounds"
-msgstr "Abgerundete Ecken"
+msgstr "Zaoblení"
+
+#: options/rbs_gallery_options_button.php:99
+#: options/rbs_gallery_options_button.php:115
+msgid "Normal"
+msgstr "Normální"
 
 #: options/rbs_gallery_options_button.php:100
 msgid "Rounded"
-msgstr "Abgerundet"
+msgstr "Zaoblené rohy"
 
 #: options/rbs_gallery_options_button.php:101
 msgid "Pill"
-msgstr "Pillenförmig"
+msgstr "Náhrada"
 
 #: options/rbs_gallery_options_button.php:102
 msgid "Circle "
-msgstr "Kreisförmig"
+msgstr "Kružnice"
 
 #: options/rbs_gallery_options_button.php:107
 msgid "Size"
-msgstr "Größe"
+msgstr "Velikost"
 
 #: options/rbs_gallery_options_button.php:113
 msgid "Jumbo"
-msgstr "Riesig"
+msgstr "Jumbo"
 
 #: options/rbs_gallery_options_button.php:114
 msgid "Large"
-msgstr "Groß"
+msgstr "Velké"
 
 #: options/rbs_gallery_options_button.php:116
 msgid "Small"
-msgstr "Klein"
+msgstr "Malé"
 
 #: options/rbs_gallery_options_button.php:117
 msgid "Tiny "
-msgstr "Winzig"
+msgstr "Drobné (< 10KB)"
 
 #: options/rbs_gallery_options_button.php:122
 msgid "Left Padding"
-msgstr "Linke Polsterung"
+msgstr "Levé odsazení obsahu"
 
 #: options/rbs_gallery_options_button.php:133
 msgid "Bottom Padding"
-msgstr "Untere Polsterung"
+msgstr "Spodní odsazení obsahu"
 
 #: options/rbs_gallery_options_copy.php:18
 msgid " Clone Gallery"
-msgstr "Galerie kopieren"
+msgstr "Klonovat galerii"
 
 #: options/rbs_gallery_options_copy.php:27
 msgid "Source Gallery"
-msgstr "Quellgalerie"
+msgstr "Zdroj galerie"
 
 #: options/rbs_gallery_options_copy.php:28
 msgid ""
@@ -143,9 +147,8 @@ msgid ""
 "able to edit some of the options. Gallery will copy all settings from "
 "selected source."
 msgstr ""
-"Wenn du hier einstellst, dass die Galerie von einer anderen erbt, werden die "
-"Einstellungen der Quellgalerie übernommen. Daher kannst du hier nichts "
-"einstellen!"
+"Vyberete-li zde zdědění nastavení z jiné galerie,  nebude možné upravit "
+"některé z možností. Galerie zkopíruje všechna nastavení z vybraného zdroje."
 
 #: options/rbs_gallery_options_copy.php:29
 msgid ""
@@ -155,148 +158,148 @@ msgid ""
 "your website in another galleries.  Very fast, comfortable, advanced tool to "
 "speed up your workflow!"
 msgstr ""
-"Eine sehr nützliche Option für diejenigen, die viele Galerien erstellen "
-"wollen. Hiermit kann man Templates erstellen, welche sich auf alle anderen "
-"Galerien übernehmen lassen."
+"Velmi užitečná volba pro webmastery, kteří plánují vytvořit více galerií. "
+"Nebude nutné pokaždé provádět konfiguraci. Jen se nastaví styly galerie na "
+"jednom místě a použijí se stejné možnosti pro další galerie na webu.  Velmi "
+"rychlý, pohodlný, pokročilý nástroj pro urychlení pracovního postupu!"
 
 #: options/rbs_gallery_options_hover.php:18
 msgid "Hover Options"
-msgstr "Optionen beim Hervorheben mit der Maus"
+msgstr "Možnosti při najetí kurzoru."
 
 #: options/rbs_gallery_options_hover.php:26
 msgid "Hover Mode"
-msgstr "Hervorhebungsoptionen"
+msgstr "Režim při najetí kurzoru."
 
 #: options/rbs_gallery_options_hover.php:33 rbs_gallery_media.php:74
 msgid "Off"
-msgstr "Aus"
+msgstr "Vypnout"
 
 #: options/rbs_gallery_options_hover.php:34
 msgid "Options"
-msgstr "Optionen"
+msgstr "Nastavení"
 
 #: options/rbs_gallery_options_hover.php:35
 msgid "Template"
-msgstr "Template"
+msgstr "Šablona"
 
 #: options/rbs_gallery_options_hover.php:49
-#: options/rbs_gallery_options_lightbox.php:50
+#: options/rbs_gallery_options_lightbox.php:57
 #: options/rbs_gallery_options_loading.php:79
 #: options/rbs_gallery_options_polaroid.php:53
 msgid "Bg Color"
-msgstr "Hintergrundfarbe"
+msgstr "Barva pozadí"
 
 #: options/rbs_gallery_options_hover.php:63 rbs_gallery_media.php:118
 msgid "Effect"
-msgstr "Effekt"
+msgstr "Efekt"
 
 #: options/rbs_gallery_options_hover.php:69 rbs_gallery_media.php:95
 msgid "push-up"
-msgstr "Von unten hereinschweben"
+msgstr "zvednout"
 
 #: options/rbs_gallery_options_hover.php:70 rbs_gallery_media.php:96
 msgid "push-down"
-msgstr "Von oben hereinschweben"
+msgstr "položit"
 
 #: options/rbs_gallery_options_hover.php:71 rbs_gallery_media.php:97
 msgid "push-up-100%"
-msgstr "Komplett von unten hereinschweben"
+msgstr "zvednout na 100%"
 
 #: options/rbs_gallery_options_hover.php:72 rbs_gallery_media.php:98
 msgid "push-down-100%"
-msgstr "Komplett von oben hereinschweben"
+msgstr "položit na 100%"
 
 #: options/rbs_gallery_options_hover.php:73 rbs_gallery_media.php:99
 msgid "reveal-top"
-msgstr "von oben verdecken"
+msgstr "ukázat nahoře"
 
 #: options/rbs_gallery_options_hover.php:74 rbs_gallery_media.php:100
 msgid "reveal-bottom"
-msgstr "von unten verdecken"
+msgstr "ukázat dole"
 
 #: options/rbs_gallery_options_hover.php:75 rbs_gallery_media.php:101
 msgid "reveal-top-100%"
-msgstr "komplett von oben verdecken"
+msgstr "ukázat nahoře 100%"
 
 #: options/rbs_gallery_options_hover.php:76 rbs_gallery_media.php:102
 msgid "reveal-bottom-100%"
-msgstr "komplett von unten verdecken"
+msgstr "ukázat dole 100%"
 
 #: options/rbs_gallery_options_hover.php:77 rbs_gallery_media.php:103
 msgid "direction-aware"
-msgstr "Entsprechend der Mausbewegung"
+msgstr "přímý směr"
 
 #: options/rbs_gallery_options_hover.php:78 rbs_gallery_media.php:104
 msgid "direction-aware-fade"
-msgstr ""
-"Entsprechend der Mausbewegung beim Erscheinen, aber nicht beim Verschwinden"
+msgstr "směr slábnoucí"
 
 #: options/rbs_gallery_options_hover.php:79 rbs_gallery_media.php:105
 msgid "direction-right"
-msgstr "von rechts"
+msgstr "směr do prava"
 
 #: options/rbs_gallery_options_hover.php:80 rbs_gallery_media.php:106
 msgid "direction-left"
-msgstr "von links"
+msgstr "směr do leva"
 
 #: options/rbs_gallery_options_hover.php:81 rbs_gallery_media.php:107
 msgid "direction-top"
-msgstr "von oben"
+msgstr "směr nahoru"
 
 #: options/rbs_gallery_options_hover.php:82 rbs_gallery_media.php:108
 msgid "direction-bottom"
-msgstr "von unten"
+msgstr "směr dolů"
 
 #: options/rbs_gallery_options_hover.php:83 rbs_gallery_media.php:109
 msgid "fade"
-msgstr "aus der Mitte"
+msgstr "slábnoucí"
 
 #: options/rbs_gallery_options_hover.php:90
-#: options/rbs_gallery_options_lightbox.php:29
+#: options/rbs_gallery_options_lightbox.php:37
 msgid "Show Title"
-msgstr "Zeige Titel"
+msgstr "Zobrazit název"
 
 #: options/rbs_gallery_options_hover.php:105
 #: options/rbs_gallery_options_polaroid.php:46 rbs_gallery_widget.php:71
 msgid "Title"
-msgstr "Titel"
+msgstr "Název"
 
 #: options/rbs_gallery_options_hover.php:106
 msgid "Link Button"
-msgstr "Link Button"
+msgstr "Tlačítko s odkazem"
 
 #: options/rbs_gallery_options_hover.php:107
 msgid "Zoom Button"
-msgstr "Zoom Button"
+msgstr "Tlačítko lupa"
 
 #: options/rbs_gallery_options_hover.php:108
 msgid "Description"
-msgstr "Beschreibung"
+msgstr "Popis"
 
 #: options/rbs_gallery_options_hover.php:117
 msgid "Link Icon"
-msgstr "Link Icon"
+msgstr "Ikona s odkazem"
 
 #: options/rbs_gallery_options_hover.php:137
 msgid "Zoom Icon"
-msgstr "Zoom Icon"
+msgstr "Ikona lupy"
 
 #: options/rbs_gallery_options_hover.php:160
 msgid "Show Description"
-msgstr "Zeige Beschreibung"
+msgstr "Zobrazit popis"
 
 #: options/rbs_gallery_options_hover.php:181
 msgid "Description Template"
-msgstr "Beschreibungsvorlage"
+msgstr "Popis šablony"
 
 #: options/rbs_gallery_options_images.php:18
 msgid "Images Manager"
-msgstr "Bildverwalter"
+msgstr "Správce obrázků"
 
 #: options/rbs_gallery_options_images.php:27
 #: options/rbs_gallery_options_images.php:29
 msgid "Manage Images"
-msgstr "Verwalte Bilder"
+msgstr "Spravovat obrázky"
 
 #: options/rbs_gallery_options_images.php:28
 msgid ""
@@ -304,9 +307,10 @@ msgid ""
 "edit or delete images from gallery. Also here you can edit settings of every "
 "particular image, define alt, links, description text"
 msgstr ""
-"Mit einem Klick auf den Verwalte Bilder Button gelangst du in den "
-"Bildverwalter. Dort kannst du deine Bilder verwalten und sie z.B. einer "
-"anderen Galerie zuordenen oder den Link zum Bild verändern."
+"Klepněte na tlačítko Spravovat obrázky otevřete si Správce obrázků, kde "
+"můžete nahrát, upravit nebo odstranit obrázky z galerie. Také zde můžete "
+"upravit nastavení pro každý konkrétní obrázek, definovat alt, odkazy nebo "
+"texty popisu"
 
 #: options/rbs_gallery_options_info.php:18
 #: options/rbs_gallery_options_info.php:31
@@ -314,7 +318,7 @@ msgstr ""
 #: rbs_gallery_about.php:64 rbs_gallery_list.php:29
 #: rbs_gallery_topblock.php:20
 msgid "Get Pro version"
-msgstr "Hol dir die Pro-Version"
+msgstr "Získat verzi Pro"
 
 #: options/rbs_gallery_options_info.php:29
 #: options/rbs_gallery_options_infowide.php:28 rbs_gallery_topblock.php:21
@@ -322,256 +326,254 @@ msgid ""
 "with PRO version you get more advanced functionality and even more "
 "flexibility in settings"
 msgstr ""
-"Mit der Pro-Version kannst du mehr Einstellungen vornehmen.  Außerdem "
-"unterstützt du uns damit."
+"S PRO verzí získáte pokročilejší funkce a ještě větší flexibilitu v nastavení"
 
 #: options/rbs_gallery_options_lightbox.php:18
 msgid "Lightbox Options"
-msgstr "Lightbox Optionen"
+msgstr "Možnosti pro Lightbox"
 
-#: options/rbs_gallery_options_lightbox.php:39
-msgid "Text Color"
-msgstr "Textfarbe"
-
-#: options/rbs_gallery_options_lightbox.php:63
-msgid "Deep Linking"
-msgstr ""
-
-#: options/rbs_gallery_options_lightbox.php:66
-msgid "This option enable linking for every particular image "
-msgstr ""
-
-#: options/rbs_gallery_options_lightbox.php:72
+#: options/rbs_gallery_options_lightbox.php:26
 msgid "Social Buttons"
-msgstr "Soziale Bottons"
+msgstr "Tlačítka pro sdílení na soc. sítích"
+
+#: options/rbs_gallery_options_lightbox.php:46
+msgid "Text Color"
+msgstr "Barva textu"
 
 #: options/rbs_gallery_options_loading.php:18
 #: options/rbs_gallery_options_loading.php:35
 msgid "Loading Options"
-msgstr "Ladeoptionen"
+msgstr "Možnosti načítání"
 
 #: options/rbs_gallery_options_loading.php:26
 msgid "Lazy Load"
-msgstr "Faules Laden"
+msgstr "Pomalé nahrávání"
 
 #: options/rbs_gallery_options_loading.php:36
 msgid "Loading Text"
-msgstr "Ladetext"
+msgstr "Načtení textu"
 
 #: options/rbs_gallery_options_loading.php:44
 msgid "Images Amount"
-msgstr "Bildanzahl"
+msgstr "Počet obrázků"
 
 #: options/rbs_gallery_options_loading.php:53
 msgid "Load More Amount"
-msgstr "Lade-mehr-Anzahl"
+msgstr "Načíst větší počet"
 
 #: options/rbs_gallery_options_loading.php:63
 msgid "Wait Thumbs Load"
-msgstr "Warten, wenn die Vorschaubilder geladen werden"
+msgstr "Čekat na načtení náhledů"
 
 #: options/rbs_gallery_options_loading.php:71
 msgid "Wait No Matter What"
-msgstr "Warten, egal was passiert"
+msgstr "Čekat bez ohledu na cokoliv"
 
 #: options/rbs_gallery_options_loading.php:91
 msgid "Loading Label"
-msgstr "Ladetext"
+msgstr "Načítání popisku"
 
 #: options/rbs_gallery_options_loading.php:101
 msgid "Load More Label"
-msgstr "Lade-mehr-Text"
+msgstr "Načtení více popisků"
 
 #: options/rbs_gallery_options_loading.php:108
 msgid "No More Entries Label"
-msgstr "Keine weiteren Bilder Text"
+msgstr "Žádný další popisek položky"
 
 #: options/rbs_gallery_options_polaroid.php:18
 msgid "Polaroid Style Options"
-msgstr "Polaroid Stiloptionen"
+msgstr "Možnosti stylu Polaroid"
 
 #: options/rbs_gallery_options_polaroid.php:26
 msgid "Polaroid Style"
-msgstr "Polaroidstil"
+msgstr "Polaroid styl"
 
 #: options/rbs_gallery_options_polaroid.php:40
 msgid "Source"
-msgstr "Quelle"
+msgstr "Zdroj"
 
 #: options/rbs_gallery_options_polaroid.php:47
 msgid "Desc"
-msgstr "Desc"
+msgstr "Sestupně"
 
 #: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
-msgstr "Bildunterschrift"
+msgstr "Nadpis"
 
 #: options/rbs_gallery_options_polaroid.php:64
 msgid "Align"
-msgstr "Align"
+msgstr "Zarovnání"
 
 #: options/rbs_gallery_options_polaroid.php:70
 msgid "left"
-msgstr "links"
+msgstr "vlevo"
 
 #: options/rbs_gallery_options_polaroid.php:71
 msgid "right"
-msgstr "rechts"
+msgstr "vpravo"
 
 #: options/rbs_gallery_options_polaroid.php:72
 msgid "center"
-msgstr "mittig"
+msgstr "na střed"
 
 #: options/rbs_gallery_options_shortcode.php:18
 msgid "Gallery Shortcode"
-msgstr "Galeriecode"
+msgstr "Zkrácený kód galerie"
 
 #: options/rbs_gallery_options_shortcode.php:29
 msgid "use this shortcode to insert this gallery into page, post or widget"
 msgstr ""
-"Benutze diesen Code um diese Galerie in Seiten, Beiträge oder Widgets "
-"einzubinden"
+"Použijte tento zkrácený kód pro vložení této galerie do stránky nebo widgetu"
 
 #: options/rbs_gallery_options_size.php:18
 msgid "Gallery Size Options"
-msgstr "Galeriegröße"
+msgstr "Možnosti velikosti galerie"
 
 #: options/rbs_gallery_options_size.php:30
 #: options/rbs_gallery_options_size.php:39
 msgid "Thumbs Options"
-msgstr "Thumbs-Optionen"
+msgstr "Možnosti náhledů"
 
 #: options/rbs_gallery_options_size.php:40
 msgid "Size Options"
-msgstr "Größenoptionen"
+msgstr "Možnosti velikosti"
 
 #: options/rbs_gallery_options_size.php:47
 msgid "Custom Ratio"
-msgstr "Radius"
+msgstr "Vlastní poměr"
 
 #: options/rbs_gallery_options_size.php:58
 msgid "Colums "
-msgstr "Spalten"
+msgstr "Sloupce"
 
 #: options/rbs_gallery_options_view.php:18
 msgid "Thumbs View Options"
-msgstr "Thumbs-zeigen"
+msgstr "Možnosti zobrazení náhledů"
 
 #: options/rbs_gallery_options_view.php:28
 msgid "Radius"
-msgstr "Radius"
+msgstr "Poloměr"
 
 #: options/rbs_gallery_options_view.php:41
 msgid "Hor. Space"
-msgstr "Horizontaler Abstand"
+msgstr "Vodorovné mezery"
 
 #: options/rbs_gallery_options_view.php:51
 msgid "Ver. Space"
-msgstr "Vertikaler Abstand"
+msgstr "Svislé mezery"
 
 #: options/rbs_gallery_options_view.php:64
 msgid "Shadow"
-msgstr "Schatten"
+msgstr "Stín"
 
 #: options/rbs_gallery_options_view.php:74
 #: options/rbs_gallery_options_view.php:81
 #: options/rbs_gallery_options_view.php:106
 msgid "Shadow Options"
-msgstr "Schattenoptionen"
+msgstr "Možnosti stínu"
 
 #: options/rbs_gallery_options_view.php:82
 msgid "Hover Shadow Options"
-msgstr "Schatten beim Hervorheben"
+msgstr "Možnosti stínu při najetí kurzoru."
 
 #: options/rbs_gallery_options_view.php:92
 msgid "Hover Shadow"
-msgstr "Hervorhebungsschatten"
+msgstr "Stín při najetí kurzoru."
+
+#: options/rbs_gallery_options_view.php:127
+msgid "Border"
+msgstr "Ohraničení"
 
 #: options/rbs_gallery_options_view.php:137
-#: options/rbs_gallery_options_view.php:144
 #: options/rbs_gallery_options_view.php:171
+msgid "Border options"
+msgstr "Možnosti ohraničení"
+
+#: options/rbs_gallery_options_view.php:144
 msgid "Border Options"
-msgstr "Umrandungsoptionen"
+msgstr "Možnosti ohraničení"
 
 #: options/rbs_gallery_options_view.php:145
 msgid "Hover Border Options"
-msgstr "Umrandungsoptionen beim Hervorheben"
+msgstr "Možnosti okraje při najetí kurzoru."
 
 #: options/rbs_gallery_options_view.php:156
 msgid "Hover Border"
-msgstr "Hervorhebungsbegrenzung"
+msgstr "Okraj při najetí kurzoru."
 
 #: rbs_gallery_about.php:22
 msgid "Robo Gallery implemented by RoboSoft Team"
-msgstr "Robo Gallery umgesetzt vom RoboSoft Team."
+msgstr "Robo Gallery je implementovaná týmem RoboSoft"
 
 #: rbs_gallery_about.php:25
 msgid "More details about Robo Gallery you can see on our website"
-msgstr "Mehr Details findest du auf unserer Webseite "
+msgstr ""
+"Další podrobnosti o Robo Gallery si můžete prohlédnout na našich stránkách"
 
 #: rbs_gallery_about.php:31
 msgid "Robo Gallery Pro Features"
-msgstr "Funktionen der Pro-version"
+msgstr "Funkce Robo galerie Pro"
 
 #: rbs_gallery_about.php:34
 msgid "Unlimited amount of the galleries"
-msgstr "Unbegrenzte Anzahl an Galerien"
+msgstr "Neomezené množství galerií"
 
 #: rbs_gallery_about.php:35
 msgid "Unlimited amount of images in galleries"
-msgstr "Unbegrenzte Anzahl an Bildern in Galerien"
+msgstr "Neomezené množství obrázků v galeriích"
 
 #: rbs_gallery_about.php:38
 msgid "Custom hover style for border"
-msgstr "Anpassbarer Stil beim Hervorheben von unten"
+msgstr "Vlastní styl okraje při najetí kurzoru."
 
 #: rbs_gallery_about.php:39
 msgid "Custom hover style for shadow"
-msgstr "Anpassbarer Hervorhebungsstil für den Schatten"
+msgstr "Vlastní styl stínu při najetí kurzoru."
 
 #: rbs_gallery_about.php:42
 msgid "Unlimited multi-categories"
-msgstr "Unbegrenzte Galerien"
+msgstr "Neomezený počet multi-kategorií"
 
 #: rbs_gallery_about.php:43
 msgid "High quality thumbnails"
-msgstr "Hochwertige Vorschaubilder"
+msgstr "Vysoce kvalitní náhledy"
 
 #: rbs_gallery_about.php:46
 msgid "Gallery widget"
-msgstr "Galerie-Widget"
+msgstr "Galerie widget"
 
 #: rbs_gallery_about.php:47
 msgid "Random ordering"
-msgstr "Zufälliges Anordnen"
+msgstr "Náhodné řazení"
 
 #: rbs_gallery_about.php:50
 msgid "Gallery menu colors"
-msgstr "Galeriemenüfarben"
+msgstr "Barevné menu pro galerii"
 
 #: rbs_gallery_about.php:51
 msgid "Gallery menu styles"
-msgstr "Galeriemenüstile"
+msgstr "Styly menu pro galerii"
 
 #: rbs_gallery_about.php:54
 msgid "Custom images ordering"
-msgstr "Anpassbare Reihenfolge der Bilder"
+msgstr "Vlastní řazení obrázků"
 
 #: rbs_gallery_about.php:55
 msgid "Customizable hover style"
-msgstr "Anpassbarer Stil beim Hervorheben"
+msgstr "Přizpůsobitelné styly při najetí kurzoru"
 
 #: rbs_gallery_about.php:58
 msgid "Custom hover background color"
-msgstr "Anpassbare Hintergrundfarbe beim Hervorheben"
+msgstr "Vlastní barva pozadí při najetí myši"
 
 #: rbs_gallery_about.php:59
 msgid "Advanced images description settings"
-msgstr "Erweiterte Bildbeschreibungsoptionen"
+msgstr "Pokročilé nastavení popisu obrázků"
 
-#: rbs_gallery_about.php:69 rbs_gallery_settings.php:72
+#: rbs_gallery_about.php:69 rbs_gallery_settings.php:63
 msgid "All Rights Reserved"
-msgstr "Alle Rechte vorbehalten"
+msgstr "Všechna práva vyhrazena."
 
 #: rbs_gallery_button.php:22 rbs_gallery_media.php:43
 msgid "Robo Gallery"
@@ -579,74 +581,74 @@ msgstr "Robo Gallery"
 
 #: rbs_gallery_button.php:23 rbs_gallery_list.php:28
 msgid "Close"
-msgstr "Schließen"
+msgstr "Zavřít"
 
 #: rbs_gallery_button.php:24
 msgid "Insert"
-msgstr "Einfügen"
+msgstr "Vložit"
 
 #: rbs_gallery_button.php:30
 msgid "Add Robo Gallery"
-msgstr "Galerie hinzufügen"
+msgstr "Přidat Robo Gallery"
 
 #: rbs_gallery_button.php:41
 msgid "Select gallery"
-msgstr "Galerie auswählen"
+msgstr "Vyberte galerii"
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
 msgid "Configure it in"
-msgstr "passe es an im  "
+msgstr "Nastavit v"
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:81
 msgid "Robo Gallery plugin"
-msgstr "Robo Gallery Plugin"
+msgstr "Robo Gallery plugin"
 
 #: rbs_gallery_init.php:21
 msgid "Available in"
-msgstr "Erhältlich in der"
+msgstr "K dispozici v"
 
 #: rbs_gallery_init.php:67
 msgid "Galleries List"
-msgstr "Galerieliste"
+msgstr "Seznam galerií"
 
 #: rbs_gallery_init.php:68 rbs_gallery_init.php:69
 msgid "Add Gallery"
-msgstr "Galerie hinzufügen"
+msgstr "Přidat galerii"
 
 #: rbs_gallery_init.php:70
 msgid "Edit Gallery"
-msgstr "Galerie editieren"
+msgstr "Upravit galerii"
 
 #: rbs_gallery_list.php:27
 msgid "Get Robo Gallery Pro version"
-msgstr "Hold dir die Pro-version"
+msgstr "Získat Robo Gallery ve verzi Pro"
 
 #: rbs_gallery_list.php:31
 msgid ""
 "You can create only 3 galleries. Update to PRO to get unlimited galleries"
 msgstr ""
-"Du kannst nur 3 Galerien erstellen! Hold dir die Pro-Version um mehr "
-"erstellen zu können."
+"Můžete vytvořit pouze 3 galerie. Aktualizujte si na verzi PRO a získejte "
+"neomezený počet galerií."
 
-#: rbs_gallery_list.php:54
+#: rbs_gallery_list.php:55
 msgid "Shortcode"
-msgstr "Code"
+msgstr "Zkrácený kód"
 
 #: rbs_gallery_media.php:58
 msgid "Column"
-msgstr "Column"
+msgstr "Sloupec"
 
 #: rbs_gallery_media.php:65
 msgid "Link"
-msgstr "Link"
+msgstr "Odkaz"
 
 #: rbs_gallery_media.php:73
 msgid "On"
-msgstr "An"
+msgstr "Zapnout"
 
 #: rbs_gallery_media.php:78
 msgid "Blank Link"
-msgstr "Leerer Link"
+msgstr "Prázdný odkaz"
 
 #: rbs_gallery_media.php:86
 msgid "Video"
@@ -654,55 +656,35 @@ msgstr "Video"
 
 #: rbs_gallery_media.php:110
 msgid "inherit"
-msgstr "erben"
+msgstr "zděděno"
 
 #: rbs_gallery_settings.php:17
 msgid "Compatibility Settings"
-msgstr "Komptabilitätsoptionen "
+msgstr "Nastavení kompatibility"
 
-#: rbs_gallery_settings.php:26 rbs_gallery_settings.php:29
+#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:33
 msgid "jQuery Version"
-msgstr "jQuery Version"
+msgstr "jQuery verze"
 
-#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:31
+#: rbs_gallery_settings.php:34 rbs_gallery_settings.php:35
 msgid "Default"
-msgstr "Standard"
+msgstr "Standartní"
 
-#: rbs_gallery_settings.php:33 rbs_gallery_settings.php:34
+#: rbs_gallery_settings.php:37 rbs_gallery_settings.php:38
 msgid "Alternative"
-msgstr "Alternativ"
+msgstr "Alternativní"
 
-#: rbs_gallery_settings.php:38 rbs_gallery_settings.php:39
-msgid "Forced include"
-msgstr ""
-
-#: rbs_gallery_settings.php:46 rbs_gallery_settings.php:49
+#: rbs_gallery_settings.php:44 rbs_gallery_settings.php:47
 msgid "Switch Style"
-msgstr "Wechsle Stil"
+msgstr "Přepnout styl"
 
-#: rbs_gallery_settings.php:50 rbs_gallery_settings.php:51
+#: rbs_gallery_settings.php:48 rbs_gallery_settings.php:49
 msgid "Modern"
-msgstr "Modern"
+msgstr "Moderní"
 
-#: rbs_gallery_settings.php:53 rbs_gallery_settings.php:54
+#: rbs_gallery_settings.php:51 rbs_gallery_settings.php:52
 msgid "Classic"
-msgstr "Klassisch"
-
-#: rbs_gallery_settings.php:60
-msgid "Size Calculations Delay"
-msgstr ""
-
-#: rbs_gallery_settings.php:67
-msgid "Save Changes"
-msgstr ""
-
-#: rbs_gallery_topblock.php:26
-msgid "Do You wish to get PRO version for FREE ?"
-msgstr ""
-
-#: rbs_gallery_topblock.php:31
-msgid "Do You wish to get PRO version for translate?"
-msgstr ""
+msgstr "Klasický"
 
 #: rbs_gallery_widget.php:19
 msgid "Robo Gallery Widget"
@@ -710,25 +692,34 @@ msgstr "Robo Gallery Widget"
 
 #: rbs_gallery_widget.php:20
 msgid "Publish gallery on your website."
-msgstr "Veröffentliche eine Galerie auf deiner Webseite."
+msgstr "Zveřejnit galerii na vašem webu."
 
 #: rbs_gallery_widget.php:35 rbs_gallery_widget.php:67
 msgid "This widget available in Pro version"
-msgstr "Dieses Widget ist nur in der Pro-version erhältlich"
+msgstr "Tento widget je k dispozici ve verzi Pro"
 
 #: rbs_gallery_widget.php:44
 msgid "New gallery"
-msgstr "Neue Galerie"
+msgstr "Nová galerie"
 
 #: rbs_gallery_widget.php:76
 msgid "Gallery:"
 msgstr "Galerie:"
 
-#~ msgid "normal"
-#~ msgstr "Normal"
+msgid "Shadow options"
+msgstr "Možnosti stínu"
 
-#~ msgid "border"
-#~ msgstr "Umrandung"
+msgid "Thumbs options"
+msgstr "Možnosti náhledů"
 
-#~ msgid "Border options"
-#~ msgstr "Umrandungsoptionen"
+msgid "Loading options"
+msgstr "Možnosti načítání"
+
+msgid "Title:"
+msgstr "Název:"
+
+msgid "Get PRO Version"
+msgstr "Získat verzi Pro"
+
+msgid "Get PRO version"
+msgstr "Získat verzi Pro"
