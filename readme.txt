@@ -120,9 +120,9 @@ Get a free copy of the Robo Gallery Pro version as bonus for translating our plu
 *  **English** - default
 *  **German**
 *  **Czech**
-*  **Ukrainian**
 *  **Dutch** 
 *  **Polish** (in progress...)
+*  **Ukrainian**
 *  **Russian**
 
 == Installation ==
@@ -147,6 +147,10 @@ When you create new gallery or open already existent gallery for edit on the rig
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
 = What can I do if some gallery interface elements in backend do not work properly? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  If combobox element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
@@ -154,10 +158,6 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 = How to define size of the gallery images thumbnails? =
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = Is it possible create gallery in Wordpress post with Gallery? =
 
