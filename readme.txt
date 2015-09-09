@@ -227,10 +227,6 @@ In gallery settings you can define horizontal and vertical paddings between gall
 
 Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
 
-= How to customize gallery layouts for different screen resolutions? =
-
-In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
-
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -242,6 +238,10 @@ You can change size, color and style of gallery thumbnails borders and shadows. 
 = How to make gallery thumbnails with rounded corners? =
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
+
+= How to customize gallery layouts for different screen resolutions? =
+
+In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
 = Is it possible to create target blank links? =
 
