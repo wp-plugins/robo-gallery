@@ -179,6 +179,10 @@ Yes, you can use generated direct link inside particular gallery settings
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery. 
+
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
@@ -190,10 +194,6 @@ In gallery settings you can enable custom caption settings where you can customi
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
-
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery. 
 
 = How I can create custom (grid) layout of the thumbnails? =
 
