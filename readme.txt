@@ -151,10 +151,6 @@ When you create new gallery or open already existent gallery for edit on the rig
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
-= How to define custom hover effect for some gallery thumbnail? =
-
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
@@ -174,6 +170,10 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 = Is it possible to create direct link on the front end to the gallery? =
 
 Yes, you can use generated direct link inside particular gallery settings
+
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
 = Do you have some limits for images types in gallery? =
 
