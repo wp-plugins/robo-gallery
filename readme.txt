@@ -295,13 +295,13 @@ When you open gallery for edit you can find there images manager where you can c
 
 Yes, you can use HTML tags inside gallery image description field
 
-= Where to change settings of the image of the gallery? =
-
-Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
-
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
+
+= Where to change settings of the image of the gallery? =
+
+Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
 
 = How to crop uploaded gallery image? =
 
@@ -331,6 +331,10 @@ In gallery settings, when enabled custom hover settings you can customize style 
 
 Yes, it's possible to change transparency in gallery settings
 
+= How to customize gallery hover effect shutter layout? =
+
+In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
+
 = How many menu buttons styles do you have in gallery menu ? =
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
@@ -338,10 +342,6 @@ Gallery menu have multiply configuration options. Some of the options changing c
 = Do you have Polaroid style in your gallery? =
 
 In our gallery implemented options which make you able to make gallery thumbnails looks in Polaroid style, with caption of the image below thumbnail
-
-= Is it possible to customize load more button caption? = 
-
-Yes, all labels of the front end interface of the gallery is customizable. Label of the load more button could be edit in admin section
 
 = How to make gallery with no space between thumbnails of the gallery? =
 
@@ -355,6 +355,10 @@ When you enable border in gallery settings you will see multiply options for cus
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
 
+= Is it possible to customize load more button caption? = 
+
+Yes, all labels of the front end interface of the gallery is customizable. Label of the load more button could be edit in admin section
+
 = How to change style of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
@@ -362,10 +366,6 @@ When you enable border in gallery settings you will see multiply options for cus
 = How to change transparency of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. When you open color selector you can also select some transparency value there
-
-= How to customize gallery hover effect shutter layout? =
-
-In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
 
 = Which tags build in shutter of gallery hover template customization? =
 
