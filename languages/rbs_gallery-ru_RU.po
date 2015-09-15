@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
 "POT-Creation-Date: 2015-08-21 10:48+0200\n"
-"PO-Revision-Date: 2015-08-27 09:02+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-09-15 07:23+0200\n"
+"Last-Translator: RoboSoft Team <team@robosoft.co>\n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:101
 msgid "Pill"
-msgstr ""
+msgstr "Таблетки"
 
 #: options/rbs_gallery_options_button.php:102
 msgid "Circle "
@@ -110,7 +110,7 @@ msgstr "Размер"
 
 #: options/rbs_gallery_options_button.php:113
 msgid "Jumbo"
-msgstr ""
+msgstr "Гигантский"
 
 #: options/rbs_gallery_options_button.php:114
 msgid "Large"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:74 rbs_gallery_media.php:100
 msgid "reveal-bottom"
-msgstr ""
+msgstr "Отступ снизу"
 
 #: options/rbs_gallery_options_hover.php:75 rbs_gallery_media.php:101
 msgid "reveal-top-100%"
@@ -229,19 +229,19 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:79 rbs_gallery_media.php:105
 msgid "direction-right"
-msgstr ""
+msgstr "Выход справа"
 
 #: options/rbs_gallery_options_hover.php:80 rbs_gallery_media.php:106
 msgid "direction-left"
-msgstr ""
+msgstr "Отступ с лева"
 
 #: options/rbs_gallery_options_hover.php:81 rbs_gallery_media.php:107
 msgid "direction-top"
-msgstr ""
+msgstr "Выход сверху"
 
 #: options/rbs_gallery_options_hover.php:82 rbs_gallery_media.php:108
 msgid "direction-bottom"
-msgstr ""
+msgstr "Отступ снизу"
 
 #: options/rbs_gallery_options_hover.php:83 rbs_gallery_media.php:109
 msgid "fade"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_polaroid.php:18
 msgid "Polaroid Style Options"
-msgstr ""
+msgstr "Параметры стиля Polaroid"
 
 #: options/rbs_gallery_options_polaroid.php:26
 msgid "Polaroid Style"
@@ -385,7 +385,7 @@ msgstr "Источник"
 
 #: options/rbs_gallery_options_polaroid.php:47
 msgid "Desc"
-msgstr ""
+msgstr "Описание"
 
 #: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
@@ -522,7 +522,7 @@ msgstr ""
 
 #: rbs_gallery_about.php:46
 msgid "Gallery widget"
-msgstr ""
+msgstr "Виджет"
 
 #: rbs_gallery_about.php:47
 msgid "Random ordering"
@@ -530,11 +530,11 @@ msgstr "Случайный"
 
 #: rbs_gallery_about.php:50
 msgid "Gallery menu colors"
-msgstr ""
+msgstr "Цвета меню"
 
 #: rbs_gallery_about.php:51
 msgid "Gallery menu styles"
-msgstr ""
+msgstr "Стили меню"
 
 #: rbs_gallery_about.php:54
 msgid "Custom images ordering"
@@ -637,7 +637,7 @@ msgstr "Video"
 
 #: rbs_gallery_media.php:110
 msgid "inherit"
-msgstr ""
+msgstr "Наследовать"
 
 #: rbs_gallery_settings.php:17
 msgid "Compatibility Settings"
@@ -681,7 +681,7 @@ msgstr ""
 
 #: rbs_gallery_widget.php:20
 msgid "Publish gallery on your website."
-msgstr ""
+msgstr "Выводит галерею на  сайте."
 
 #: rbs_gallery_widget.php:35 rbs_gallery_widget.php:67
 msgid "This widget available in Pro version"
