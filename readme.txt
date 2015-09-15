@@ -327,6 +327,14 @@ Yes, gallery have fade hover effect
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
+= How to change width of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
+
+= How to change color of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
+
 = Is it possible to change transparency of the hover shutter? =
 
 Yes, it's possible to change transparency in gallery settings
@@ -346,14 +354,6 @@ In our gallery implemented options which make you able to make gallery thumbnail
 = How to make gallery with no space between thumbnails of the gallery? =
 
 If you wish to make section with gallery without spacing between thumbnails you need just set horizontal and vertical spacing to 0 in gallery thumbnails view options
-
-= How to change width of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
-
-= How to change color of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
 
 = Is it possible to customize load more button caption? = 
 
@@ -375,6 +375,10 @@ For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
 
 In gallery hover settings we implemented full set of configuration settings of the buttons. You can change icon, style size, colors for static and hovered buttons. You can select icon with build in wizard
 
+= How I can make gallery only with one size pictures but I would like to arrange gallery with pictures of the different size - one big, several smaller? =
+
+In our gallery you can define different amount of the columns for the images thumbnails and every gallery image could have different width which measuring by columns of the images thumbnails. For example you can define 2 column size for the image 1 and 3 columns size for image 5 but the rest of the gallery images could stay with default one columnt value in images settings.
+
 = How to change icon on gallery thumbnail button? =
 
 When you open gallery settings you can see there hover options section where we implemented settings for every hover button. Here you can select icons for buttons and style for this icon
@@ -390,10 +394,6 @@ In build library of the icons in gallery you can find 533 icons
 = How many buttons with icons do you have in gallery? =
 
 In our gallery we have 2 buttons for every gallery thumbnail. Zoom button and link button.
-
-= Is it possible to insert video as gallery link? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have video link field in gallery image options, where you can define some custom link to the online video.
 
 = How to turn off social buttons in gallery lightbox? =
 
@@ -419,17 +419,17 @@ In gallery general settings you can find gallery thumbnails columns options whic
 
 Actually settings of all this main elements of the gallery post is inherited from the the general Wordpress posts settings. So you can turn in off the same way as it's manage in general posts, not only gallery posts.
 
+= Is it possible to insert video as gallery link? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have video link field in gallery image options, where you can define some custom link to the online video.
+
 = Which permissions do I need to have on server for proper gallery installation? =
 
 Our gallery do not require any special permissions for installation of the gallery or during upload of the gallery images. All requirements are basic: our gallery have the same requirements as Wordpress have.
 
 = Is it possible to change color of the hovered image in gallery? =
 
-Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements.
-
-= How I can make gallery only with one size pictures but I would like to arrange gallery with pictures of the different size - one big, several smaller? =
-
-In our gallery you can define different amount of the columns for the images thumbnails and every gallery image could have different width which measuring by columns of the images thumbnails. For example you can define 2 column size for the image 1 and 3 columns size for image 5 but the rest of the gallery images could stay with default one columnt value in images settings. 
+Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements. 
 
 == Screenshots ==
 
