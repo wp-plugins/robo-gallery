@@ -147,6 +147,10 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
+= Is it possible create gallery in Wordpress post with Gallery? =
+
+Yes, you can insert gallery into post with shortcode tag
+
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
@@ -167,10 +171,6 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
-= Is it possible create gallery in Wordpress post with Gallery? =
-
-Yes, you can insert gallery into post with shortcode tag
-
 = How to change quality of the gallery thumbnails? =
 
 Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
@@ -178,10 +178,6 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 = Is it possible to create direct link on the front end to the gallery? =
 
 Yes, you can use generated direct link inside particular gallery settings
-
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = Do you have some limit for images size in gallery? =
 
@@ -194,6 +190,10 @@ No, we don't have any limits for amount of the images in gallery
 = How to change font size of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = Where specify description of the gallery images? =
 
@@ -214,6 +214,14 @@ Yes, you can have different styles of the borders and shadows for static and hov
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
+= How to define video for some gallery image? =
+
+Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
+
+= How to define custom link for some gallery images? =
+
+Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to change spacing between thumbnails? =
 
@@ -278,14 +286,6 @@ In gallery settings, when enabled custom hover settings you can customize style 
 = How to load more function work? =
 
 In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
-
-= How to define video for some gallery image? =
-
-Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
-
-= How to define custom link for some gallery images? =
-
-Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to change ordering of the gallery images? =
 
