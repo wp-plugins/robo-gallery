@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
 "POT-Creation-Date: 2015-08-21 10:48+0200\n"
-"PO-Revision-Date: 2015-09-15 07:23+0200\n"
+"PO-Revision-Date: 2015-09-17 07:15+0200\n"
 "Last-Translator: RoboSoft Team <team@robosoft.co>\n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -27,7 +27,7 @@ msgstr "Показать меню"
 
 #: options/rbs_gallery_options_button.php:36
 msgid "Show Root"
-msgstr ""
+msgstr "Показать Root"
 
 #: options/rbs_gallery_options_button.php:44
 msgid "Root Label"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_button.php:51
 msgid "Show self"
-msgstr ""
+msgstr "Показать себя"
 
 #: options/rbs_gallery_options_button.php:60
 msgid "Style"
@@ -90,7 +90,7 @@ msgstr "Пурпурный"
 
 #: options/rbs_gallery_options_button.php:93
 msgid "Rounds"
-msgstr ""
+msgstr "Закругление"
 
 #: options/rbs_gallery_options_button.php:100
 msgid "Rounded"
@@ -422,7 +422,7 @@ msgstr ""
 #: options/rbs_gallery_options_size.php:30
 #: options/rbs_gallery_options_size.php:39
 msgid "Thumbs Options"
-msgstr ""
+msgstr "Настройки Миниатюр"
 
 #: options/rbs_gallery_options_size.php:40
 msgid "Size Options"
@@ -558,7 +558,7 @@ msgstr "All Rights Reserved."
 
 #: rbs_gallery_button.php:22 rbs_gallery_media.php:43
 msgid "Robo Gallery"
-msgstr ""
+msgstr "Robo Gallery"
 
 #: rbs_gallery_button.php:23 rbs_gallery_list.php:28
 msgid "Close"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery V 1.2\n"
 "POT-Creation-Date: 2015-08-24 08:45+0200\n"
-"PO-Revision-Date: 2015-08-27 18:28+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-09-17 07:11+0200\n"
+"Last-Translator: RoboSoft Team <team@robosoft.co>\n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
@@ -245,7 +245,7 @@ msgstr ""
 
 #: options/rbs_gallery_options_hover.php:83 rbs_gallery_media.php:109
 msgid "fade"
-msgstr ""
+msgstr "згасання"
 
 #: options/rbs_gallery_options_hover.php:90
 #: options/rbs_gallery_options_lightbox.php:37
@@ -385,7 +385,7 @@ msgstr "Джерело"
 
 #: options/rbs_gallery_options_polaroid.php:47
 msgid "Desc"
-msgstr ""
+msgstr "Опис"
 
 #: options/rbs_gallery_options_polaroid.php:48
 msgid "Caption"
@@ -550,7 +550,7 @@ msgstr ""
 
 #: rbs_gallery_about.php:59
 msgid "Advanced images description settings"
-msgstr ""
+msgstr "Розширені налаштування"
 
 #: rbs_gallery_about.php:69 rbs_gallery_settings.php:66
 msgid "All Rights Reserved"
@@ -578,7 +578,7 @@ msgstr ""
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
 msgid "Configure it in"
-msgstr ""
+msgstr "Налаштувати"
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:81
 msgid "Robo Gallery plugin"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: rbs_gallery_settings.php:17
 msgid "Compatibility Settings"
-msgstr ""
+msgstr "Настройки сумісності"
 
 #: rbs_gallery_settings.php:26 rbs_gallery_settings.php:29
 msgid "jQuery Version"
