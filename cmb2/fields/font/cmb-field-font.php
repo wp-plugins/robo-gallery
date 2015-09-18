@@ -46,7 +46,7 @@ function jt_cmb2_render_font_field_callback( $field, $value, $object_id, $object
 		'fontBold' 		=> isset($default['fontBold']) 		? $default['fontBold'] 				:'normal',
 		'fontItalic' 	=> isset($default['fontItalic']) 	? $default['fontItalic'] 			:'normal',
 		'fontUnderline' => isset($default['fontUnderline']) ? $default['fontUnderline'] 		:'none',
-		'iconSelect'	=> isset($default['iconSelect']) 	? $default['iciconSelectonLink'] 	:'glyphicon-new-window',
+		'iconSelect'	=> isset($default['iconSelect']) 	? $default['iconSelect'] 			:'glyphicon-new-window',
 		'borderSize'	=> 0,
 		
 		'color' 		=> isset($default['color']) 		? $default['color'] 				:'#ffffff',

@@ -366,11 +366,19 @@ class roboGallery extends roboGalleryUtils{
 					$polaroid_template
 				);
 
+				$link = $img['image'];
+
+				if( $img['link'] && ( !$this->hover || ( $this->hover == 1 && !$this->linkIcon && !$this->zoomIcon  ) )  ){
+					$link = $img['link'].'" data-type="'.($img['typelink']?'blank':'').'link';
+				} elseif( $img['videolink'] ) {
+					$link = $img['videolink'].'" data-type="iframe';
+				}
+
 				$this->returnHtml .= '
 					<div class="rbs-img category'.$img['catid'].'" '.( isset($img['col']) && $img['col'] ?' data-columns="'.$img['col'].'" ' :'').'>
 			            <div class="rbs-img-image rbs-lightbox" '.( isset($img['effect']) && $img['effect'] ?' data-overlay-effect="'.$img['effect'].'" ' :'').' >
 			                <div data-thumbnail="'.$img['thumb'].'" data-width="'.( $sizeType ? $width : $img['sizeW'] ).'" data-height="'.($sizeType?$height:$img['sizeH']).'" ></div>
-							<div data-popup="'.( $img['videolink'] ? $img['videolink'].'" data-type="iframe' : $img['image'] ).'" title="'.$img['data']->post_title.'"></div>
+							<div data-popup="'.$link.'" title="'.$img['data']->post_title.'"></div>
 							'.$this->getHover($img).'
 			            </div>
 						'.($polaroidDesc && $polaroidOn?'<div class="rbs-img-content" '.($polaroidStyle?' style="'.$polaroidStyle.'" ':'').'>'.$polaroidDesc.'</div>':'').'
