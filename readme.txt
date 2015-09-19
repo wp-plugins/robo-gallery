@@ -51,6 +51,7 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Social sharing** - gallery lightbox support social sharing in twitter, facebook, google plus and pinterest
 *   **Build in borders and shadows settings** - gallery borders and shadows have advanced options for configuration design and style of this gallery interface elements
 *   **Support Videos** - every gallery image have option where possible to define video link for every particular gallery image
+*   **Smart Links** - in our gallery implemented smart images links and video links parsing algorithm. Implemented auto detection links with turned off link navigation buttons
 *   **Hover layout template** - gallery hover effects have set of advanced options. For example you can customize layout of the gallery hover effect with build in tags
 *   **Customizable Grid** - every gallery image have additional options for customization of the layout of the gallery, as result you can build fully custom gallery grid, depend of your needs. You can decide which size of the gallery matrix you need on your website
 *   **Font settings** - gallery have build in advanced text style editor options. With this options you can fully cusyomize title, caption, description of the every gallery image
@@ -79,7 +80,6 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Custom Thumbnails Shadows** - shadow it's very stylish element of the thumbnail images on the front end. You can make your gallery looks absolutely different with different styled shadow.
 *   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
 *   **Advanced Social Sharing** -  advanced social sharing functionality in lightbox. Implemented deep linking functionality for the gallery images social sharing services Facebook, Twitter, Pinterest, Google+
-*   **Smart Links** - in our gallery implemented smart images links and video links parsing algorithm. Implemented auto detection links with turned off link navigation buttons
 
 
 = Gallery Advantages =
