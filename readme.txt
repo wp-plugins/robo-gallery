@@ -79,6 +79,8 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Custom Thumbnails Shadows** - shadow it's very stylish element of the thumbnail images on the front end. You can make your gallery looks absolutely different with different styled shadow.
 *   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
 *   **Advanced Social Sharing** -  advanced social sharing functionality in lightbox. Implemented deep linking functionality for the gallery images social sharing services Facebook, Twitter, Pinterest, Google+
+*   **Smart Links** - in our gallery implemented smart images links and video links parsing algorithm. Implemented auto detection links with turned off link navigation buttons
+
 
 = Gallery Advantages =
 
