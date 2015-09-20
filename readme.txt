@@ -127,6 +127,8 @@ Get a free copy of the Robo Gallery Pro version as bonus for translating our plu
 *  **Ukrainian**
 *  **Russian**
 
+If you can help us with translation to some other language please contact us! We're really appreciate it!
+
 == Installation ==
 
 You don't need do any additional configurations or manual code changes. You can install it through the regular installer of the Wordpress. Just download plugin and install it manually or automatically using Wordpress repository. If you have some questions related with our plugin feel free to contact our support team we happy to help you!
