@@ -159,10 +159,6 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 Yes, you can insert gallery into post with shortcode tag
 
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
@@ -170,6 +166,10 @@ In our gallery we implemented layout based on columns amount. So you can general
 = How to change quality of the gallery thumbnails? =
 
 Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
+
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = Is it possible to create direct link on the front end to the gallery? =
 
