@@ -175,10 +175,6 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery. 
@@ -186,6 +182,10 @@ No, we don't have any limits for image size in our gallery.
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
 = Do you have some limits for images types in gallery? =
 
