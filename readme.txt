@@ -159,10 +159,6 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 Yes, you can insert gallery into post with shortcode tag
 
-= How I can create custom (grid) layout of the thumbnails? =
-
-In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
-
 = How to change quality of the gallery thumbnails? =
 
 Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
@@ -170,6 +166,10 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
+= How I can create custom (grid) layout of the thumbnails? =
+
+In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -179,13 +179,13 @@ Yes, you can use generated direct link inside particular gallery settings
 
 No, we don't have any limits for image size in our gallery. 
 
-= How to define custom hover effect for some gallery thumbnail? =
-
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
 = How to define size of the gallery images thumbnails? =
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
+
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
 = Do you have some limits for images types in gallery? =
 
