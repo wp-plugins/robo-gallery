@@ -143,17 +143,21 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
-= What can I do if some gallery interface elements in backend do not work properly? =
-
-If you have some conflict in gallery back end you can sort it with new compatibility option.  If combo box element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
-
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
+= What can I do if some gallery interface elements in backend do not work properly? =
+
+If you have some conflict in gallery back end you can sort it with new compatibility option.  If combo box element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
+
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = Is it possible create gallery in Wordpress post with Gallery? =
 
@@ -163,13 +167,13 @@ Yes, you can insert gallery into post with shortcode tag
 
 Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
 
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
+
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -179,17 +183,13 @@ Yes, you can use generated direct link inside particular gallery settings
 
 No, we don't have any limits for image size in our gallery. 
 
-= How to define custom hover effect for some gallery thumbnail? =
+= Do you have some limits for images amount in gallery? =
 
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+No, we don't have any limits for amount of the images in gallery
 
 = Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
 
 = How to define size of the gallery images thumbnails? =
 
