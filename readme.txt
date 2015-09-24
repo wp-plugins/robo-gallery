@@ -179,10 +179,6 @@ Yes, you can use generated direct link inside particular gallery settings
 
 No, we don't have any limits for image size in our gallery. 
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
@@ -195,6 +191,10 @@ You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 No, we don't have any limits for amount of the images in gallery
 
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
+
 = How to change font size of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
@@ -203,13 +203,13 @@ In gallery settings you can enable custom caption settings where you can customi
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
-= Is it possible to turn off border of the gallery thumbnails? =
-
-Yes, in gallery options you can turn on/off border option
-
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
+= Is it possible to turn off border of the gallery thumbnails? =
+
+Yes, in gallery options you can turn on/off border option
 
 = How to define video for some gallery image? =
 
@@ -223,6 +223,10 @@ In lightbox section of the gallery settings you can find hide title option. If y
 
 Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
+= How to customize border of the gallery thumbnails? =
+
+In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
@@ -230,10 +234,6 @@ Every gallery image have additional fields where you can define custom link, tit
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
-= How to customize border of the gallery thumbnails? =
-
-In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
