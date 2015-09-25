@@ -25,8 +25,10 @@ class roboGalleryUtils extends roboGalleryParent{
 		$retHtml = ''; 
 		if(count($item)){
 			if( isset($item['enabled']) && $item['enabled'] ){
-				if(isset($item['fontSize'])) 		$this->{$class.'Style'} .= ' font-size:'.       (int)$item['fontSize'].'px;'
-																			  .' '; 
+				if(isset($item['fontSize'])) 		$this->{$class.'Style'} .= ' font-size:'.       (int)$item['fontSize'].'px;'; 
+
+				if(isset($item['fontLineHeight'])) 	$this->{$class.'Style'} .= ' line-height:'.     (int)$item['fontLineHeight'].'%;'; 
+				
 				if(isset($item['color'])) 			$this->{$class.'Style'} .= ' color:'.			$item['color'].';';
 				if(isset($item['fontBold'])) 		$this->{$class.'Style'} .= ' font-weight:'.		($item['fontBold']		?'bold'		:'normal').';';
 				if(isset($item['fontItalic'])) 	 	$this->{$class.'Style'} .= ' font-style:'.		($item['fontItalic']	?'italic'	:'normal').';';

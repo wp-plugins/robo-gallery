@@ -43,6 +43,9 @@ function jt_cmb2_render_font_field_callback( $field, $value, $object_id, $object
 	$value = wp_parse_args( $value, array(
 		'enabled'		=> isset($default['enabled']) 		? $default['enabled'] 				:'0',
 		'fontSize' 		=> isset($default['fontSize']) 		? $default['fontSize'] 				:'12',
+
+		'fontLineHeight'=> isset($default['fontLineHeight'])? $default['fontLineHeight'] 		:'100',
+		
 		'fontBold' 		=> isset($default['fontBold']) 		? $default['fontBold'] 				:'normal',
 		'fontItalic' 	=> isset($default['fontItalic']) 	? $default['fontItalic'] 			:'normal',
 		'fontUnderline' => isset($default['fontUnderline']) ? $default['fontUnderline'] 		:'none',
@@ -125,13 +128,32 @@ function jt_cmb2_render_font_field_callback( $field, $value, $object_id, $object
 							'value' 			=> (int) $value['fontSize'],
 							'data-slider-value' => (int) $value['fontSize'],
 							'type'  			=> 'text',
-							'class' 			=> 'small-text rbs_slider rbs_font_slider',
+							'class' 			=> 'small-text rbs_slider rbs_font_slider rbs_font_size',
 							'data-slider-min'	=> 5,
 							'data-slider-max'	=> 50,
 							'data-slider-step'	=> 1,
 							'data-font-demoid'	=> !$field->args('icon') ? $field_type_object->_id( 'demo' ):'',
 					) ); 
 				?> px
+		    </div>
+	  	</div>
+
+	  	<div class="form-group">
+	    	<label class="col-sm-2 control-label" for="<?php echo $field_type_object->_id( 'fontLineHeight' ); ?>'"><?php echo esc_html( $field_type_object->_text( 'font_vfont_text', 'Line Height' ) ); ?></label>
+		    <div class="col-sm-10">
+		      <?php echo $field_type_object->input( array(
+							'name'  			=> $field_type_object->_name( '[fontLineHeight]' ),
+							'id'    			=> $field_type_object->_id( 'fontLineHeight' ),
+							'value' 			=> (int) $value['fontLineHeight'],
+							'data-slider-value' => (int) $value['fontLineHeight'],
+							'type'  			=> 'text',
+							'class' 			=> 'small-text rbs_slider rbs_font_slider rbs_font_line ',
+							'data-slider-min'	=> 50,
+							'data-slider-max'	=> 300,
+							'data-slider-step'	=> 1,
+							'data-font-demoid'	=> !$field->args('icon') ? $field_type_object->_id( 'demo' ):'',
+					) ); 
+				?> %
 		    </div>
 	  	</div>
 
@@ -237,6 +259,7 @@ function jt_cmb2_render_font_field_callback( $field, $value, $object_id, $object
 	  		.'style="'
 	  			.'color: '.$value['color'].'; '
 	  			.'font-size:'.(int) $value['fontSize'].'px; '
+	  			.'line-height:'.(int) $value['fontLineHeight'].'%; '
 	  			.'font-weight:'		.($value['fontBold']=='bold'			?'bold'		:'normal')	.'; '
 				.'font-style:'		.($value['fontItalic']=='italic'		?'italic'	:'normal')	.'; '
 	  			.'text-decoration:'	.($value['fontUnderline']=='underline'	?'underline':'none')	.'; '

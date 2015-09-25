@@ -77,9 +77,14 @@
 	
 	rbs_init= 0;
 
-	jQuery(document).on("slide slideStop", ".rbs_font_slider", function(slideEvt) {
+	jQuery(document).on("slide slideStop", ".rbs_font_slider.rbs_font_size", function(slideEvt) {
 		var divObj = jQuery(this).data('font-demoid');
 		jQuery('#'+divObj).css('font-size', slideEvt.value+'px');
+	});
+
+	jQuery(document).on("slide slideStop", ".rbs_font_slider.rbs_font_line", function(slideEvt) {
+		var divObj = jQuery(this).data('font-demoid');
+		jQuery('#'+divObj).css('line-height', slideEvt.value+'%');
 	});
 
 	jQuery('body').on("change", ".rbs_fontParams", function() {
