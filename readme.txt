@@ -179,6 +179,14 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 No, we don't have any limits for image size in our gallery. 
 
+= Where specify description of the gallery images? =
+
+When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
+
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
@@ -191,14 +199,6 @@ You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= Where specify description of the gallery images? =
-
-When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
-
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
-
 = How to change font size of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
@@ -207,10 +207,6 @@ In gallery settings you can enable custom caption settings where you can customi
 
 Yes, in gallery options you can turn on/off border option
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
@@ -218,6 +214,10 @@ Every gallery image have additional fields where you can define custom link, tit
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
 = How to define custom link for some gallery images? =
 
@@ -231,6 +231,10 @@ In lightbox section of the gallery settings you can find hide title option. If y
 
 Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
+= How to change spacing between thumbnails? =
+
+In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
+
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -238,10 +242,6 @@ Shadows of the thumbnails you can customize in gallery settings. With gallery se
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
-
-= How to change spacing between thumbnails? =
-
-In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
 
 = How to change color of the gallery interface elements? =
 
