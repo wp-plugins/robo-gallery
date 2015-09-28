@@ -26,14 +26,32 @@ $lightbox_group = new_cmb2_box( array(
 
 
 $lightbox_group->add_field( array(
-	'name' 			=> __('Show Title', 'rbs_gallery' ),
+	'name' 			=> __('Show Text', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxTitle',
 	'type' 			=> 'switch', 
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
-	'before_row' 	=> '
+	'depends' 		=> 	'.rbs_lightbox_source',
+		'before_row' 	=> '
 <div class="rbs_block"><br/>',
+
 ));
+
+$lightbox_group->add_field( array(
+	'name'             => __('Text Source', 'rbs_gallery' ),
+	'id'               => ROBO_GALLERY_PREFIX . 'lightboxSource',
+	'type'             => 'rbsselect',
+	'show_option_none' => false,
+	'default'          => 'title',
+	'options'          => array(
+		'title' 	=> __( 'Title' , 	'rbs_gallery' ),
+		'desc' 		=> __( 'Description' , 	'rbs_gallery' ),
+		'caption' 	=> __( 'Caption' , 	'rbs_gallery' ),
+	),
+	'before_row' 	=> '<div class="rbs_lightbox_source">',
+	'after_row'		=> '</div> '
+));
+
 
 $lightbox_group->add_field( array(
     'name'    		=> __( 'Text Color', 'rbs_gallery' ),

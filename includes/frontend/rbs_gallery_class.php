@@ -367,11 +367,25 @@ class roboGallery extends roboGalleryUtils{
 					$link = $img['videolink'].'" data-type="iframe';
 				}
 
+				$lightboxText = '';
+
+				switch ( get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxSource', true ) ) {
+					case 'title':
+							$lightboxText = $img['data']->post_title;
+						break;
+					case 'desc':
+							$lightboxText = $img['data']->post_content;
+						break;
+					case 'caption':
+							$lightboxText = $img['data']->post_excerpt;
+						break;
+				}
+
 				$this->returnHtml .= '
 					<div class="rbs-img category'.$img['catid'].'" '.( isset($img['col']) && $img['col'] ?' data-columns="'.$img['col'].'" ' :'').'>
 			            <div class="rbs-img-image rbs-lightbox" '.( isset($img['effect']) && $img['effect'] ?' data-overlay-effect="'.$img['effect'].'" ' :'').' >
 			                <div data-thumbnail="'.$img['thumb'].'" data-width="'.( $sizeType ? $width : $img['sizeW'] ).'" data-height="'.($sizeType?$height:$img['sizeH']).'" ></div>
-							<div data-popup="'.$link.'" title="'.$img['data']->post_title.'"></div>
+							<div data-popup="'.$link.'" title="'.$lightboxText.'"></div>
 							'.$this->getHover($img).'
 			            </div>
 						'.($polaroidDesc && $polaroidOn?'<div class="rbs-img-content" '.($polaroidStyle?' style="'.$polaroidStyle.'" ':'').'>'.$polaroidDesc.'</div>':'').'
