@@ -187,6 +187,10 @@ When you open gallery settings inside you'll find images manager section. Images
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
 
+= How to change text below image in lightbox ? =
+
+In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
+
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
