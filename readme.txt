@@ -199,6 +199,10 @@ No, we don't have any limits for amount of the images in gallery
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
+= How to set description text below image in the lightbox?  =
+
+In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
+
 = Is it possible to create direct link on the front end to the gallery? =
 
 Yes, you can use generated direct link inside particular gallery settings
