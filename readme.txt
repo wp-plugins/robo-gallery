@@ -231,10 +231,6 @@ Every gallery image have additional fields where you can define custom link, tit
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
-= How to hide titles of the gallery image in lightbox ? =
-
-In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
-
 = Is it possible to have different settings for hover and static interface elements? =
 
 Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
@@ -243,6 +239,10 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
 
+= How to hide titles of the gallery image in lightbox ? =
+
+In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
+
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -250,6 +250,10 @@ Shadows of the thumbnails you can customize in gallery settings. With gallery se
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
+= How to use multi-category functionality of the gallery? =
+
+In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
 
 = How to change color of the gallery interface elements? =
 
@@ -262,10 +266,6 @@ In admin section of the gallery you'll find columns options which provide you ad
 = How to make gallery thumbnails with rounded corners? =
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
-
-= How to use multi-category functionality of the gallery? =
-
-In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
 
 = How to enable lazy load in gallery options? =
 
@@ -283,13 +283,13 @@ In gallery settings you can find images manager where you can change settings of
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= Is it possible to create target blank links? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
-
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+
+= Is it possible to create target blank links? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
 = How to change font color of the gallery image description text? =
 
@@ -315,13 +315,13 @@ When you open gallery images manager you can define alt for every gallery image 
 
 Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
 
-= How to crop uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can crop source image
-
 = How to rotate uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can rotate source image
+
+= How to crop uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can crop source image
 
 = How to flip uploaded gallery image? =
 
