@@ -518,6 +518,11 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.3.4 =
+*   New thumbnails click mode
+*   Added new feature for enable/disable click with disabled buttons
+*   Switch between lightbox and link mode with disabled buttons
+
 = 1.3.3 =
 *   Added new lightbox options
 *   Possibility to select caption, title or description below image in lightbox
@@ -632,6 +637,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.3.4 =
+Switch between lightbox and link mode with disabled buttons
 
 = 1.3.3 =
 New lightbox options, possibility to select caption, title or description below image in lightbox

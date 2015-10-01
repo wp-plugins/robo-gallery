@@ -23,6 +23,20 @@ $hover_group = new_cmb2_box( array(
 ));
 
 $hover_group->add_field( array(
+	'name'             => __('Click Thumbnail', 'rbs_gallery' ),
+	'id'               => ROBO_GALLERY_PREFIX . 'thumbClick',
+	'type'             => 'rbsselect',
+	'show_option_none' => false,
+	'default'          => rbs_gallery_set_checkbox_default_for_new_post(0),
+	'options'          => array(
+		'0' 	=> __( 'On' , 	'rbs_gallery' ),
+		'1' 	=> __( 'Off' , 	'rbs_gallery' ),
+	),
+	'before_row'	=> '
+<div class="rbs_block"> <br />',
+));
+
+$hover_group->add_field( array(
 	'name'             	=> __('Hover Mode', 'rbs_gallery' ),
 	'id'               	=> ROBO_GALLERY_PREFIX . 'hover',
 	'type'             	=> 'rbsselect',
@@ -38,8 +52,7 @@ $hover_group->add_field( array(
 		'1' => '.rbs_gallery_hover_blok, .rbs_gallery_hover_options_blok',
 		'2' => '.rbs_gallery_hover_blok, .rbs_gallery_hover_template_blok',
 	),
-	'before_row'	=> '
-<div class="rbs_block"> <br />',
+
 	'after_row'		=> '
 	<div class="rbs_gallery_hover_blok">'
     	)

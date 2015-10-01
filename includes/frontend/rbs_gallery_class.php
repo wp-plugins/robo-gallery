@@ -67,6 +67,8 @@ class roboGallery extends roboGalleryUtils{
  	public $styleList = array();
  	public $scriptList = array();
 
+ 	public $thumbClick = 0;
+
  	function __construct($attr){
  		$this->helper 		= new rbsHelper();
  		$this->galleryId 	= 'rbs_gallery_'.uniqid();
@@ -221,6 +223,9 @@ class roboGallery extends roboGalleryUtils{
 				$this->rbsBoxHoverStyle .= $this->getHoverShadown();
 			}
 		}
+
+		$this->thumbClick = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'thumbClick', true );
+
 		
 		if($this->options_id){
 			$this->id = $this->real_id;
@@ -295,7 +300,7 @@ class roboGallery extends roboGalleryUtils{
 		if ( $this->pro ) $this->setHoverType();
 
 		$this->linkIcon 	= $this->getTemplateItem( get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'linkIcon', true ), 'rbsLinkIcon', 1 );
-		$this->zoomIcon 	= $this->getTemplateItem( get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'zoomIcon', true ), 'rbsZoomIcon', 1 ); //, ' rbs-lightbox'
+		$this->zoomIcon 	= $this->getTemplateItem( get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'zoomIcon', true ), 'rbsZoomIcon', 1 , ($this->thumbClick?' rbs-lightbox':'') ); //, ' rbs-lightbox'
 		$this->titleHover 	= $this->getTemplateItem( get_post_meta( $this->id,  ROBO_GALLERY_PREFIX.'showTitle', true ), 'rbsTitle', '@TITLE@' );
 		
 		/* robo_gallery */
@@ -383,7 +388,7 @@ class roboGallery extends roboGalleryUtils{
 
 				$this->returnHtml .= '
 					<div class="rbs-img category'.$img['catid'].'" '.( isset($img['col']) && $img['col'] ?' data-columns="'.$img['col'].'" ' :'').'>
-			            <div class="rbs-img-image rbs-lightbox" '.( isset($img['effect']) && $img['effect'] ?' data-overlay-effect="'.$img['effect'].'" ' :'').' >
+			            <div class="rbs-img-image '.(!$this->thumbClick?' rbs-lightbox':'').'" '.( isset($img['effect']) && $img['effect'] ?' data-overlay-effect="'.$img['effect'].'" ' :'').' >
 			                <div data-thumbnail="'.$img['thumb'].'" data-width="'.( $sizeType ? $width : $img['sizeW'] ).'" data-height="'.($sizeType?$height:$img['sizeH']).'" ></div>
 							<div data-popup="'.$link.'" title="'.$lightboxText.'"></div>
 							'.$this->getHover($img).'
