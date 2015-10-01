@@ -243,17 +243,14 @@ In gallery settings you can define horizontal and vertical paddings between gall
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
-= How to make shadow for the gallery thumbnails? =
-
-Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
 
-= How to use multi-category functionality of the gallery? =
+= How to make shadow for the gallery thumbnails? =
 
-In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
+Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
+
 
 = How to change color of the gallery interface elements? =
 
@@ -262,6 +259,10 @@ Color of every gallery front end interface element could be changed changed in a
 = How to customize gallery layouts for different screen resolutions? =
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
+
+= How to use multi-category functionality of the gallery? =
+
+In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings
 
 = How to make gallery thumbnails with rounded corners? =
 
@@ -275,37 +276,37 @@ In gallery settings you can find option to enable/disable lazy load, also there 
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview 
 
-= Is it possible to customize gallery image caption ? =
-
-In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
-
 = How to change amount of images loading on gallery page? =
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
+
+= Is it possible to customize gallery image caption ? =
+
+In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
-= Is it possible to create target blank links? =
-
-Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
-
 = How to change font color of the gallery image description text? =
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
+
+= Is it possible to create target blank links? =
+
+Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
 = How to load more function work? =
 
 In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
 
-= How to change ordering of the gallery images? =
-
-When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
-
 = Is it possible to use HTML in image description ? =
 
 Yes, you can use HTML tags inside gallery image description field
+
+= How to change ordering of the gallery images? =
+
+When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
 
 = How to define custom ALT for gallery image? =
 
