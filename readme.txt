@@ -295,33 +295,33 @@ In gallery settings you can enable custom caption settings where you can customi
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
-= How to load more function work? =
-
-In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
-
 = Is it possible to use HTML in image description ? =
 
 Yes, you can use HTML tags inside gallery image description field
 
-= How to change ordering of the gallery images? =
+= How to load more function work? =
 
-When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
+In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
 
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
 
+= How to change ordering of the gallery images? =
+
+When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
+
 = Where to change settings of the image of the gallery? =
 
 Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
 
-= How to rotate uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can rotate source image
-
 = How to crop uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can crop source image
+
+= How to rotate uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can rotate source image
 
 = How to flip uploaded gallery image? =
 
@@ -339,13 +339,13 @@ Yes, gallery have fade hover effect
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
-= How to change width of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
-
 = How to change color of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
+
+= How to change width of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
 
 = Is it possible to change transparency of the hover shutter? =
 
@@ -355,13 +355,13 @@ Yes, it's possible to change transparency in gallery settings
 
 In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
 
-= How many menu buttons styles do you have in gallery menu ? =
-
-Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
-
 = Do you have Polaroid style in your gallery? =
 
 In our gallery implemented options which make you able to make gallery thumbnails looks in Polaroid style, with caption of the image below thumbnail
+
+= How many menu buttons styles do you have in gallery menu ? =
+
+Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
 
 = How to make gallery with no space between thumbnails of the gallery? =
 
