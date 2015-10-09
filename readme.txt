@@ -139,13 +139,13 @@ You don't need do any additional configurations or manual code changes. You can 
 
 Just install it using regular Wordpress plugins installing mechanism.  If you have some questions related with our plugin feel free to contact our support team we happy to help you!
 
-= Do you have some conflict in gallery back end? =
-
-If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
-
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
+
+= Do you have some conflict in gallery back end? =
+
+If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
 = How to change quality of the gallery thumbnails? =
 
@@ -163,13 +163,13 @@ Yes, you can insert gallery into post with shortcode tag
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  If combo box element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
 
-= How I can create custom (grid) layout of the thumbnails? =
-
-In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
-
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= How I can create custom (grid) layout of the thumbnails? =
+
+In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
 = How to generate shortcode for Wordpress page, post or widget? =
 
@@ -179,25 +179,25 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery. 
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
 = How to change text below image in lightbox ? =
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = How to define video for some gallery image? =
 
@@ -211,37 +211,37 @@ Yes, you can use generated direct link inside particular gallery settings
 
 In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
 
-= How to change font size of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
-
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
+= How to change font size of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
 
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
 
-= How to define custom link for some gallery images? =
-
-Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
-
 = How to change spacing between thumbnails? =
 
 In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
+
+= How to define custom link for some gallery images? =
+
+Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = Is it possible to have different settings for hover and static interface elements? =
 
 Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
-= How to hide titles of the gallery image in lightbox ? =
-
-In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
-
 = How to define size of the gallery images thumbnails? =
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
+
+= How to hide titles of the gallery image in lightbox ? =
+
+In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
 = How to customize gallery layouts for different screen resolutions? =
 
@@ -251,13 +251,13 @@ In admin section of the gallery you'll find columns options which provide you ad
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
 
-= How to change color of the gallery interface elements? =
-
-Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
-
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
+
+= How to change color of the gallery interface elements? =
+
+Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
 
 = How to make gallery thumbnails with rounded corners? =
 
