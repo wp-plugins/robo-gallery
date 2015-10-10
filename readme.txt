@@ -1,4 +1,4 @@
-﻿=== Gallery ===
+﻿=== Robo Gallery - Photo Gallery and Images Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries, robo gallery
@@ -37,6 +37,44 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 
 
 = Gallery Key Features =
+ 
+*   **Fully responsive and Mobile features** - advanced mobility gallery. Gallery implemented with advanced settings for different devices screen size.
+*   **Fade effects** - one of the gallery hover animation it's classic fade effect. 
+*   **Batch images upload** - gallery have advanced media manager which allow to upload batch of the images by one click. Just drag and drop set of the gallery images and it's upload automatically to the server. 
+*   **Auto-resizing for thumbnails and images** - gallery media manager allow you make additional customization of the gallery images, like: rotation, flip, crop, manual resize.
+*   **Customizable 15 hover effects** - all gallery hover effects working in cooperation with gallery interface configuration options. You can easily change style and colors of the hover animation elements.
+*   **Implemented to avoid AJAX libs conflicts** - all gallery code implemented in native Wordpress style as result our gallery don't have any conflicts and work really stable.
+*   **Polaroid style gallery** - with our gallery you can create Polaroid style gallery just with few clicks.
+*   **Build in colors selector** - in gallery you can easily change color of any gallery 
+*   **Social sharing** - gallery lightbox support social sharing in twitter, facebook, google plus and pinterest
+*   **Build in borders and shadows settings** - gallery borders and shadows have advanced options for configuration design and style of this gallery interface elements
+*   **Font settings** - gallery have build in advanced text style editor options. With this options you can fully cusyomize title, caption, description of the every gallery image
+*   **Different resolutions** - gallery have implemented advanced size control options where you can define layout or fixed size for the gallery elements on different screen resolutions
+*   **Implemented in native Wordpress style using native classes** - gallery fully native for Wordpress implemented without any hacks and tricks
+*   **Multi Categories** - gallery implemented with multi categories support. You can create your own galleries tree, depend of your needs
+*   **Classic gallery layout** - layout of the gallery could have classic style or grid layout, every gallery on page could have own styles and settings
+*   **Advanced pagination function** - pagination function of the gallery implemented in google load more style
+*   **Work in IE, Firefox, Safari, Opera, Chrome** - gallery work properly in all latest versions of the popular browsers
+*   **Lazy loading option** - in gallery implemented advanced lazy loading options, for the case when you have big sets of the images you can define amount of the galleries images for the first load and for the next steps of the load more option
+*   **Advanced cache options** - in gallery implemented advanced images caching options
+*   **Overlay effects** - all hover effects of the gallery thumbnails are highly customizable and have full set of options 
+*   **Backend text settings preview** - all gallery images titles, captions, descriptions are highly customizable also we have life preview of the changes in gallery backend
+*   **Resizing crop function** - in gallery media managed you'll find great set of very useful features for example gallery images crop, and manual resizing
+*   **Optional mobile touch support** - our gallery support mobile devices and you can customize gallery layout settings for different screen sizes
+*   **Custom ordering of the images** - ordering for all images of the gallery could be easily changed manually in media manager or you can find order by options in general gallery settings
+*   **Ability to insert gallery to the Wordpress post, page, widget** - every gallery could be insert in to post, page or widget with build in shortcode tag or using wizard button - shortcode generator in post or page editor
+*   **Gallery lightbox social buttons** - in gallery settings you can turn on/off social buttons
+*   **Gallery lightbox background color** - in gallery lightbox settings you can change color of the background with comfortable color selector
+*   **Gallery lightbox background transparency** - in gallery lightbox settings you can change transparency of the background with comfortable color selector
+*   **Gallery lightbox font color** - in gallery lightbox settings you can change color of the font with comfortable color selector
+*   **Gallery lightbox font transparency** - in gallery lightbox settings you can change transparency of the font with comfortable color selector
+*   **Clone gallery** - if you have hundreds of galleries on the website this feature is really useful for you! Clone settings of another gallery to apply it to another galleries. So you can copy styles of the source gallery to as much galleries  as you need just by one click.
+*   **Custom Thumbnails Shadows** - shadow it's very stylish element of the thumbnail images on the front end. You can make your gallery looks absolutely different with different styled shadow.
+*   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
+*   **Advanced Social Sharing** -  advanced social sharing functionality in lightbox. Implemented deep linking functionality for the gallery images social sharing services Facebook, Twitter, Pinterest, Google+
+*   **Click Thumbnails** - advanced click functionality. You can use click on buttons or on the gallery thumbnails to enlarge gallery image or open gallery image link.  With new functionality you can combine absolutely different features of the gallery clicking functionality.
+
+= Gallery Pro Key Features =
  
 *   **Fully responsive and Mobile features** - advanced mobility gallery. Gallery implemented with advanced settings for different devices screen size.
 *   **Grid layout** - in gallery implemented not only classic gallery layout, but also grid layout for the modern style gallery with different size of the gallery thumbnails.
