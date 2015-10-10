@@ -1,4 +1,4 @@
-﻿=== Robo Gallery - Photo Gallery and Images Gallery ===
+﻿=== Gallery ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries, robo gallery
@@ -167,25 +167,25 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
-= How I can create custom (grid) layout of the thumbnails? =
-
-In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
-
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
+= How I can create custom (grid) layout of the thumbnails? =
+
+In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery. 
-
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery. 
 
 = Where specify description of the gallery images? =
 
@@ -195,21 +195,21 @@ When you open gallery settings inside you'll find images manager section. Images
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
 
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
-= Is it possible to create direct link on the front end to the gallery? =
-
-Yes, you can use generated direct link inside particular gallery settings
-
 = How to set description text below image in the lightbox?  =
 
 In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
+= Is it possible to create direct link on the front end to the gallery? =
+
+Yes, you can use generated direct link inside particular gallery settings
 
 = How to customize border of the gallery thumbnails? =
 
@@ -223,29 +223,29 @@ In gallery settings you can enable custom caption settings where you can customi
 
 Yes, in gallery options you can turn on/off border option
 
-= How to change spacing between thumbnails? =
-
-In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
-
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
-= Is it possible to have different settings for hover and static interface elements? =
+= How to change spacing between thumbnails? =
 
-Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
+In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
 
 = How to define size of the gallery images thumbnails? =
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
-= How to hide titles of the gallery image in lightbox ? =
+= Is it possible to have different settings for hover and static interface elements? =
 
-In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
+Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
 = How to customize gallery layouts for different screen resolutions? =
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
+
+= How to hide titles of the gallery image in lightbox ? =
+
+In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
