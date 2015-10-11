@@ -59,6 +59,7 @@ if(!function_exists('rbs_gallery_get_current_post_type')){
 }
 
 function create_post_type_robo_gallery() { 
+
     register_post_type( ROBO_GALLERY_TYPE_POST,
         array(
           'labels' => array(

@@ -23,36 +23,47 @@ $button_group = new_cmb2_box( array(
 ));
 
 $button_group->add_field( array(
-	'name' 			=> __('Show Menu', 'rbs_gallery' ),
+	'name' 			=> __('Menu', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'menu',
 	'type' 			=> 'switch',
 	'level'			   => !ROBO_GALLERY_PRO,
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
-	'before_row'	=> '<div class="rbs_block"><br/>',
+	'showhide'		=> 1,
+	'depends' 		=> 	'.rbs_menu_options',
+	'before_row'	=> '
+<div class="rbs_block"><br/>',
+	'after_row'		=> '
+	<div class="rbs_menu_options">',
 ));
 
 $button_group->add_field( array(
-	'name' 			=> __('Show Root', 'rbs_gallery' ),
+	'name' 			=> __('Root Label', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'menuRoot',
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'type' 			=> 'switch',
 	'bootstrap_style'=> 1,
+	'depends' 		=> 	'.rbs_menu_root_text',
+	'showhide'		=> 1,
+	'after_row'		=> '
+		<div class="rbs_menu_root_text">',
 ));
 
 $button_group->add_field( array(
-    'name'    => __('Root Label','rbs_gallery'),
+    'name'    => __('Root Label Text','rbs_gallery'),
     'default' => 'All',
     'id'	  => ROBO_GALLERY_PREFIX .'menuRootLabel',
     'type'    => 'rbstext',
+    'after_row'		=> '
+		</div>',
 ));
 
 $button_group->add_field( array(
-	'name' 			=> __('Show self', 'rbs_gallery' ),
+	'name' 			=> __('Self Label', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'menuSelf',
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'type' 			=> 'switch',
-	
+	'showhide'		=> 1,
 	'bootstrap_style'=> 1,
 ));
 
@@ -138,5 +149,7 @@ $button_group->add_field( array(
 	'min'			=> 0,
 	'max'			=> 100,
 	'addons'		=> 'px',
-    'after_row'		=> '</div>'
+    'after_row'		=> '
+    </div>
+</div>'
 ));	

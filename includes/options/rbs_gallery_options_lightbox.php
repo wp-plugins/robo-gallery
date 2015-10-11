@@ -26,13 +26,14 @@ $lightbox_group = new_cmb2_box( array(
 
 
 $lightbox_group->add_field( array(
-	'name' 			=> __('Show Text', 'rbs_gallery' ),
+	'name' 			=> __('Text', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxTitle',
 	'type' 			=> 'switch', 
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
 	'bootstrap_style'=> 1,
+	'showhide'		=> 1,
 	'depends' 		=> 	'.rbs_lightbox_source',
-		'before_row' 	=> '
+	'before_row' 	=> '
 <div class="rbs_block"><br/>',
 
 ));
@@ -87,9 +88,19 @@ $lightbox_group->add_field( array(
 ));
 
 $lightbox_group->add_field( array(
+	'name' 			=> __(' Images Counter', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxCounter',
+	'type' 			=> 'switch', 
+	'showhide'		=> 1,
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
+	'bootstrap_style'=> 1,
+));
+
+$lightbox_group->add_field( array(
 	'name' 			=> __('Social Buttons', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxSocial',
 	'type' 			=> 'switch', 
+	'showhide'		=> 1,
 	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
 	'bootstrap_style'=> 1,
 	'level'			=> !ROBO_GALLERY_PRO,

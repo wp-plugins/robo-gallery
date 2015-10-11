@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robo Gallery v 1.0.0\n"
 "POT-Creation-Date: 2015-08-21 10:48+0200\n"
-"PO-Revision-Date: 2015-09-17 07:15+0200\n"
+"PO-Revision-Date: 2015-10-03 11:38+0200\n"
 "Last-Translator: RoboSoft Team <team@robosoft.co>\n"
 "Language-Team: RoboSoft Team <team@robosoft.co>\n"
 "Language: ru_RU\n"
@@ -578,7 +578,7 @@ msgstr "Выбор галереи"
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
 msgid "Configure it in"
-msgstr ""
+msgstr "Настройте "
 
 #: rbs_gallery_button.php:42 rbs_gallery_widget.php:81
 msgid "Robo Gallery plugin"

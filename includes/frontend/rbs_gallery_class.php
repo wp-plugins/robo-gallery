@@ -46,6 +46,13 @@ class roboGallery extends roboGalleryUtils{
 
 	public $rbsTitleLightboxStyle = '';
 
+	public $rbsCounterLightboxStyle = '';
+	public $rbsCloseLightboxStyle = '';
+	public $rbsArrowLightboxStyle = '';
+
+
+
+
  	public $javaScript = '';
  	public $javaScriptStyle = '';
 
@@ -327,6 +334,11 @@ class roboGallery extends roboGalleryUtils{
 		} 
 		
 
+		if(!get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxCounter', true )){
+			$this->rbsCounterLightboxStyle = 'display:none;';
+			$this->addJavaScriptStyle('rbsCounterLightbox','.mfp-container .mfp-counter',2);
+		}
+		
 
 		$this->addJavaScriptStyle('rbsBox', '.rbs-img-container');
 		$this->addJavaScriptStyle('rbsTitle','.rbsTitle',1);

@@ -24,6 +24,14 @@ function jt_cmb2_render_switch_field_callback( $field, $value, $object_id, $obje
 	$bs = $field->args('bootstrap_style');
 
 	$level = $field->args('level') ? 1 : 0 ;
+	
+	$onText = $field->args('onText');
+	$offText = $field->args('offText');
+
+	if($field->args('showhide')){
+		$onText='Show';
+		$offText='Hide';
+	}
 
 if($bs){
 	?>
@@ -40,6 +48,8 @@ if($bs){
 }
 			 echo
 				'<input type="checkbox" data-toggle="toggle" data-onstyle="info" '
+				.($onText?' data-on="'.__($onText, 'rbs_gallery').'" ':'')
+				.($offText?' data-off="'.__($offText, 'rbs_gallery').'" ':'')
 				.($field->args('depends')?'class="rbs_action_element" ':'')
 				.'name="'.$field_type_object->_name(  ).'" '
 				.'id="'. $field_type_object->_id( ).'" '

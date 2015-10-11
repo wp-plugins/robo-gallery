@@ -1,7 +1,7 @@
 <?php
 /*
 *      Robo Gallery     
-*      Version: 1.0
+*      Version: 1.3.5
 *      By Robosoft
 *
 *      Contact: http://robosoft.co
@@ -14,8 +14,10 @@
 
 class RoboGalleryActivator {
 	public static function activate() {
-
+		require_once ROBO_GALLERY_INCLUDES_PATH.'rbs_class_update.php';
+		$update = new RoboGalleryUpdate();
 	}
+
 	public static function deactivate() {
 
 	}

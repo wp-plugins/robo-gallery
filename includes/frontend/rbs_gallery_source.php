@@ -60,7 +60,6 @@ class roboGalleryImages{
  				'post_type' => ROBO_GALLERY_TYPE_POST,
  				'orderby'   => array( 'menu_order'=> 'DESC', 'order'=> 'ASC', 'title'=> 'DESC' ),
  				'posts_per_page' => $this->lazyLoad,
-
  		));
 
  		//print_r($all_wp_pages);
