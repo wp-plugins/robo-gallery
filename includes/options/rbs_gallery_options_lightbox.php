@@ -97,6 +97,15 @@ $lightbox_group->add_field( array(
 ));
 
 $lightbox_group->add_field( array(
+	'name' 			=> __('Close Icon', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxClose',
+	'type' 			=> 'switch', 
+	'showhide'		=> 1,
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
+	'bootstrap_style'=> 1,
+));
+
+$lightbox_group->add_field( array(
 	'name' 			=> __('Social Buttons', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'lightboxSocial',
 	'type' 			=> 'switch', 

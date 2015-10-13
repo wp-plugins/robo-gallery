@@ -42,6 +42,7 @@ class RBS_TOOLBOX {
 
 	public function rbs_setup_admin_scripts() {
 
+		wp_enqueue_media();
 		wp_enqueue_style("wp-jquery-ui-dialog");
 		wp_enqueue_script('jquery-ui-dialog');
 

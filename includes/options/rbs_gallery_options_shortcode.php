@@ -22,9 +22,11 @@ $shortcode_group = new_cmb2_box( array(
     'closed'        => rbs_gallery_set_checkbox_default_for_new_post(0),
 ));
 
-$shortcode_group->add_field( array(
-    'id'            => ROBO_GALLERY_PREFIX.'short_desc',
-    'type'          => 'title',
-    'before_row'    => '<div class="rbs_shortcode">[robo-gallery id="'.$_GET['post'].'"]</div>',
-    'after_row'     => '<div class="desc">'.__('use this shortcode to insert this gallery into page, post or widget','rbs_gallery')."</div>",
-));
+if(isset($_GET['post'])){
+	$shortcode_group->add_field( array(
+	    'id'            => ROBO_GALLERY_PREFIX.'short_desc',
+	    'type'          => 'title',
+	    'before_row'    => '<div class="rbs_shortcode">[robo-gallery id="'.$_GET['post'].'"]</div>',
+	    'after_row'     => '<div class="desc">'.__('use this shortcode to insert this gallery into page, post or widget','rbs_gallery')."</div>",
+	));
+}

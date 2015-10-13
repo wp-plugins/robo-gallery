@@ -338,6 +338,12 @@ class roboGallery extends roboGalleryUtils{
 			$this->rbsCounterLightboxStyle = 'display:none;';
 			$this->addJavaScriptStyle('rbsCounterLightbox','.mfp-container .mfp-counter',2);
 		}
+
+		if(!get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxClose', true )){
+			$this->rbsCloseLightboxStyle = 'display:none;';
+			$this->addJavaScriptStyle('rbsCloseLightbox','.mfp-container .mfp-close',2);
+		}
+
 		
 
 		$this->addJavaScriptStyle('rbsBox', '.rbs-img-container');
