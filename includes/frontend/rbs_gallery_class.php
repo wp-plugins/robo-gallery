@@ -344,6 +344,10 @@ class roboGallery extends roboGalleryUtils{
 			$this->addJavaScriptStyle('rbsCloseLightbox','.mfp-container .mfp-close',2);
 		}
 
+		if(!get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'lightboxArrow', true )){
+			$this->rbsArrowLightboxStyle = 'display:none;';
+			$this->addJavaScriptStyle('rbsArrowLightbox','.mfp-container .mfp-arrow',2);
+		}
 		
 
 		$this->addJavaScriptStyle('rbsBox', '.rbs-img-container');
