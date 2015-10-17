@@ -177,37 +177,37 @@ You don't need do any additional configurations or manual code changes. You can 
 
 Just install it using regular Wordpress plugins installing mechanism.  If you have some questions related with our plugin feel free to contact our support team we happy to help you!
 
-= How to upload images to the gallery? =
-
-When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
-
 = Do you have some conflict in gallery back end? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
+
+= How to upload images to the gallery? =
+
+When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
 = What can I do if some gallery interface elements in backend do not work properly? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  If combo box element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
 
-= How to change quality of the gallery thumbnails? =
-
-Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
-
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
 
 = Is it possible create gallery in Wordpress post with Gallery? =
 
 Yes, you can insert gallery into post with shortcode tag
 
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings 
-
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor
+
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings 
 
 = How I can create custom (grid) layout of the thumbnails? =
 
@@ -229,13 +229,13 @@ Yes, you can use generated direct link inside particular gallery settings
 
 No, we don't have any limits for image size in our gallery.
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = Where specify description of the gallery images? =
 
@@ -249,13 +249,13 @@ You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
-= How to set description text below image in the lightbox?  =
-
-In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
-
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
+
+= How to set description text below image in the lightbox?  =
+
+In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
 
 = How to change spacing between thumbnails? =
 
@@ -281,25 +281,25 @@ In gallery settings you can find general settings section where you can turn on/
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
-= How to customize gallery layouts for different screen resolutions? =
-
-In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
-
 = How to define size of the gallery images thumbnails? =
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
+
+= How to customize gallery layouts for different screen resolutions? =
+
+In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
 = How to change color of the gallery interface elements? =
 
 Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
 
-= How to make shadow for the gallery thumbnails? =
-
-Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
+= How to make shadow for the gallery thumbnails? =
+
+Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
 
 = How to enable lazy load in gallery options? =
 
@@ -309,13 +309,13 @@ In gallery settings you can find option to enable/disable lazy load, also there 
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
 
-= How to change amount of images loading on gallery page? =
-
-In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
-
 = How to change font color of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
+
+= How to change amount of images loading on gallery page? =
+
+In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
 = How to use multi-category functionality of the gallery? =
 
@@ -325,13 +325,13 @@ In our gallery we implemented multi-categories structure. Every gallery category
 
 In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
-= How to change font color of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
-
 = Is it possible to create target blank links? =
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+
+= How to change font color of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
 = Is it possible to use HTML in image description ? =
 
@@ -341,13 +341,13 @@ Yes, you can use HTML tags inside gallery image description field
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
-= How to load more function work? =
-
-In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
-
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
+
+= How to load more function work? =
+
+In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
 
 = How to change ordering of the gallery images? =
 
@@ -357,25 +357,25 @@ When you open gallery for edit you can find there images manager where you can c
 
 When you open gallery images manager you'll find there image edit mode where you can crop source image
 
-= Where to change settings of the image of the gallery? =
-
-Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
-
 = How to flip uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can flip source image
+
+= Where to change settings of the image of the gallery? =
+
+Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
 
 = How to rotate uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can rotate source image
 
-= How many thumbnails hover effects gallery has? =
-
-Gallery have 15 hover animation effects, which could be combined with additional custom options
-
 = How to change font size of the gallery image description text? =
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
+
+= How many thumbnails hover effects gallery has? =
+
+Gallery have 15 hover animation effects, which could be combined with additional custom options
 
 = Do you have fade effect for the thumbnails hover? =
 
