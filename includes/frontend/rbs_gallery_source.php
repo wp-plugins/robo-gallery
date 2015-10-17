@@ -45,6 +45,10 @@ class roboGalleryImages{
 		$tempImages = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'galleryImages', true );
 		if( isset($tempImages) && count($tempImages)==1 && trim($tempImages[0])=='' ) $tempImages = array();
 
+		if( !get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'menuSelfImages', true ) ){
+			$tempImages = array();
+		}
+
 		for ($i=0; $i < count($tempImages) ; $i++){
 			$this->imgArray[] = array( 'id'=> $tempImages[$i], 'catid'=> $this->id );
 		}

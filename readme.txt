@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries, robo gallery
 Requires at least: 3.3
 Tested up to: 4.3
-Stable tag: 1.3.7
+Stable tag: 1.3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -213,25 +213,25 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
-= How to define custom hover effect for some gallery thumbnail? =
-
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
 = How to change text below image in lightbox ? =
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
+
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
 = Is it possible to create direct link on the front end to the gallery? =
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery.
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = How to define video for some gallery image? =
 
@@ -245,13 +245,13 @@ When you open gallery settings inside you'll find images manager section. Images
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
-= How to set description text below image in the lightbox?  =
-
-In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
-
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
+= How to set description text below image in the lightbox?  =
+
+In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
 
 = How to define custom link for some gallery images? =
 
@@ -559,6 +559,10 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.3.8 =
+*   Updated navigation functionality
+*   Added new show/hide self images function
+
 = 1.3.7 =
 *   Updated lightbox functionality
 *   Implemented new show/hide navigation arrows option
@@ -695,6 +699,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.3.8 =
+Updated navigation functionality, added new show/hide self images function
 
 = 1.3.7 =
 Updated lightbox functionality, new show/hide navigation arrows option, fixed minor notifications

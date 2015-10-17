@@ -68,6 +68,15 @@ $button_group->add_field( array(
 ));
 
 $button_group->add_field( array(
+	'name' 			=> __('Self Images', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'menuSelfImages',
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(1),
+	'type' 			=> 'switch',
+	'showhide'		=> 1,
+	'bootstrap_style'=> 1,
+));
+
+$button_group->add_field( array(
 	'name'             => __( 'Style', 'rbs_gallery' ),
 	'id'               => ROBO_GALLERY_PREFIX . 'buttonFill',
 	'type'             => 'rbsselect',
