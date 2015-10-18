@@ -225,25 +225,25 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery.
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery.
 
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
 
-= Where specify description of the gallery images? =
-
-When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
-
 = Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
+= Where specify description of the gallery images? =
+
+When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
 = How to customize border of the gallery thumbnails? =
 
@@ -261,13 +261,13 @@ In gallery settings you can find lightbox section and if you need to show descri
 
 In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
 
-= How to change font size of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
-
 = Is it possible to have different settings for hover and static interface elements? =
 
 Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
+
+= How to change font size of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
 
 = Is it possible to turn off border of the gallery thumbnails? =
 
@@ -281,13 +281,13 @@ In gallery settings you can find general settings section where you can turn on/
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = How to customize gallery layouts for different screen resolutions? =
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
+
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
 = How to change color of the gallery interface elements? =
 
@@ -305,13 +305,13 @@ Shadows of the thumbnails you can customize in gallery settings. With gallery se
 
 In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
 
-= How to make gallery thumbnails with rounded corners? =
-
-In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
-
 = How to change font color of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
+
+= How to make gallery thumbnails with rounded corners? =
+
+In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
 
 = How to change amount of images loading on gallery page? =
 
@@ -329,13 +329,13 @@ In gallery settings you can find images manager where you can change settings of
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
-= How to change font color of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
-
 = Is it possible to use HTML in image description ? =
 
 Yes, you can use HTML tags inside gallery image description field
+
+= How to change font color of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
 = How to change font style of the gallery image caption? =
 
@@ -353,13 +353,13 @@ In gallery admin section you can define amount of the images for the first load 
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
 
-= How to crop uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can crop source image
-
 = How to flip uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can flip source image
+
+= How to crop uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can crop source image
 
 = Where to change settings of the image of the gallery? =
 
