@@ -21,7 +21,7 @@ if ( ! defined( 'WPINC' ) )  die;
 define("ROBO_GALLERY", 1); 
 define("ROBO_GALLERY_VERSION", '1.3.8'); 
 define("ROBO_GALLERY_PATH", plugin_dir_path( __FILE__ ));
-define("ROBO_GALLERY_SPECIAL", 1); 
+define("ROBO_GALLERY_SPECIAL", 0); 
 
 add_action( 'plugins_loaded', 'rbs_gallery_load_textdomain' );
 function rbs_gallery_load_textdomain() {
