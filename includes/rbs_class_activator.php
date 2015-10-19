@@ -14,8 +14,7 @@
 
 class RoboGalleryActivator {
 	public static function activate() {
-		require_once ROBO_GALLERY_INCLUDES_PATH.'rbs_class_update.php';
-		$update = new RoboGalleryUpdate();
+		
 	}
 
 	public static function deactivate() {

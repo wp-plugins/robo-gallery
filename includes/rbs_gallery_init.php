@@ -60,6 +60,9 @@ if(!function_exists('rbs_gallery_get_current_post_type')){
 
 function create_post_type_robo_gallery() { 
 
+	require_once ROBO_GALLERY_INCLUDES_PATH.'rbs_class_update.php';
+	$update = new RoboGalleryUpdate();
+
     register_post_type( ROBO_GALLERY_TYPE_POST,
         array(
           'labels' => array(

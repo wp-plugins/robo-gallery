@@ -34,6 +34,9 @@ class RoboGalleryUpdate {
 			'1.3.8' => array(
 					'menuSelfImages' => 1,
 			),
+			'1.3.9' => array(
+					'menuSelfImages' => 1,
+			),
 		); 
 
 	public $functionArray = array(
@@ -45,12 +48,12 @@ class RoboGalleryUpdate {
 		if(!$this->dbVersionOld) $this->dbVersionOld = 0;
 
 		$this->dbVersion = ROBO_GALLERY_VERSION;
-		delete_option("rbs_gallery_db_version");
-		add_option( "rbs_gallery_db_version", ROBO_GALLERY_VERSION );
 
 		if( $this->dbVersionOld && $this->dbVersionOld == $this->dbVersion )  $this->needUpdate = false;
-		
+
 		if( $this->needUpdate ){
+			delete_option("rbs_gallery_db_version");
+			add_option( "rbs_gallery_db_version", ROBO_GALLERY_VERSION );
 			$this->posts = $this->getGalleryPost();
 			$this->update();
 		}
@@ -72,7 +75,7 @@ class RoboGalleryUpdate {
 			$postId = $this->posts[$i]->ID;
 			if( count($fields) ){
 				foreach($fields as $key => $value){
-					add_post_meta( $postId, ROBO_GALLERY_PREFIX.$key, $value );
+					add_post_meta( $postId, ROBO_GALLERY_PREFIX.$key, $value, true );
 				}
 			}
 		}
