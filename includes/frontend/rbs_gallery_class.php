@@ -50,7 +50,7 @@ class roboGallery extends roboGalleryUtils{
 	public $rbsCloseLightboxStyle = '';
 	public $rbsArrowLightboxStyle = '';
 
-
+	public $rbsMainDivStyle = '';
 
 
  	public $javaScript = '';
@@ -361,6 +361,22 @@ class roboGallery extends roboGalleryUtils{
 		//$this->addJavaScriptStyle('rbsTitleLightbox','body .mfp-title',2);
 		$this->addJavaScriptStyle('rbsTextLightbox','body .mfp-title, body .mfp-counter',2);
 
+		$widthSize 		= get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'width-size', true );
+		$widthSizeValue = '';
+		if( count($widthSize) ){
+			if( isset($widthSize['width'])  ){
+				$widthSizeValue = (int) $widthSize['width'];
+				if($widthSizeValue){
+					if( isset($widthSize['widthType']) && $widthSize['widthType'] ) $widthSizeValue .= 'px';
+						else $widthSizeValue .= '%';
+				}
+			} 	 
+		}
+		if(!$widthSizeValue) $widthSizeValue = '100%;';
+
+		$this->rbsMainDivStyle = 'width:'.$widthSizeValue.';';
+
+
 		if(count($this->selectImages->imgArray)){
 
 			if( get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced' ){
@@ -421,9 +437,11 @@ class roboGallery extends roboGalleryUtils{
 		}
 		if( $this->returnHtml ){
 			$this->returnHtml = 
-				($menu?$this->getMenu():'').
-				'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
-					. $this->returnHtml
+				'<div style="'.$this->rbsMainDivStyle.'">'
+					.($menu?$this->getMenu():'').
+					'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
+						. $this->returnHtml
+					.'</div>'
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';
 

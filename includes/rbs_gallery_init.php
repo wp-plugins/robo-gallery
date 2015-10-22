@@ -131,6 +131,8 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
 		'rbstextarea/cmb-field-rbstextarea.php',
 		'font/cmb-field-font.php',
 		'rbsgallery/cmb-field-rbsgallery.php',
+		'multisize/rbs-multiSize.php',
+		
 		
     ), ROBO_GALLERY_CMB_FILEDS_PATH);
    

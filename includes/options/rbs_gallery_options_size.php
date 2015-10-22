@@ -27,12 +27,21 @@ $size_group = new_cmb2_box( array(
 //$size_group->add_field( array('type' => 'toolbox'));
 
 $size_group->add_field( array(
+	'name' 			=> __('Width ', 'rbs_gallery'),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'width-size',
+	'type' 			=> 'multisize',
+	'default'		=> array( 'width'=> 100, 'widthType'=>''),
+	'bootstrap_style'=> 1,
+	'before_row' 	=> ' <br />
+<div class="rbs_block">'	
+));
+
+$size_group->add_field( array(
 	'name' 			=> __('Thumbs Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'thumb-size-options',
 	'type' 			=> 'size',
 	'level'			=> !ROBO_GALLERY_PRO,
-	'before_row' 	=> ' <br />
-<div class="rbs_block">
+	'before_row' 	=> '
 	<div class="rbs_thumb_tabs">
 		<div role="tabpanel">
 			<ul class="nav nav-tabs" role="tablist">
