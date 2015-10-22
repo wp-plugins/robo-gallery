@@ -213,21 +213,21 @@ In our gallery we implemented layout based on columns amount. So you can general
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
-
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
-= Do you have some limits for images types in gallery? =
+= How to generate shortcode for Wordpress page, post or widget? =
 
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
 
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = Do you have some limit for images size in gallery? =
 
@@ -241,25 +241,25 @@ Yes, you can use generated direct link inside particular gallery settings
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = How to change spacing between thumbnails? =
 
 In gallery settings you can define horizontal and vertical paddings between gallery thumbnails
 
-= Is it possible to have different settings for hover and static interface elements? =
-
-Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
-
 = How to set description text below image in the lightbox?  =
 
 In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
+
+= Is it possible to have different settings for hover and static interface elements? =
+
+Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
 = How to change font size of the gallery image caption? =
 
