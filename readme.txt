@@ -213,25 +213,17 @@ In our gallery we implemented layout based on columns amount. So you can general
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
 
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery.
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -240,6 +232,14 @@ Yes, you can use generated direct link inside particular gallery settings
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery.
 
 = How to customize border of the gallery thumbnails? =
 
@@ -265,14 +265,6 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 In gallery settings you can enable custom caption settings where you can customize font size and see results in live preview 
 
-= How to hide titles of the gallery image in lightbox ? =
-
-In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
-
-= How to customize border of the gallery thumbnails? =
-
-In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
-
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
@@ -281,9 +273,25 @@ Every gallery image have additional fields where you can define custom link, tit
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
+= How to hide titles of the gallery image in lightbox ? =
+
+In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
+
+= How to customize border of the gallery thumbnails? =
+
+In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
+
+= How to change amount of images loading on gallery page? =
+
+In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
+
+= How to enable lazy load in gallery options? =
+
+In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
 
 = How to define size of the gallery images thumbnails? =
 
@@ -296,14 +304,6 @@ You can change size, color and style of gallery thumbnails borders and shadows. 
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
-= How to change amount of images loading on gallery page? =
-
-In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
-
-= How to enable lazy load in gallery options? =
-
-In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
 
 = How to change color of the gallery interface elements? =
 
@@ -333,13 +333,13 @@ In gallery settings you can find images manager where you can change settings of
 
 Yes, you can use HTML tags inside gallery image description field
 
-= How to change font color of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
-
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+
+= How to change font color of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
 = How to define custom ALT for gallery image? =
 
