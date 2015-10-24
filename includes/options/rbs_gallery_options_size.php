@@ -37,6 +37,17 @@ $size_group->add_field( array(
 ));
 
 $size_group->add_field( array(
+    'name'    	=> __('Align','rbs_gallery'),
+    'default' 	=> '',
+    'options'	=> array( 
+    		'' 		=> 'Disable', 
+    		'center'	=> 'Center', 
+    	),
+    'id'	  	=> ROBO_GALLERY_PREFIX .'align',
+    'type'    	=> 'rbsradiobutton',
+));
+
+$size_group->add_field( array(
 	'name' 			=> __('Thumbs Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'thumb-size-options',
 	'type' 			=> 'size',

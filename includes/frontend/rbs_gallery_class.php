@@ -376,6 +376,10 @@ class roboGallery extends roboGalleryUtils{
 
 		$this->rbsMainDivStyle = 'width:'.$widthSizeValue.';';
 
+		switch( get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'align', true ) ){
+			case 'center':  $this->rbsMainDivStyle .= 'margin: 0 auto;'; break;
+			case '': default: 
+		}
 
 		if(count($this->selectImages->imgArray)){
 

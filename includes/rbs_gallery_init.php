@@ -132,6 +132,7 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
 		'font/cmb-field-font.php',
 		'rbsgallery/cmb-field-rbsgallery.php',
 		'multisize/rbs-multiSize.php',
+		'rbsradiobutton/rbs-radiobutton.php',
 		
 		
     ), ROBO_GALLERY_CMB_FILEDS_PATH);
