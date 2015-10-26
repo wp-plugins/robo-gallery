@@ -73,6 +73,8 @@ Gallery with highly customizable interface, advanced and FREE Wordpress images g
 *   **Advanced Compatibility** -  in our gallery we implement advanced compatibility options to avoid conflict with libraries of another plugins and theme. You can switch between modes to find properly value for your gallery and your case.
 *   **Advanced Social Sharing** -  advanced social sharing functionality in lightbox. Implemented deep linking functionality for the gallery images social sharing services Facebook, Twitter, Pinterest, Google+
 *   **Click Thumbnails** - advanced click functionality. You can use click on buttons or on the gallery thumbnails to enlarge gallery image or open gallery image link.  With new functionality you can combine absolutely different features of the gallery clicking functionality.
+*   **Gallery alignment** - implemented gallery alignment option. Possible to select one from implemented alignment modes: left, right, center for gallery alignment inside post or page content. Alignment could be disabled.
+
 
 = Gallery Pro Key Features =
  
@@ -181,13 +183,13 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
-= How to change quality of the gallery thumbnails? =
-
-Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
-
 = Do you have some conflict in gallery back end? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
+
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
 
 = What can I do if some gallery interface elements in backend do not work properly? =
 
@@ -205,25 +207,25 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
 
-= How to define video for some gallery image? =
-
-Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
-
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
+
+= How to define video for some gallery image? =
+
+Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
-
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
 
 = Is it possible to create direct link on the front end to the gallery? =
 
