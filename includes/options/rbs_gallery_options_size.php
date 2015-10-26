@@ -41,7 +41,9 @@ $size_group->add_field( array(
     'default' 	=> '',
     'options'	=> array( 
     		'' 		=> 'Disable', 
+    		'left' 		=> 'Left', 
     		'center'	=> 'Center', 
+    		'right'		=> 'Right',
     	),
     'id'	  	=> ROBO_GALLERY_PREFIX .'align',
     'type'    	=> 'rbsradiobutton',
