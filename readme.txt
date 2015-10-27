@@ -179,13 +179,13 @@ You don't need do any additional configurations or manual code changes. You can 
 
 Just install it using regular Wordpress plugins installing mechanism.  If you have some questions related with our plugin feel free to contact our support team we happy to help you!
 
-= How to upload images to the gallery? =
-
-When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
-
 = Do you have some conflict in gallery back end? =
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
+
+= How to upload images to the gallery? =
+
+When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
 = How to change quality of the gallery thumbnails? =
 
@@ -199,13 +199,13 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 Yes, you can insert gallery into post with shortcode tag
 
-= How to change text below image in lightbox ? =
-
-In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
-
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
+
+= How to change text below image in lightbox ? =
+
+In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
 
 = How to define video for some gallery image? =
 
@@ -231,25 +231,25 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 Yes, you can use generated direct link inside particular gallery settings
 
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
-
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
+
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
 
-= How to customize border of the gallery thumbnails? =
-
-In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
-
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery.
+
+= How to customize border of the gallery thumbnails? =
+
+In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
 = How to change spacing between thumbnails? =
 
@@ -283,6 +283,10 @@ In admin section of the gallery you'll find columns options which provide you ad
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
+= How to enable lazy load in gallery options? =
+
+In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
+
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
@@ -291,21 +295,17 @@ Yes, in gallery options you can turn on/off border option
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= How to enable lazy load in gallery options? =
-
-In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
-
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
 = How to make gallery thumbnails with rounded corners? =
 
