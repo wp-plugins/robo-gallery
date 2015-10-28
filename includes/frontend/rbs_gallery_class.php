@@ -383,6 +383,13 @@ class roboGallery extends roboGalleryUtils{
 			case '': default: 
 		}
 
+		$paddingCustom = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'paddingCustom', true );
+		if( isset($paddingCustom['left']) 	&& $paddingCustom['left'] ) 	$this->rbsMainDivStyle .= 'padding-left:'.	$this->getCorrectSize($paddingCustom['left']).';';
+		if( isset($paddingCustom['top']) 	&& $paddingCustom['top'] ) 		$this->rbsMainDivStyle .= 'padding-top:'.	$this->getCorrectSize($paddingCustom['top']).';';
+		if( isset($paddingCustom['right']) 	&& $paddingCustom['right'] ) 	$this->rbsMainDivStyle .= 'padding-right:'.	$this->getCorrectSize($paddingCustom['right']).';';
+		if( isset($paddingCustom['bottom']) && $paddingCustom['bottom'] ) 	$this->rbsMainDivStyle .= 'padding-bottom:'.$this->getCorrectSize($paddingCustom['bottom']).';';
+
+
 		if(count($this->selectImages->imgArray)){
 
 			if( get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced' ){
@@ -444,10 +451,12 @@ class roboGallery extends roboGalleryUtils{
 		if( $this->returnHtml ){
 			$this->returnHtml = 
 				'<div style="'.$this->rbsMainDivStyle.'">'
-					.($menu?$this->getMenu():'').
-					'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
-						. $this->returnHtml
-					.'</div>'
+				//	.'<div style="'.$this->rbsMainDivStyle.'">'
+						.($menu?$this->getMenu():'').
+						'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
+							. $this->returnHtml
+						.'</div>'
+			//		.'</div>'
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';
 

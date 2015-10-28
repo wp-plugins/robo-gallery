@@ -105,7 +105,15 @@ class roboGalleryUtils extends roboGalleryParent{
 			return '{'.implode( ' , ', $ret ).'}';
 		} else return '';
  	}
- 	
+
+ 	function getCorrectSize( $val = ''){
+		$correctVal = $val;
+		if( strpos( $val, '%')===false && strpos( $val, 'px')===false ){
+			$correctVal = $val.'px';
+		}
+		return $correctVal;
+	}
+
  	public function getThumbParams( ){
 
  	}

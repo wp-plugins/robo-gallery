@@ -50,6 +50,15 @@ $size_group->add_field( array(
 ));
 
 $size_group->add_field( array(
+	'name' 			=> __('Padding', 'rbs_gallery'),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'paddingCustom',
+	'type' 			=> 'padding',
+	'default'		=> array( 'left'=> 0, 'top'=> 0, 'right'=> 0, 'bottom'=> 0),
+	'bootstrap_style'=> 1,
+	
+));
+
+$size_group->add_field( array(
 	'name' 			=> __('Thumbs Options', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'thumb-size-options',
 	'type' 			=> 'size',

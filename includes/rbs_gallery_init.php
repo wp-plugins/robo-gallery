@@ -133,6 +133,7 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
 		'rbsgallery/cmb-field-rbsgallery.php',
 		'multisize/rbs-multiSize.php',
 		'rbsradiobutton/rbs-radiobutton.php',
+		'padding/rbs-padding.php',
 		
 		
     ), ROBO_GALLERY_CMB_FILEDS_PATH);
