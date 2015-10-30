@@ -26,7 +26,7 @@ $polaroid_group->add_field( array(
 	'name' 			=> __('Polaroid Style', 'rbs_gallery' ),
 	'id' 			=> ROBO_GALLERY_PREFIX . 'polaroidOn',
 	'type' 			=> 'switch',
-	'deffault'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
+	'default'		=> rbs_gallery_set_checkbox_default_for_new_post(0),
 	'depends' 		=> '.rbs_polaroid_block',
 	'bootstrap_style'=> 1,
 /*	'level'			=> !ROBO_GALLERY_PRO,*/

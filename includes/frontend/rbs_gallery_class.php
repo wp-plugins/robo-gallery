@@ -451,11 +451,11 @@ class roboGallery extends roboGalleryUtils{
 		if( $this->returnHtml ){
 			$this->returnHtml = 
 				'<div style="'.$this->rbsMainDivStyle.'">'
-				//	.'<div style="'.$this->rbsMainDivStyle.'">'
-						.($menu?$this->getMenu():'').
-						'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
-							. $this->returnHtml
-						.'</div>'
+	
+					.($menu?$this->getMenu():'').
+					'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
+						. $this->returnHtml
+					.'</div>'
 			//		.'</div>'
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';

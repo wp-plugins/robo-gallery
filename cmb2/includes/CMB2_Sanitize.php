@@ -81,10 +81,13 @@ class CMB2_Sanitize {
 		}
 
 		$sanitized_value = '';
+
 		switch ( $this->field->type() ) {
 			case 'wysiwyg':
 				// $value = wp_kses( $this->value );
 				// break;
+			case 'rbstextarea':
+			case 'textarea':
 			case 'textarea_small':
 				$sanitized_value = $this->textarea( $this->value );
 				break;

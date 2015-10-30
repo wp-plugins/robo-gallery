@@ -194,10 +194,10 @@ $hover_group->add_field( array(
 	'name'    => __('Description Template', 'rbs_gallery' ),
 	'desc'    => '@TITLE@ <br/> @CAPTION@ <br/> @DESC@ <br/> @LINK@ ',
 	'default' => 
-		'<div class="media-box-title">@TITLE@</div>'."\n".
-		'<div class="media-box-caption">@CAPTION@</div>'."\n".
-		'<div class="media-box-text">@DESC@</div>'."\n".
-		'<div class="media-box-more"><a href="@LINK@">Read more</a></div>'."\n",
+		'<div class="rbs-hover-title">@TITLE@</div>'."\n".
+		'<div class="rbs-hover-caption">@CAPTION@</div>'."\n".
+		'<div class="rbs-hover-text">@DESC@</div>'."\n".
+		'<div class="rbs-hover-more"><a href="@LINK@">Read more</a></div>'."\n",
 	'id'      => ROBO_GALLERY_PREFIX . 'desc_template',
 	'type'    => 'rbstextarea',
 	'before_row'	=>'
