@@ -192,14 +192,6 @@ When you create new gallery or open already existent gallery for edit on the rig
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  If combo box element do not drop down you can switch between classic and modern style, as result you can avoid conflict with another code.
 
-= Is it possible create gallery in Wordpress post with Gallery? =
-
-Yes, you can insert gallery into post with shortcode tag
-
-= How to change quality of the gallery thumbnails? =
-
-Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
-
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
@@ -208,13 +200,17 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
+= Is it possible create gallery in Wordpress post with Gallery? =
+
+Yes, you can insert gallery into post with shortcode tag
+
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
+
 = How to change text below image in lightbox ? =
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
-
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = How to generate shortcode for Wordpress page, post or widget? =
 
@@ -223,6 +219,10 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = How I can create custom (grid) layout of the thumbnails? =
 
@@ -244,10 +244,6 @@ Yes, you can use generated direct link inside particular gallery settings
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -255,6 +251,10 @@ Shadows of the thumbnails you can customize in gallery settings. With gallery se
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery.
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = How to customize border of the gallery thumbnails? =
 
@@ -296,10 +296,6 @@ In gallery settings you can find option to enable/disable lazy load, also there 
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
-= How to customize gallery layouts for different screen resolutions? =
-
-In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
-
 = Which parameters I can change for the gallery thumbnails borders and shadows? =
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
@@ -307,6 +303,10 @@ You can change size, color and style of gallery thumbnails borders and shadows. 
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
+
+= How to customize gallery layouts for different screen resolutions? =
+
+In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
 = How to make gallery thumbnails with rounded corners? =
 
