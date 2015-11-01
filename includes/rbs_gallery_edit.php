@@ -25,6 +25,7 @@ function rbs_gallery_group_metabox() {
     if( rbs_gallery_is_edit_page('edit') ){
       if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_shortcode.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_shortcode.php';
 	}
+	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_text.php') )		require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_text.php';
 
 	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_size.php') )    	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_size.php';
 	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_view.php') )    	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_view.php';

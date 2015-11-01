@@ -28,10 +28,11 @@ $text_group->add_field( array(
 	'id' 			=> ROBO_GALLERY_PREFIX . 'pretext',
 	'type' 			=> 'rbstextarea',
 	'default'		=> '',
+	'hide_label'		=> 1,
 	'bootstrap_style'=> 1,
 
     'before_row' 	=> '
-<div class="rbs_block"><br/>',
+    <div class="rbs_block"><label>'.__('Pre Text', 'rbs_gallery' ).'</label>',
 	'after_row'		=> '
 </div>',
 ));

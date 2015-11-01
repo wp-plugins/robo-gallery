@@ -20,15 +20,17 @@ function jt_cmb2_rbstextarea_field( $metakey, $post_id = 0 ) {
 function jt_cmb2_render_rbstextarea_field_callback( $field, $value, $object_id, $object_type, $field_type_object ) {
 
 	$value =  $value ? $value : $field->args('default') ;
-
+	$hide_label =  $field->args('hide_label')  ? 1 : 0 ;
 ?>
 <div class="form-horizontal">
 	<div class="form-group">
-		<div class="col-sm-2">
+	<?php if(!$hide_label){ ?>
+		<div class="col-sm-2 ">
 	    	<label class=" control-label" for="<?php echo $field_type_object->_id(); ?>"><?php echo esc_html(  $field->args('name') ); ?></label>
 	   		<?php echo $field_type_object->_desc( true );  ?>
 	    </div>
-	    <div class="<?php echo $field->args('small')?'col-sm-4':'col-sm-10'; ?>">
+	<?php } ?>
+	    <div class="<?php echo $hide_label?'col-sm-12':'col-sm-10'; ?>">
 	    	<?php
 	    		echo '<textarea '
 	    				.'id="'.$field_type_object->_id().'" '
