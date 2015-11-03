@@ -390,7 +390,8 @@ class roboGallery extends roboGalleryUtils{
 		if( isset($paddingCustom['bottom']) && $paddingCustom['bottom'] ) 	$this->rbsMainDivStyle .= 'padding-bottom:'.$this->getCorrectSize($paddingCustom['bottom']).';';
 
 		$pretext = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'pretext', true );
-
+		$aftertext = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'aftertext', true );
+		
 		if(count($this->selectImages->imgArray)){
 
 			if( get_option( ROBO_GALLERY_PREFIX.'jqueryVersion', 'build' )=='forced' ){
@@ -457,7 +458,7 @@ class roboGallery extends roboGalleryUtils{
 					'<div id="'.$this->galleryId.'" data-options="'.$this->galleryId.'" style="width:100%;" class="robo_gallery">'
 						. $this->returnHtml
 					.'</div>'
-			//		.'</div>'
+					.($aftertext?'<div>'.$aftertext.'</div>':'')
 				.'</div>'
 				.'<script>'.$this->compileJavaScript().'</script>';
 

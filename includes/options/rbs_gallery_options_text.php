@@ -33,6 +33,18 @@ $text_group->add_field( array(
 
     'before_row' 	=> '
     <div class="rbs_block"><label>'.__('Pre Text', 'rbs_gallery' ).'</label>',
+));
+
+$text_group->add_field( array(
+	'name' 			=> __('After Text', 'rbs_gallery' ),
+	'id' 			=> ROBO_GALLERY_PREFIX . 'aftertext',
+	'type' 			=> 'rbstextarea',
+	'default'		=> '',
+	'hide_label'		=> 1,
+	'bootstrap_style'=> 1,
+
+    'before_row' 	=> '
+    <label>'.__('After Text', 'rbs_gallery' ).'</label>',
 	'after_row'		=> '
 </div>',
 ));

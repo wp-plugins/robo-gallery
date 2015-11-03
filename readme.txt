@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries, robo gallery
 Requires at least: 3.3
 Tested up to: 4.3
-Stable tag: 1.4.5
+Stable tag: 1.4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -562,6 +562,10 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.4.6 =
+*   Added new text additional options
+*   Implemented After Text option with HTML support
+
 = 1.4.5 =
 *   Added new text additional options
 *   Implemented PreText option with HTML support
@@ -741,6 +745,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.4.6 =
+Added new text additional options, implemented After Text option with HTML support
 
 = 1.4.5 =
 Added new text additional options, implemented PreText option with HTML support
