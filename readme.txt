@@ -384,13 +384,17 @@ Gallery have 15 hover animation effects, which could be combined with additional
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
+= How to add text before and after gallery? =
+
+In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
+
 = Do you have fade effect for the thumbnails hover? =
 
 Yes, gallery have fade hover effect
 
 = How to customize gallery hover effect shutter layout? =
 
-In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which gonna help you to build in some gallery images elements into hover
+In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
 
 = How to change width of the gallery thumbnails border? =
 
