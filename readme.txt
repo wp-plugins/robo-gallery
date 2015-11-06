@@ -208,6 +208,10 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
 
+= Do you have some limits for images types in gallery? =
+
+You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
 = How to change quality of the gallery thumbnails? =
 
 Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
@@ -215,10 +219,6 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
-
-= Do you have some limits for images types in gallery? =
-
-You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 = How to define custom hover effect for some gallery thumbnail? =
 
@@ -228,13 +228,13 @@ When you open gallery media manager you'll see there list of the gallery images.
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
-= How to insert gallery into Wordpress page or post? =
-
-When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
 = How to change amount of images loading on gallery page? =
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
+
+= How to insert gallery into Wordpress page or post? =
+
+When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -248,18 +248,6 @@ When you open gallery settings inside you'll find images manager section. Images
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery.
-
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
-= How to define custom link for some gallery images? =
-
-Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
-
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -272,9 +260,13 @@ In gallery settings you can enable custom caption settings where you can customi
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
-= Is it possible to have different settings for hover and static interface elements? =
+= Do you have some limit for images size in gallery? =
 
-Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
+No, we don't have any limits for image size in our gallery.
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = How to hide titles of the gallery image in lightbox ? =
 
@@ -283,6 +275,14 @@ In lightbox section of the gallery settings you can find hide title option. If y
 = How to enable lazy load in gallery options? =
 
 In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
+
+= How to define custom link for some gallery images? =
+
+Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
+
+= Is it possible to have different settings for hover and static interface elements? =
+
+Yes, you can have different styles of the borders and shadows for static and hovered gallery thumbnails.
 
 = How to change spacing between thumbnails? =
 
