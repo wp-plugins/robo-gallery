@@ -184,13 +184,13 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
-= How to upload images to the gallery? =
-
-When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
+
+= How to upload images to the gallery? =
+
+When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
 
 = Is it possible create gallery in Wordpress post with Gallery? =
 
@@ -204,14 +204,6 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
-
-= How to change quality of the gallery thumbnails? =
-
-Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
-
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
@@ -220,9 +212,13 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= How I can create custom (grid) layout of the thumbnails? =
+= How to generate shortcode for Wordpress page, post or widget? =
 
-In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
+
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
 
 = How to insert gallery into Wordpress page or post? =
 
@@ -231,6 +227,10 @@ When you create gallery in plugin galleries manager you can go to the post or pa
 = How to change text below image in lightbox ? =
 
 In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
+
+= How I can create custom (grid) layout of the thumbnails? =
+
+In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
 
 = How to define custom hover effect for some gallery thumbnail? =
 
