@@ -12,10 +12,8 @@
 *      Available only in http://robosoft.co/
 */
 
-if( file_exists( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php') ){
-	include_once( WP_PLUGIN_DIR.'/robogallerykey/robogallerykey.php' );
-} else if( file_exists( ROBO_GALLERY_PATH.'robogallerykey.php') ){
-	include_once( ROBO_GALLERY_PATH.'robogallerykey.php' );
+if( ROBO_GALLERY_PRO ){
+	include_once( ROBO_GALLERY_KEY_PATH );
 } else {
 	class roboGalleryParent{ public $pro = 0; }
 }
@@ -91,8 +89,8 @@ class roboGalleryUtils extends roboGalleryParent{
  		$ret = array();
 		if( isset($colums['autowidth'.$index]) ){
 			$ret[] = '"columnWidth": "auto"';
-			if($colums['colums'.$index]) $ret[] =  '"columns":'.$colums['colums'.$index];
-		} elseif($colums['width'.$index]){
+			if( isset($colums['colums'.$index]) && $colums['colums'.$index] )  $ret[] =  '"columns":'.$colums['colums'.$index];
+		} elseif( isset($colums['width'.$index]) && $colums['width'.$index] ){
 			$ret[] = '"columnWidth": '.$colums['width'.$index];
 		}
 		if( count($ret) ){

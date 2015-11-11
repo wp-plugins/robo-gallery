@@ -22,27 +22,27 @@ function rbs_gallery_group_metabox() {
 	}
 	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_images.php') )		require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_images.php';
     
-    if( rbs_gallery_is_edit_page('edit') ){
-      if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_shortcode.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_shortcode.php';
-	}
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_text.php') )		require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_text.php';
+    if( rbs_gallery_is_edit_page('edit') ) rbs_gallery_include('rbs_gallery_options_shortcode.php', ROBO_GALLERY_EXTENSIONS_PATH);
 
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_size.php') )    	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_size.php';
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_view.php') )    	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_view.php';
+	rbs_gallery_include( array(
+		'rbs_gallery_options_text.php',
+		'rbs_gallery_options_size.php',
+		'rbs_gallery_options_view.php',
+		'rbs_gallery_options_hover.php',
+		'rbs_gallery_options_button.php',
+	 ), ROBO_GALLERY_OPTIONS_PATH);
 	
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_hover.php') )   	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_hover.php';
-
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_button.php') )		require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_button.php';	
-
-	if( !ROBO_GALLERY_PRO &&  file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_infowide.php') )require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_infowide.php';
+	if( !ROBO_GALLERY_PRO ) rbs_gallery_include('rbs_gallery_options_infowide.php', ROBO_GALLERY_EXTENSIONS_PATH); 
 	
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_loading.php') )		require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_loading.php';
+	rbs_gallery_include( array(
+		'rbs_gallery_options_loading.php',
+		'rbs_gallery_options_polaroid.php',
+		'rbs_gallery_options_lightbox.php',
+	 ), ROBO_GALLERY_OPTIONS_PATH);
 
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_polaroid.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_polaroid.php';
-
-	if( file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_lightbox.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_lightbox.php';
-
-	if( !ROBO_GALLERY_PRO && file_exists(ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_info.php') )	require_once ROBO_GALLERY_INCLUDES_PATH.'options/rbs_gallery_options_info.php';
+	if( !ROBO_GALLERY_PRO ) rbs_gallery_include('rbs_gallery_options_info.php', ROBO_GALLERY_EXTENSIONS_PATH); 
+     
+	if( rbs_gallery_is_edit_page('edit') ) rbs_gallery_include('rbs_create_article_button.php', ROBO_GALLERY_EXTENSIONS_PATH);
 
 }
 add_action( 'cmb2_init', 'rbs_gallery_group_metabox' );

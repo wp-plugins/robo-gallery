@@ -21,6 +21,7 @@ $shortcode_group = new_cmb2_box( array(
     'priority'      => 'low',
     'closed'        => rbs_gallery_set_checkbox_default_for_new_post(0),
 ));
+
 if(isset($_GET['post'])){
 	$shortcode_group->add_field( array(
 	    'id'            => ROBO_GALLERY_PREFIX.'short_desc',

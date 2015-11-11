@@ -43,7 +43,8 @@ class roboGalleryImages{
  		if(!$this->id) return false;
  		++$this->lazyLoad;
 		$tempImages = get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'galleryImages', true );
-		if( isset($tempImages) && count($tempImages)==1 && trim($tempImages[0])=='' ) $tempImages = array();
+
+		if( isset($tempImages) && !is_array($tempImages)==1 && trim($tempImages)=='' ) $tempImages = array();
 
 		if( !get_post_meta( $this->id, ROBO_GALLERY_PREFIX.'menuSelfImages', true ) ){
 			$tempImages = array();

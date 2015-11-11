@@ -15,8 +15,6 @@
 define( "ROBO_GALLERY_PREFIX",     'rsg_');
 define( "ROBO_GALLERY_TYPE_POST",  'robo_gallery_table');
 
-
-
 define( "ROBO_GALLERY_ICON_PRO",  '<button type="button"  class="btn btn-danger btn-xs rbs-label-pro">Pro</button>');
 define( "ROBO_GALLERY_LABEL_PRO", '<span>'.__( 'Available in', 'rbs_gallery' ).'</span> '.ROBO_GALLERY_ICON_PRO);
 
@@ -140,6 +138,9 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
    
     rbs_gallery_include('rbs_gallery_edit.php', ROBO_GALLERY_INCLUDES_PATH);
 }
+
+rbs_gallery_include('rbs_gallery_ajax.php', ROBO_GALLERY_INCLUDES_PATH);
+
 /* only backend */
 if( is_admin() ) rbs_gallery_include(array('rbs_gallery_media.php', 'rbs_gallery_menu.php' ), ROBO_GALLERY_INCLUDES_PATH);
 
