@@ -312,10 +312,6 @@ In gallery settings you can enable custom caption settings where you can customi
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
-= How to use multi-category functionality of the gallery? =
-
-In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings 
-
 = How to make gallery thumbnails with rounded corners? =
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
@@ -324,9 +320,17 @@ In gallery settings you can find section rounds where with special options you c
 
 Yes, you can use HTML tags inside gallery image description field
 
+= How to use multi-category functionality of the gallery? =
+
+In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings 
+
 = Is it possible to customize gallery image caption ? =
 
 In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
+
+= How to change ordering of the gallery images? =
+
+When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
 
 = Is it possible to turn off border of the gallery thumbnails? =
 
@@ -340,6 +344,10 @@ In gallery admin section you can define amount of the images for the first load 
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
+= How to flip uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can flip source image
+
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
@@ -348,25 +356,13 @@ In gallery settings you can enable custom caption settings where you can customi
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
-= How to flip uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can flip source image
-
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
 
-= How to change ordering of the gallery images? =
-
-When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
-
 = Where to change settings of the image of the gallery? =
 
 Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
-
-= How to crop uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can crop source image
 
 = How to rotate uploaded gallery image? =
 
@@ -376,13 +372,13 @@ When you open gallery images manager you'll find there image edit mode where you
 
 Yes, gallery have fade hover effect
 
+= How to crop uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can crop source image
+
 = How to change color of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
-
-= How to add text before and after gallery? =
-
-In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
 
 = How many thumbnails hover effects gallery has? =
 
@@ -392,13 +388,13 @@ Gallery have 15 hover animation effects, which could be combined with additional
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
+= How to add text before and after gallery? =
+
+In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
+
 = How to customize gallery hover effect shutter layout? =
 
 In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
-
-= How to change width of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
 
 = Is it possible to change transparency of the hover shutter? =
 
@@ -407,6 +403,10 @@ Yes, it's possible to change transparency in gallery settings
 = How many menu buttons styles do you have in gallery menu ? =
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
+
+= How to change width of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
 
 = Do you have Polaroid style in your gallery? =
 
