@@ -1,12 +1,14 @@
 <?php
 if ( ! defined( 'WPINC' ) )  die;
 
-add_action( 'wp_ajax_rbs_gallery_ajax', 'rbs_gallery_ajax_callback' );
-function rbs_gallery_ajax_callback() {
-	global $wpdb; 
-	$whatever = intval( $_POST['whatever'] );
-	$postid = intval( $_POST['postid'] );
-	$whatever += 10;
-	echo $whatever." id:".$postid;
-	wp_die();
+if(!function_exists('rbs_gallery_ajax_callback')){
+	add_action( 'wp_ajax_rbs_gallery', 'rbs_gallery_ajax_callback' );
+	function rbs_gallery_ajax_callback(){
+		if(isset($_POST['function']) && $_POST['function']){
+			$functionName = 'rbs_ajax_'.$_POST['function'];
+			if( function_exists( $functionName ) ) $functionName();
+		}
+		wp_die();
+	}
 }
+

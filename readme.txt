@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/robogallery
 Tags: gallery, add gallery, photo gallery, images gallery, media gallery, responsive gallery, gallery image, gallery lightbox, Polaroid gallery, Gallery Plugin, plugin gallery, video gallery, gallery shortcode, responsive images gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugin, wp gallery plugins, multi categories gallery, add galleries, add picture, add pictures, album, best gallery, best gallery plugin, responsive galleries, mobile gallery, mobile galleries, responsive photo gallery, best portfolio, easy media gallery, filterable gallery, filterable portfolio, foto, fotoalbum, fotogalerie, sortable gallery, sortable galleries, free photo gallery, fullscreen gallery, galary, galeri, galerie, galerij, galery, gallary, Galleria, gallerie, galleries, gallery decription, gallery slider, gelary, gellary, gellery, google, grid gallery, image, image album, image gallery, image gallery plugin, image lightbox, image slider, image slideshow, images, jquery, jquery gallery, links, media, multiple pictures, page, pagination gallery, pagination portfolio, photo, photo album, photo albums, photoalbum, photogallery, photos, photoset, picture, pictures, plugin, plugin for gallery, portfolio, portfolio gallery, portfolio plugin, Post, posts, responsive slideshow, responsive wordpress photo gallery, seo image, slide show, slideshow, thumbnail, upload images, upload photos, batch upload, multiply images upload, view images, view pictures, wordpress portfolio plugin,  multi-categories gallery,  multi categories galleries, robo gallery
 Requires at least: 3.3
 Tested up to: 4.3
-Stable tag: 1.4.7
+Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -208,6 +208,10 @@ You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
+= How to generate shortcode for Wordpress page, post or widget? =
+
+First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
+
 = How to change amount of images loading on gallery page? =
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
@@ -219,10 +223,6 @@ Quality of the gallery thumbnails could be easily changed in gallery size option
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
-
-= How to generate shortcode for Wordpress page, post or widget? =
-
-First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
 
 = How to change text below image in lightbox ? =
 
@@ -244,6 +244,10 @@ In gallery settings you can enable custom caption settings where you can customi
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
+= Where specify description of the gallery images? =
+
+When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
+
 = How to make shadow for the gallery thumbnails? =
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
@@ -251,10 +255,6 @@ Shadows of the thumbnails you can customize in gallery settings. With gallery se
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
-
-= Where specify description of the gallery images? =
-
-When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
 
 = Do you have some limits for images amount in gallery? =
 
@@ -264,6 +264,10 @@ No, we don't have any limits for amount of the images in gallery
 
 No, we don't have any limits for image size in our gallery.
 
+= How to enable lazy load in gallery options? =
+
+In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
+
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
@@ -271,10 +275,6 @@ In gallery settings you can find general settings section where you can turn on/
 = How to hide titles of the gallery image in lightbox ? =
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
-
-= How to enable lazy load in gallery options? =
-
-In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
 
 = How to define size of the gallery images thumbnails? =
 
@@ -566,6 +566,12 @@ If any problem occurs, please contact us.
 
 == Changelog ==
 
+= 1.5.0 =
+*   New gallery admin tools implemented
+*   New post with gallery generator implemented
+*   New wizard for target category for gallery post selection
+*   Auto short tag generator in new created post
+
 = 1.4.7 =
 *   Code optimization
 *   Update of the API structure
@@ -756,6 +762,9 @@ If any problem occurs, please contact us.
 *   First release
 
 == Upgrade Notice ==
+
+= 1.5.0 =
+New wizard for auto post generation with shortcode inside it, new gallery admin tools implemented
 
 = 1.4.7 =
 Implemented new backend API structures, prepared new interface elements

@@ -72,12 +72,12 @@ function create_post_type_robo_gallery() {
             'edit_item'     => __( 'Edit Gallery', 		'rbs_gallery' ),
           ),
 
-          'rewrite'            => array( 'slug' => 'gallery', 'with_front' => true ),
-          'public'      => true,
-          'has_archive'   => false,
-          'hierarchical'  => true,
-          'supports'    => array( 'title', 'page-attributes', 'comments'),
-          'menu_icon'     => 'dashicons-format-gallery',
+          'rewrite'         => array( 'slug' => 'gallery', 'with_front' => true ),
+          'public'      	=> true,
+          'has_archive'   	=> false,
+          'hierarchical'  	=> true,
+          'supports'    	=> array( 'title', 'page-attributes', 'comments'),
+          'menu_icon'     	=> 'dashicons-format-gallery',
     ));
    /* to-do options */
    global $wp_rewrite; $wp_rewrite->flush_rules();
@@ -92,7 +92,6 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && !ROBO_GALLE
     rbs_gallery_include('rbs_gallery_topblock.php', ROBO_GALLERY_INCLUDES_PATH);
 }
 
-
 if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST &&  rbs_gallery_is_edit_page('new') && !ROBO_GALLERY_PRO ){
     if(!function_exists('rbs_gallery_redirect')){
     	function rbs_gallery_redirect (){
@@ -105,7 +104,6 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST &&  rbs_galler
     	add_action( 'load-post-new.php', 'rbs_gallery_redirect' );  
     }  
 }
-
 
 if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_gallery_is_edit_page('new') || rbs_gallery_is_edit_page('edit') ) ){
 
@@ -132,17 +130,17 @@ if( rbs_gallery_get_current_post_type() == ROBO_GALLERY_TYPE_POST && ( rbs_galle
 		'multisize/rbs-multiSize.php',
 		'rbsradiobutton/rbs-radiobutton.php',
 		'padding/rbs-padding.php',
-		
-		
     ), ROBO_GALLERY_CMB_FILEDS_PATH);
    
     rbs_gallery_include('rbs_gallery_edit.php', ROBO_GALLERY_INCLUDES_PATH);
 }
-
-rbs_gallery_include('rbs_gallery_ajax.php', ROBO_GALLERY_INCLUDES_PATH);
 
 /* only backend */
 if( is_admin() ) rbs_gallery_include(array('rbs_gallery_media.php', 'rbs_gallery_menu.php' ), ROBO_GALLERY_INCLUDES_PATH);
 
 /* Frontend*/
 rbs_gallery_include(array('rbs_gallery_source.php', 'rbs_gallery_helper.php', 'rbs_gallery_class_utils.php', 'rbs_gallery_class.php', 'rbs_gallery_frontend.php' ), ROBO_GALLERY_FRONTEND_PATH);
+
+/* AJAX */
+rbs_gallery_include('rbs_gallery_ajax.php', ROBO_GALLERY_INCLUDES_PATH);
+rbs_gallery_include('rbs_create_post_ajax.php', ROBO_GALLERY_EXTENSIONS_PATH);
