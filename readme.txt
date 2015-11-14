@@ -244,6 +244,10 @@ In gallery settings you can enable custom caption settings where you can customi
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
+= How to customize border of the gallery thumbnails? =
+
+In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
@@ -252,17 +256,9 @@ When you open gallery settings inside you'll find images manager section. Images
 
 Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
 
-= How to customize border of the gallery thumbnails? =
-
-In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
-
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
-
-= Do you have some limit for images size in gallery? =
-
-No, we don't have any limits for image size in our gallery.
 
 = How to enable lazy load in gallery options? =
 
@@ -271,6 +267,10 @@ In gallery settings you can find option to enable/disable lazy load, also there 
 = How to customize border of the gallery thumbnails? =
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
+
+= Do you have some limit for images size in gallery? =
+
+No, we don't have any limits for image size in our gallery.
 
 = How to hide titles of the gallery image in lightbox ? =
 
@@ -296,21 +296,17 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
 
-= Which parameters I can change for the gallery thumbnails borders and shadows? =
-
-You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
-
 = How to customize gallery layouts for different screen resolutions? =
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
+= Which parameters I can change for the gallery thumbnails borders and shadows? =
+
+You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
 = How to change font color of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
-
-= How to define custom link for some gallery images? =
-
-Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to make gallery thumbnails with rounded corners? =
 
@@ -319,6 +315,10 @@ In gallery settings you can find section rounds where with special options you c
 = Is it possible to use HTML in image description ? =
 
 Yes, you can use HTML tags inside gallery image description field
+
+= How to define custom link for some gallery images? =
+
+Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
 
 = How to use multi-category functionality of the gallery? =
 
