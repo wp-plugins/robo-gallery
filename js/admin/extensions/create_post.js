@@ -31,8 +31,8 @@
 		'title': roboGalleryActionDialog.data('title'),
 		'modal' : true,
 		'autoOpen' : false,
-		'width': '450', // overcomes width:'auto' and maxWidth bug
-	    'maxWidth': 450,
+		'width': '550', // overcomes width:'auto' and maxWidth bug
+	    'maxWidth': 550,
 	    'height': 'auto',
 	    'fluid': true, 
 	    'resizable': false,
@@ -80,14 +80,17 @@
 		evnt.preventDefault();
 
 		var categoryId = $('#rbs_post_create_category').find(":selected").val();
+		var title = $('#rbs_post_create_title').val();
 
 		rbs_insert_post_content.html(progressHtml);
 
+	
 		var data = {
-			'action': 		'rbs_gallery',
-			'function': 	'create_article',
-			'galleryid': 	roboGalleryActionDialogId, 
-			'categoryid': 	categoryId, 
+			'action': 			'rbs_gallery',
+			'function': 		'create_article',
+			'galleryid': 		roboGalleryActionDialogId, 
+			'categoryid': 		categoryId,
+			'articletitle':  	title, 
 		};
 
 		rbs_insert_post_button.hide();

@@ -13,7 +13,8 @@ if(!function_exists('rbs_create_article_button')){
 			.'>';
 			?>
 			<div id="rbs_actionWindowContent">
-				<h3> <span class="dashicons dashicons-update"></span> <?php echo __('Loading . . . .','rbs_gallery'); ?></h3>
+				<h3> <span class="dashicons dashicons-update"></span> 
+				<?php echo __('Loading . . . .','rbs_gallery'); ?></h3>
 			</div>
 		<?php
 		echo '</div>';

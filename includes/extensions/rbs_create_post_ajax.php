@@ -3,6 +3,7 @@ if ( ! defined( 'WPINC' ) )  die;
 
 rbs_gallery_include('class.postcontroller.php', ROBO_GALLERY_EXTENSIONS_PATH);
 
+
 if(!function_exists('rbs_ajax_create_article')){
 	function rbs_ajax_create_article(){
 		if( 
@@ -20,7 +21,11 @@ if(!function_exists('rbs_ajax_create_article')){
 			}
 	
 			$Poster = new PostController;
-			$Poster->set_title( $post_info->post_title );
+			
+			$title = $post_info->post_title;
+			if(isset( $_POST['articletitle'] ) && $_POST['articletitle'] ) $title = wp_kses_data($_POST['articletitle']);
+			
+			$Poster->set_title( $title );
 			$Poster->add_category( array($categoryid) );
 			$Poster->set_type( "post" );
 			$Poster->set_content( '[robo-gallery id="'.$galleryid.'"]' );
@@ -48,35 +53,55 @@ if(!function_exists('rbs_ajax_create_article')){
 
 if(!function_exists('rbs_ajax_create_article_form')){
 	function rbs_ajax_create_article_form(){ 
-		echo '<div class="form-group">';
-				$args = array(
-					'show_option_all'    => '',
-					'show_option_none'   => '',
-					'option_none_value'  => '-1',
-					'orderby'            => 'ID', 
-					'order'              => 'ASC',
-					'show_count'         => 0,
-					'hide_empty'         => 0, 
-					'child_of'           => 0,
-					'exclude'            => '',
-					'echo'               => 1,
-					'selected'           => 0,
-					'hierarchical'       => 1, 
-					'name'               => 'cat',
-					'id'                 => 'rbs_post_create_category',
-					'class'              => 'form-control',
-					'depth'              => 0,
-					'tab_index'          => 0,
-					'taxonomy'           => 'category',
-					'hide_if_empty'      => false,
-					'value_field'	     => 'term_id',	
-				);
-			
-				echo '<label for="rbs_post_create_category">'.__('Select category','rbs_gallery').' </label> ';
-			
-				wp_dropdown_categories( $args );
-			
-		echo '</div>';
-		echo '<p>'.__('Title of the article will be the same as gallery title. Target category you can select below. Short tag of the gallery will be insert into created article.','rbs_gallery').'</p>';
+		$args = array(
+			'show_option_all'    => '',
+			'show_option_none'   => '',
+			'option_none_value'  => '-1',
+			'orderby'            => 'ID', 
+			'order'              => 'ASC',
+			'show_count'         => 0,
+			'hide_empty'         => 0, 
+			'child_of'           => 0,
+			'exclude'            => '',
+			'echo'               => 1,
+			'selected'           => 0,
+			'hierarchical'       => 1, 
+			'name'               => 'cat',
+			'id'                 => 'rbs_post_create_category',
+			'class'              => 'form-control',
+			'depth'              => 0,
+			'tab_index'          => 0,
+			'taxonomy'           => 'category',
+			'hide_if_empty'      => false,
+			'value_field'	     => 'term_id',	
+		);
+		if( !isset($_POST['galleryid']) || !(int)$_POST['galleryid'] ){
+			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'._e('Empty  gallery ID','rbs_gallery').'</p>';
+			return ;
+		} ; 
+		
+		$post_info = get_post( (int) $_POST['galleryid'] );
+
+		if( gettype($post_info)!='object' ) {
+			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'._e('Incorrect  gallery ID','rbs_gallery').'</p>';
+			return ;
+		}
+
+		?>
+		<table class="form-table">
+			<tbody>
+				<tr>
+					<th scope="row"><label for="rbs_post_create_title"><?php _e('Select category','rbs_gallery'); ?></label></th>
+					<td><?php wp_dropdown_categories( $args ); ?></td>
+				</tr>
+				<tr>
+					<th scope="row"><label for="rbs_post_create_title">Post Title</label></th>
+					<td><input name="rbs_post_create_title" id="rbs_post_create_title" value="<?php echo $post_info->post_title ;?>" class="regular-text" type="text"></td>
+				</tr>
+			</tbody>
+		</table>
+		<?php
+		
+		echo '<p>'.__('Short tag of the gallery will be insert into created article.','rbs_gallery').'</p>';
 	}
 }
