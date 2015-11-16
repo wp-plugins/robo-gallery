@@ -204,13 +204,13 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
-= How to customize hover effect? =
-
-In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
-
 = How to generate shortcode for Wordpress page, post or widget? =
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
+
+= How to customize hover effect? =
+
+In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
 = How to change quality of the gallery thumbnails? =
 
@@ -224,10 +224,6 @@ When you create gallery in plugin galleries manager you can go to the post or pa
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= How to change text below image in lightbox ? =
-
-In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
-
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
@@ -239,6 +235,10 @@ In gallery settings you can enable custom caption settings where you can customi
 = How to define custom hover effect for some gallery thumbnail? =
 
 When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
+
+= How to change text below image in lightbox ? =
+
+In gallery setting you can select which text show below image in gallery lightbox. You can select Caption, Title or image Description as source for this field in gallery lightbox.
 
 = Is it possible to create direct link on the front end to the gallery? =
 
@@ -272,10 +272,6 @@ In gallery settings you can find general settings section where you can turn on/
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
 
-= How to define size of the gallery images thumbnails? =
-
-Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
-
 = Do you have some limit for images size in gallery? =
 
 No, we don't have any limits for image size in our gallery.
@@ -283,6 +279,10 @@ No, we don't have any limits for image size in our gallery.
 = How to set description text below image in the lightbox?  =
 
 In gallery settings you can find lightbox section and if you need to show description of the images below images in the lightbox you need to select text source in lightbox settings from defined values. 
+
+= How to define size of the gallery images thumbnails? =
+
+Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
 = How to change spacing between thumbnails? =
 
