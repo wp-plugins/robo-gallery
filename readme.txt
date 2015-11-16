@@ -184,10 +184,6 @@ Just install it using regular Wordpress plugins installing mechanism.  If you ha
 
 If you have some conflict in gallery back end you can sort it with new compatibility option.  You can switch between standard and alternative jquery library. This modes implemented to help you to avoid any conflicts with another libraries from wordpress themes or another plugin. 
 
-= How to define video for some gallery image? =
-
-Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
-
 = How to upload images to the gallery? =
 
 When you create new gallery or open already existent gallery for edit on the right side of the edit gallery section you'll see gallery images manager button. When you open gallery images manager you'll be able there edit all gallery images. Upload, edit or delete. In gallery images manager you can use drag and drop gallery images upload tool.
@@ -195,6 +191,10 @@ When you create new gallery or open already existent gallery for edit on the rig
 = Is it possible create gallery in Wordpress post with Gallery? =
 
 Yes, you can insert gallery into post with shortcode tag
+
+= How to define video for some gallery image? =
+
+Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
 = What can I do if some gallery interface elements in backend do not work properly? =
 
@@ -248,10 +248,6 @@ Yes, you can use generated direct link inside particular gallery settings
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
-= How to make shadow for the gallery thumbnails? =
-
-Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
-
 = Do you have some limits for images amount in gallery? =
 
 No, we don't have any limits for amount of the images in gallery
@@ -259,6 +255,10 @@ No, we don't have any limits for amount of the images in gallery
 = Where specify description of the gallery images? =
 
 When you open gallery settings inside you'll find images manager section. Images manager make you able to add/edit descriptions and titles of every gallery image
+
+= How to make shadow for the gallery thumbnails? =
+
+Shadows of the thumbnails you can customize in gallery settings. With gallery settings you can change size , color and position of the gallery thumbnails shadow
 
 = How to enable lazy load in gallery options? =
 
@@ -300,10 +300,6 @@ Color of every gallery front end interface element could be changed changed in a
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
-= Which parameters I can change for the gallery thumbnails borders and shadows? =
-
-You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
-
 = How to change font color of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
@@ -311,6 +307,10 @@ In gallery settings you can enable custom caption settings where you can customi
 = How to make gallery thumbnails with rounded corners? =
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
+
+= Which parameters I can change for the gallery thumbnails borders and shadows? =
+
+You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
 
 = Is it possible to use HTML in image description ? =
 
@@ -324,10 +324,6 @@ Every gallery image have additional fields where you can define custom link, tit
 
 In our gallery we implemented multi-categories structure. Every gallery category could have child and parent gallery, which you can manually define in gallery settings 
 
-= Is it possible to customize gallery image caption ? =
-
-In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
-
 = How to change ordering of the gallery images? =
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
@@ -335,6 +331,10 @@ When you open gallery for edit you can find there images manager where you can c
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
+
+= Is it possible to customize gallery image caption ? =
+
+In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
 = How to load more function work? =
 
@@ -344,10 +344,6 @@ In gallery admin section you can define amount of the images for the first load 
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
-= How to flip uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can flip source image
-
 = How to change font style of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
@@ -355,6 +351,10 @@ In gallery settings you can enable custom caption settings where you can customi
 = Is it possible to create target blank links? =
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
+
+= How to flip uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can flip source image
 
 = How to define custom ALT for gallery image? =
 
@@ -408,10 +408,6 @@ Gallery menu have multiply configuration options. Some of the options changing c
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
 
-= Do you have Polaroid style in your gallery? =
-
-In our gallery implemented options which make you able to make gallery thumbnails looks in Polaroid style, with caption of the image below thumbnail
-
 = How to make gallery with no space between thumbnails of the gallery? =
 
 If you wish to make section with gallery without spacing between thumbnails you need just set horizontal and vertical spacing to 0 in gallery thumbnails view options
@@ -419,6 +415,10 @@ If you wish to make section with gallery without spacing between thumbnails you 
 = How to change style of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
+
+= Do you have Polaroid style in your gallery? =
+
+In our gallery implemented options which make you able to make gallery thumbnails looks in Polaroid style, with caption of the image below thumbnail
 
 = Is it possible to customize load more button caption? = 
 
@@ -491,6 +491,10 @@ Our gallery do not require any special permissions for installation of the galle
 = Is it possible to change color of the hovered image in gallery? =
 
 Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements. 
+
+= How to insert text before/after gallery? =
+
+In our gallery we implemented few additional options which help you to add some text with HTML before/after gallery on your page. IN gallery settings you can find pre/post text fields where you can define some description text for the gallery. This gallery fields support HTML, so you can customize this text with HTML tags or css styles.
 
 == Screenshots ==
 
