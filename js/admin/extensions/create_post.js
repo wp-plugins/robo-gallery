@@ -81,16 +81,18 @@
 
 		var categoryId = $('#rbs_post_create_category').find(":selected").val();
 		var title = $('#rbs_post_create_title').val();
+		var slug = $('#rbs_post_create_slug').val();
 
 		rbs_insert_post_content.html(progressHtml);
 
-	
 		var data = {
 			'action': 			'rbs_gallery',
 			'function': 		'create_article',
 			'galleryid': 		roboGalleryActionDialogId, 
 			'categoryid': 		categoryId,
-			'articletitle':  	title, 
+			'articletitle':  	title,
+			'articleslug':  	slug,
+				
 		};
 
 		rbs_insert_post_button.hide();

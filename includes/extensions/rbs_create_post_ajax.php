@@ -25,12 +25,17 @@ if(!function_exists('rbs_ajax_create_article')){
 			$title = $post_info->post_title;
 			if(isset( $_POST['articletitle'] ) && $_POST['articletitle'] ) $title = wp_kses_data($_POST['articletitle']);
 			
+			$slug = 'post_'.$post_info->post_name;
+			if(isset( $_POST['articleslug'] ) && $_POST['articleslug'] ) $slug = wp_kses_data($_POST['articleslug']);
+			
+
+
 			$Poster->set_title( $title );
 			$Poster->add_category( array($categoryid) );
 			$Poster->set_type( "post" );
 			$Poster->set_content( '[robo-gallery id="'.$galleryid.'"]' );
 			$Poster->set_author_id( get_current_user_id() );
-			$Poster->set_post_slug( 'post_'.$post_info->post_name );
+			$Poster->set_post_slug( $slug );
 			$Poster->set_post_state( "publish" );
 			$Poster->create();
 
@@ -94,9 +99,15 @@ if(!function_exists('rbs_ajax_create_article_form')){
 					<th scope="row"><label for="rbs_post_create_title"><?php _e('Select category','rbs_gallery'); ?></label></th>
 					<td><?php wp_dropdown_categories( $args ); ?></td>
 				</tr>
+
 				<tr>
 					<th scope="row"><label for="rbs_post_create_title">Post Title</label></th>
 					<td><input name="rbs_post_create_title" id="rbs_post_create_title" value="<?php echo $post_info->post_title ;?>" class="regular-text" type="text"></td>
+				</tr>
+
+				<tr>
+					<th scope="row"><label for="rbs_post_create_slug">Post Slug</label></th>
+					<td><input name="rbs_post_create_slug" id="rbs_post_create_slug" value="<?php echo 'post_'.$post_info->post_name;?>" class="regular-text" type="text"></td>
 				</tr>
 			</tbody>
 		</table>
