@@ -308,14 +308,6 @@ In gallery settings you can enable custom caption settings where you can customi
 
 In gallery settings you can find section rounds where with special options you can define radius for the gallery thumbnails
 
-= Which parameters I can change for the gallery thumbnails borders and shadows? =
-
-You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
-
-= Is it possible to use HTML in image description ? =
-
-Yes, you can use HTML tags inside gallery image description field
-
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
@@ -328,13 +320,17 @@ In our gallery we implemented multi-categories structure. Every gallery category
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
 
+= Which parameters I can change for the gallery thumbnails borders and shadows? =
+
+You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
+
+= Is it possible to use HTML in image description ? =
+
+Yes, you can use HTML tags inside gallery image description field
+
 = Is it possible to turn off border of the gallery thumbnails? =
 
 Yes, in gallery options you can turn on/off border option
-
-= Is it possible to customize gallery image caption ? =
-
-In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
 = How to load more function work? =
 
@@ -344,9 +340,9 @@ In gallery admin section you can define amount of the images for the first load 
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
 
-= How to change font style of the gallery image caption? =
+= Is it possible to customize gallery image caption ? =
 
-In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+In gallery settings you can find images manager where you can change settings of every image, one of the option it's caption of the image
 
 = Is it possible to create target blank links? =
 
@@ -355,6 +351,10 @@ Yes. When you open gallery media manager you'll see there list of the gallery im
 = How to flip uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can flip source image
+
+= How to change font style of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
 = How to define custom ALT for gallery image? =
 
