@@ -496,6 +496,10 @@ Yes, you can easily change color of the hovered image in gallery in backend. In 
 
 In our gallery we implemented few additional options which help you to add some text with HTML before/after gallery on your page. IN gallery settings you can find pre/post text fields where you can define some description text for the gallery. This gallery fields support HTML, so you can customize this text with HTML tags or css styles.
 
+= Is it possible to generate post with gallery inside it ? =
+
+In gallery settings we create separate section where you can find create new post button. After click on this button you'll see wizard form where you can select all additional parameters for the gallery new post.
+
 == Screenshots ==
 
 1. Gallery Demo 1
