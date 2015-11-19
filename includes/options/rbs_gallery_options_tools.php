@@ -27,11 +27,12 @@ if(isset($_GET['post'])){
 	    'id'            => ROBO_GALLERY_PREFIX.'create_acticle',
 	    'type'          => 'title',
 	    'before_row'    => '<div class="rbs_block">'
-	    	.'<div class="rbs-center-block rbs-margin-block">'
+	    	.'<div class="rbs-center-block rbs-margin-block rbs-post-tools">'
 		    	.'<button id="rbs_create_article" data-galleryid="'.(int)$_GET['post'].'" class="btn btn-info btn-lg ">'
 		    		.'<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> '
 		    		.__('Create Post','rbs_gallery')
 		    	.'</button>'
+
 		    	.'<p class="rbs_desc">'.__('Here you can create and customize new post with gallery inside it','rbs_gallery').'</p> '
 		    .'</div>',
 	    'after_row'    	=> '</div>',

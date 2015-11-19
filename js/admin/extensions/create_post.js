@@ -36,6 +36,11 @@
 	    'height': 'auto',
 	    'fluid': true, 
 	    'resizable': false,
+	 //    'position': { my: "left top", at: "left bottom", of: button },
+	 	'position': { 
+				my: "center", 
+				at: "center top+150" 
+			},
 		'responsive': true,
 		'draggable': false,
 		'closeOnEscape' : true,
@@ -56,12 +61,20 @@
 	//$(".ui-dialog-titlebar-close").addClass("ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close");
 	
 	rbs_insert_post_button = $(".rbs-create-post-button-insert");
-	rbs_insert_post_content = $("#rbs_actionWindowContent");
 	
-	$('#rbs_create_article').click(function(evnt){
-		evnt.preventDefault();
+	rbs_insert_post_content = $("#rbs_actionWindowContent");
+
+	var prepareDialog = function(){
 		if(progressHtml=='') progressHtml= rbs_insert_post_content.html();
 			else rbs_insert_post_content.html(progressHtml);
+		
+	};
+
+
+
+	$('#rbs_create_article').click(function(evnt){
+		evnt.preventDefault();
+		prepareDialog();
 		var data = {
 			'action': 'rbs_gallery',
 			'function': 'create_article_form',
