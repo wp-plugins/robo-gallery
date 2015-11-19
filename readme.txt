@@ -224,13 +224,13 @@ In gallery settings you can find hover type options. In settings of the gallery 
 
 In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
 
-= How to define custom hover effect for some gallery thumbnail? =
-
-When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
-
 = How I can create custom (grid) layout of the thumbnails? =
 
 In our gallery we implemented layout based on columns amount. So you can general amount of the columns in your gallery grid and define custom amount of the columns which every image gonna take. As result you can customize layout of the gallery grid
+
+= How to define custom hover effect for some gallery thumbnail? =
+
+When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have custom effect field where you can select different hover effect for every image of the gallery.
 
 = How to change font size of the gallery image caption? =
 
@@ -292,10 +292,6 @@ Yes, you can have different styles of the borders and shadows for static and hov
 
 Our gallery is fully responsive and gallery thumbnails size depend of a lot of factors. Gallery calculate thumbnails automatically depend of the general gallery size and gallery layout settings.  First of all you can define ratio values for gallery thumbnails. Size of the thumbnails could be selected from standard pre-defined wordpress sizes: thumbnail, medium, large, full
 
-= How to change color of the gallery interface elements? =
-
-Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
-
 = How to customize gallery layouts for different screen resolutions? =
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
@@ -303,6 +299,10 @@ In admin section of the gallery you'll find columns options which provide you ad
 = How to change font color of the gallery image caption? =
 
 In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
+
+= How to change color of the gallery interface elements? =
+
+Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
 
 = How to make gallery thumbnails with rounded corners? =
 
@@ -328,13 +328,13 @@ You can change size, color and style of gallery thumbnails borders and shadows. 
 
 Yes, you can use HTML tags inside gallery image description field
 
-= Is it possible to turn off border of the gallery thumbnails? =
-
-Yes, in gallery options you can turn on/off border option
-
 = How to load more function work? =
 
 In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
+
+= Is it possible to turn off border of the gallery thumbnails? =
+
+Yes, in gallery options you can turn on/off border option
 
 = How to change font color of the gallery image description text? =
 
@@ -352,10 +352,6 @@ Yes. When you open gallery media manager you'll see there list of the gallery im
 
 When you open gallery images manager you'll find there image edit mode where you can flip source image
 
-= How to change font style of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
-
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
@@ -363,6 +359,10 @@ When you open gallery images manager you can define alt for every gallery image 
 = Where to change settings of the image of the gallery? =
 
 Settings of the gallery image you can change in images manager. There you can upload, edit or customize already uploaded images to the gallery
+
+= How to change font style of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
 = How to rotate uploaded gallery image? =
 
@@ -384,10 +384,6 @@ When you enable border in gallery settings you will see multiply options for cus
 
 Gallery have 15 hover animation effects, which could be combined with additional custom options
 
-= How to change font size of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
-
 = How to add text before and after gallery? =
 
 In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
@@ -395,6 +391,10 @@ In gallery settings you can find before/after text gallery field. This fields su
 = How to customize gallery hover effect shutter layout? =
 
 In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
+
+= How to change font size of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
 = Is it possible to change transparency of the hover shutter? =
 
@@ -404,6 +404,10 @@ Yes, it's possible to change transparency in gallery settings
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
 
+= How to change style of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
+
 = How to change width of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
@@ -411,10 +415,6 @@ When you enable border in gallery settings you will see multiply options for cus
 = How to make gallery with no space between thumbnails of the gallery? =
 
 If you wish to make section with gallery without spacing between thumbnails you need just set horizontal and vertical spacing to 0 in gallery thumbnails view options
-
-= How to change style of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
 
 = Do you have Polaroid style in your gallery? =
 
@@ -436,13 +436,13 @@ For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
 
 In gallery hover settings we implemented full set of configuration settings of the buttons. You can change icon, style size, colors for static and hovered buttons. You can select icon with build in wizard
 
-= How to change icon on gallery thumbnail button? =
-
-When you open gallery settings you can see there hover options section where we implemented settings for every hover button. Here you can select icons for buttons and style for this icon
-
 = How I can make gallery only with one size pictures but I would like to arrange gallery with pictures of the different size - one big, several smaller? =
 
 In our gallery you can define different amount of the columns for the images thumbnails and every gallery image could have different width which measuring by columns of the images thumbnails. For example you can define 2 column size for the image 1 and 3 columns size for image 5 but the rest of the gallery images could stay with default one column value in images settings.
+
+= How to change icon on gallery thumbnail button? =
+
+When you open gallery settings you can see there hover options section where we implemented settings for every hover button. Here you can select icons for buttons and style for this icon
 
 = Which style parameters I can change for the hover button icon? =
 
