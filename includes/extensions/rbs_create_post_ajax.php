@@ -115,7 +115,9 @@ if(!function_exists('rbs_ajax_create_article')){
 			} else {
 				echo '<h3>'.__('Post ','rbs_gallery').'"'.$title.'"'.__(' created','rbs_gallery').'</h3>'; 
 				echo '<p>
-
+					<a href="'.esc_url( get_edit_post_link($Poster->PC_current_post_id) ).'" class="button button-small" target="_blank">
+						'.__('Edit','rbs_gallery')
+					.'</a> 
 					<a  href="'.esc_url( get_permalink($Poster->PC_current_post_id) ).'"  class="button button-small" target="_blank">
 						'.__('Preview','rbs_gallery')
 					.'</a> 
