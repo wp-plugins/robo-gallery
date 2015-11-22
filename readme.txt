@@ -196,10 +196,6 @@ If you have some conflict in gallery back end you can sort it with new compatibi
 
 First of all you can copy shortcode inside gallery settings , in separate shortcode block. Another way generate shortcode directly in post or page edit mode. You can find wizard button on top of content editor 
 
-= Is it possible create gallery in Wordpress post with Gallery? =
-
-Yes, you can insert gallery into post with shortcode tag
-
 = How to define video for some gallery image? =
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
@@ -207,6 +203,10 @@ Every gallery image have additional fields where you can define custom link, tit
 = Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
+
+= Is it possible create gallery in Wordpress post with Gallery? =
+
+Yes, you can insert gallery into post with shortcode tag
 
 = How to change amount of images loading on gallery page? =
 
@@ -252,10 +252,6 @@ Yes, you can use generated direct link inside particular gallery settings
 
 In gallery settings you can find general settings section where you can turn on/off thumbnails border. Also you can customize there style of the border, namely width, color and style of the thumbnail borders
 
-= Do you have some limits for images amount in gallery? =
-
-No, we don't have any limits for amount of the images in gallery
-
 = How to hide titles of the gallery image in lightbox ? =
 
 In lightbox section of the gallery settings you can find hide title option. If you enable it titles of the gallery images in lightbox will be turned off.
@@ -267,6 +263,10 @@ No, we don't have any limits for image size in our gallery.
 = How to enable lazy load in gallery options? =
 
 In gallery settings you can find option to enable/disable lazy load, also there you'll have alot of additional options for customization of the loading process
+
+= Do you have some limits for images amount in gallery? =
+
+No, we don't have any limits for amount of the images in gallery
 
 = How to make shadow for the gallery thumbnails? =
 
@@ -364,10 +364,6 @@ When you open gallery images manager you'll find there image edit mode where you
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
-= How to crop uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can crop source image
-
 = How to rotate uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can rotate source image
@@ -379,6 +375,10 @@ Yes, gallery have fade hover effect
 = How to change color of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One from this options it's border color. You can select color using color selector
+
+= How to crop uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can crop source image
 
 = How many thumbnails hover effects gallery has? =
 
@@ -396,10 +396,6 @@ In gallery settings you can find before/after text gallery field. This fields su
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
-= Is it possible to change transparency of the hover shutter? =
-
-Yes, it's possible to change transparency in gallery settings
-
 = How many menu buttons styles do you have in gallery menu ? =
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
@@ -407,6 +403,10 @@ Gallery menu have multiply configuration options. Some of the options changing c
 = How to change width of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
+
+= Is it possible to change transparency of the hover shutter? =
+
+Yes, it's possible to change transparency in gallery settings
 
 = How to change style of the gallery thumbnails border? =
 
