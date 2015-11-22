@@ -296,10 +296,6 @@ In gallery settings you can define horizontal and vertical paddings between gall
 
 In admin section of the gallery you'll find columns options which provide you advanced customization options for different resolutions. You can define some static size or auto size for every resolution.
 
-= How to change font color of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
-
 = How to change color of the gallery interface elements? =
 
 Color of every gallery front end interface element could be changed changed in admin section with color selector. There you can change colors of the menu buttons, load more button, borders, shadows, backgrounds and etc.
@@ -307,6 +303,10 @@ Color of every gallery front end interface element could be changed changed in a
 = How to define custom link for some gallery images? =
 
 Every gallery image have additional fields where you can define custom link, title, description. All this options you can find in gallery images manager, inside general gallery settings
+
+= How to change font color of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font color and see results in live preview
 
 = How to make gallery thumbnails with rounded corners? =
 
@@ -332,10 +332,6 @@ In gallery admin section you can define amount of the images for the first load 
 
 Yes, you can use HTML tags inside gallery image description field
 
-= Is it possible to turn off border of the gallery thumbnails? =
-
-Yes, in gallery options you can turn on/off border option
-
 = How to change font color of the gallery image description text? =
 
 In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change color of the text
@@ -343,6 +339,10 @@ In gallery settings, when enabled custom hover settings you can customize style 
 = How to define custom ALT for gallery image? =
 
 When you open gallery images manager you can define alt for every gallery image there
+
+= Is it possible to turn off border of the gallery thumbnails? =
+
+Yes, in gallery options you can turn on/off border option
 
 = Where to change settings of the image of the gallery? =
 
@@ -364,10 +364,6 @@ When you open gallery images manager you'll find there image edit mode where you
 
 In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
 
-= Do you have fade effect for the thumbnails hover? =
-
-Yes, gallery have fade hover effect
-
 = How to crop uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can crop source image
@@ -375,6 +371,10 @@ When you open gallery images manager you'll find there image edit mode where you
 = How to rotate uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can rotate source image
+
+= Do you have fade effect for the thumbnails hover? =
+
+Yes, gallery have fade hover effect
 
 = How to change color of the gallery thumbnails border? =
 
@@ -384,13 +384,13 @@ When you enable border in gallery settings you will see multiply options for cus
 
 Gallery have 15 hover animation effects, which could be combined with additional custom options
 
-= How to add text before and after gallery? =
-
-In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
-
 = How to customize gallery hover effect shutter layout? =
 
 In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
+
+= How to add text before and after gallery? =
+
+In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
 
 = How to change font size of the gallery image description text? =
 
@@ -404,13 +404,13 @@ Yes, it's possible to change transparency in gallery settings
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
 
-= How to change style of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
-
 = How to change width of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
+
+= How to change style of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border style. You can select one value from pre-defined list
 
 = How to make gallery with no space between thumbnails of the gallery? =
 
@@ -424,10 +424,6 @@ In our gallery implemented options which make you able to make gallery thumbnail
 
 Yes, all labels of the front end interface of the gallery is customizable. Label of the load more button could be edit in admin section
 
-= How to change transparency of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. When you open color selector you can also select some transparency value there
-
 = Which tags build in shutter of gallery hover template customization? =
 
 For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
@@ -435,6 +431,10 @@ For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
 = How to enable icons on gallery hover shutter? =
 
 In gallery hover settings we implemented full set of configuration settings of the buttons. You can change icon, style size, colors for static and hovered buttons. You can select icon with build in wizard
+
+= How to change transparency of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. When you open color selector you can also select some transparency value there
 
 = How I can make gallery only with one size pictures but I would like to arrange gallery with pictures of the different size - one big, several smaller? =
 
