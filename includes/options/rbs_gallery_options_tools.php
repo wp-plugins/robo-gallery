@@ -32,7 +32,11 @@ if(isset($_GET['post'])){
 		    		.'<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> '
 		    		.__('Create Post','rbs_gallery')
 		    	.'</button>'
-
+		    	.'<p></p>'
+		    	.'<button id="rbs_posts_list" data-galleryid="'.(int)$_GET['post'].'" class="btn btn-info btn-lg ">'
+		    		.'<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> '
+		    		.__('Posts List','rbs_gallery')
+		    	.'</button>'
 		    	.'<p class="rbs_desc">'.__('Here you can create and customize new post with gallery inside it','rbs_gallery').'</p> '
 		    .'</div>',
 	    'after_row'    	=> '</div>',

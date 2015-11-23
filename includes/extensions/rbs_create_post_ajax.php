@@ -100,8 +100,8 @@ if(!function_exists('rbs_ajax_create_article')){
 
 			if(!$posts_id) $posts_id = array();
 				else $posts_id = json_decode($posts_id, true);
-
-			$posts_id[] = $Poster->PC_current_post_id;
+			$postId = $Poster->PC_current_post_id;
+			$posts_id[] = $postId;
 
 			update_post_meta($galleryid, 'rbs_gallery_id', json_encode($posts_id, JSON_FORCE_OBJECT ));
 
@@ -115,10 +115,10 @@ if(!function_exists('rbs_ajax_create_article')){
 			} else {
 				echo '<h3>'.__('Post ','rbs_gallery').'"'.$title.'"'.__(' created','rbs_gallery').'</h3>'; 
 				echo '<p>
-					<a href="'.esc_url( get_edit_post_link($Poster->PC_current_post_id) ).'" class="button button-small" target="_blank">
+					<a href="'.esc_url( get_edit_post_link( $postId ) ).'" class="button button-small" target="_blank">
 						'.__('Edit','rbs_gallery')
 					.'</a> 
-					<a  href="'.esc_url( get_permalink($Poster->PC_current_post_id) ).'"  class="button button-small" target="_blank">
+					<a  href="'.esc_url( get_permalink( $postId ) ).'"  class="button button-small" target="_blank">
 						'.__('Preview','rbs_gallery')
 					.'</a> 
 				</p>'; 
@@ -127,6 +127,36 @@ if(!function_exists('rbs_ajax_create_article')){
 		} else {
 			echo '<p><strong>'.__('Error: input value','rbs_gallery').'</strong></p>';
 		}
+		die();
+	}
+}
+
+
+
+if(!function_exists('rbs_ajax_posts_list')){
+	function rbs_ajax_posts_list(){ 
+		
+		if( !isset($_POST['galleryid']) || !(int)$_POST['galleryid'] ){
+			echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'._e('Empty  gallery ID','rbs_gallery').'</p>';
+			return ;
+		} ; 
+		$posts = get_post_meta( (int) $_POST['galleryid'], 'rbs_gallery_id' , true);
+
+		$posts = json_decode($posts, true);
+		echo '<table class="widefat importers striped" style="width:95%;">';
+		for ($i=0; $i < count($posts); $i++) { 
+			if( !$posts[$i] ) continue ;
+			$post_info = get_post( $posts[$i] );
+			if( gettype($post_info)!='object' ) {
+				echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'._e('Incorrect  gallery ID','rbs_gallery').'</p>';
+				continue ;
+			}
+			echo '<tr>
+					<td class="desc" style="width:95%;"><a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">'.$post_info->post_title.'</a></td>
+					
+				</tr>';
+		}
+		echo '</table>';
 		die();
 	}
 }

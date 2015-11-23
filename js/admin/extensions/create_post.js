@@ -19,10 +19,8 @@
 
 	var rbs_insert_post_content = '';
 
-
 	var roboGalleryActionDialog = $("#rbs_actionWindow");
 	var roboGalleryActionDialogId =$('#rbs_create_article').data('galleryid');
-
 
 	var bodyClass = roboGalleryActionDialog.data("body");
 	if(bodyClass) $("body").addClass(bodyClass);
@@ -36,10 +34,9 @@
 	    'height': 'auto',
 	    'fluid': true, 
 	    'resizable': false,
-	 //    'position': { my: "left top", at: "left bottom", of: button },
 	 	'position': { 
-				my: "center", 
-				at: "center top+150" 
+				my: "center top", 
+				at: "center top+15" 
 			},
 		'responsive': true,
 		'draggable': false,
@@ -58,8 +55,7 @@
 	});
 
 	window['roboGalleryActionDialog'] = roboGalleryActionDialog;
-	//$(".ui-dialog-titlebar-close").addClass("ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close");
-	
+
 	rbs_insert_post_button = $(".rbs-create-post-button-insert");
 	
 	rbs_insert_post_content = $("#rbs_actionWindowContent");
@@ -70,7 +66,20 @@
 		
 	};
 
-
+	$('#rbs_posts_list').click(function(evnt){
+		evnt.preventDefault();
+		prepareDialog();
+		var data = {
+			'action': 'rbs_gallery',
+			'function': 'posts_list',
+			'galleryid': roboGalleryActionDialogId, 
+		};
+		rbs_insert_post_button.hide();
+		roboGalleryActionDialog.dialog("open");
+		$.post(ajaxurl, data, function(response) {
+			rbs_insert_post_content.html(response);
+		});
+	});	
 
 	$('#rbs_create_article').click(function(evnt){
 		evnt.preventDefault();
@@ -105,7 +114,6 @@
 			'categoryid': 		categoryId,
 			'articletitle':  	title,
 			'articleslug':  	slug,
-				
 		};
 
 		rbs_insert_post_button.hide();
@@ -114,10 +122,6 @@
 
 		$.post(ajaxurl, data, function(response) {
 			rbs_insert_post_content.html(response);
-			//rbs_insert_post_button.show();
-			//alert('Got this from the server: ' + response);
 		});
 	});
-
-
 })(jQuery);
