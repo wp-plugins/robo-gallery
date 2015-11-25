@@ -153,7 +153,12 @@ if(!function_exists('rbs_ajax_posts_list')){
 			}
 			echo '<tr>
 					<td class="desc" style="width:95%;"><a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">'.$post_info->post_title.'</a></td>
-					
+					<td class="import-system row-title" style="width:10%;">
+						<a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">
+							'.__('Edit', 'rbs_gallery').'
+						</a>
+					</td>
+				
 				</tr>';
 		}
 		echo '</table>';
