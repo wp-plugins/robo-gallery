@@ -200,6 +200,10 @@ First of all you can copy shortcode inside gallery settings , in separate shortc
 
 Every gallery image have additional fields where you can define custom link, title, description. One of the link option allow you to define link type, for example video link. All this options you can find in gallery images manager, inside general gallery settings
 
+= How to change amount of images loading on gallery page? =
+
+In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
+
 = Do you have some limits for images types in gallery? =
 
 You can use any standard file type in our gallery: png, jpg, jpeg, gif
@@ -208,21 +212,17 @@ You can use any standard file type in our gallery: png, jpg, jpeg, gif
 
 Yes, you can insert gallery into post with shortcode tag
 
-= How to change amount of images loading on gallery page? =
-
-In gallery settings we have few options which makes you able to select amount of the images for the first load and for load more action
-
 = How to customize hover effect? =
 
 In gallery settings you can find hover type options. In settings of the gallery you can select custom hover effect settings or even template for customization of the gallery thumbnails hover
 
-= How to change quality of the gallery thumbnails? =
-
-Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
-
 = How to insert gallery into Wordpress page or post? =
 
 When you create gallery in plugin galleries manager you can go to the post or page editor and there using special wizard button insert gallery into your wordpress post or page. Another way you can insert your gallery manually using shortcode, which you can find in gallery edit mode in shortcode section on the right side of the gallery settings
+
+= How to change quality of the gallery thumbnails? =
+
+Quality of the gallery thumbnails could be easily changed in gallery size option / thumbnails options / source
 
 = How I can create custom (grid) layout of the thumbnails? =
 
@@ -320,10 +320,6 @@ In our gallery we implemented multi-categories structure. Every gallery category
 
 You can change size, color and style of gallery thumbnails borders and shadows. Also you can define different parameters for static and hovered status
 
-= How to load more function work? =
-
-In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
-
 = How to change ordering of the gallery images? =
 
 When you open gallery for edit you can find there images manager where you can change ordering of the gallery images
@@ -331,6 +327,10 @@ When you open gallery for edit you can find there images manager where you can c
 = Is it possible to use HTML in image description ? =
 
 Yes, you can use HTML tags inside gallery image description field
+
+= How to load more function work? =
+
+In gallery admin section you can define amount of the images for the first load and after click on load more button. Load more it's such google gallery style pagination functionality which make you able to limit amount of the images for the first load
 
 = How to change font color of the gallery image description text? =
 
@@ -360,14 +360,6 @@ When you open gallery images manager you'll find there image edit mode where you
 
 Yes. When you open gallery media manager you'll see there list of the gallery images. Click on some image and on the right side you'll see images options. Every gallery image have target blank field below link field of the gallery image.
 
-= How to change font style of the gallery image caption? =
-
-In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
-
-= How to rotate uploaded gallery image? =
-
-When you open gallery images manager you'll find there image edit mode where you can rotate source image
-
 = How to crop uploaded gallery image? =
 
 When you open gallery images manager you'll find there image edit mode where you can crop source image
@@ -375,6 +367,14 @@ When you open gallery images manager you'll find there image edit mode where you
 = Do you have fade effect for the thumbnails hover? =
 
 Yes, gallery have fade hover effect
+
+= How to change font style of the gallery image caption? =
+
+In gallery settings you can enable custom caption settings where you can customize font style and see results in live preview 
+
+= How to rotate uploaded gallery image? =
+
+When you open gallery images manager you'll find there image edit mode where you can rotate source image
 
 = How to change color of the gallery thumbnails border? =
 
@@ -388,14 +388,6 @@ Gallery have 15 hover animation effects, which could be combined with additional
 
 In gallery settings you can find before/after text gallery field. This fields support HTML tags. 
 
-= How to customize gallery hover effect shutter layout? =
-
-In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
-
-= How to change font size of the gallery image description text? =
-
-In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
-
 = How to change width of the gallery thumbnails border? =
 
 When you enable border in gallery settings you will see multiply options for customization of the border. One of the options it's border width in pixels.
@@ -403,6 +395,14 @@ When you enable border in gallery settings you will see multiply options for cus
 = How many menu buttons styles do you have in gallery menu ? =
 
 Gallery menu have multiply configuration options. Some of the options changing color of the buttons, some of them changing style of the buttons, which makes buttons for example 3d or with rounded corners
+
+= How to customize gallery hover effect shutter layout? =
+
+In gallery hover settings you can enable template where you can fully customize layout of the shutter content using HTML tags, text and images. In template we have implemented some build in tags which going to help you to build in some gallery images elements into hover
+
+= How to change font size of the gallery image description text? =
+
+In gallery settings, when enabled custom hover settings you can customize style of the gallery image description text. In this settings you can change size of the text
 
 = Is it possible to change transparency of the hover shutter? =
 
@@ -420,14 +420,6 @@ If you wish to make section with gallery without spacing between thumbnails you 
 
 In our gallery implemented options which make you able to make gallery thumbnails looks in Polaroid style, with caption of the image below thumbnail
 
-= Is it possible to customize load more button caption? = 
-
-Yes, all labels of the front end interface of the gallery is customizable. Label of the load more button could be edit in admin section
-
-= Which tags build in shutter of gallery hover template customization? =
-
-For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
-
 = How to enable icons on gallery hover shutter? =
 
 In gallery hover settings we implemented full set of configuration settings of the buttons. You can change icon, style size, colors for static and hovered buttons. You can select icon with build in wizard
@@ -436,13 +428,17 @@ In gallery hover settings we implemented full set of configuration settings of t
 
 In our gallery you can define different amount of the columns for the images thumbnails and every gallery image could have different width which measuring by columns of the images thumbnails. For example you can define 2 column size for the image 1 and 3 columns size for image 5 but the rest of the gallery images could stay with default one column value in images settings.
 
+= Is it possible to customize load more button caption? = 
+
+Yes, all labels of the front end interface of the gallery is customizable. Label of the load more button could be edit in admin section
+
+= Which tags build in shutter of gallery hover template customization? =
+
+For now we have build in @@TITLE@@, @@CAPTION@@, @@DESCR@@
+
 = How to change icon on gallery thumbnail button? =
 
 When you open gallery settings you can see there hover options section where we implemented settings for every hover button. Here you can select icons for buttons and style for this icon
-
-= How to change transparency of the gallery thumbnails border? =
-
-When you enable border in gallery settings you will see multiply options for customization of the border. When you open color selector you can also select some transparency value there
 
 = Which style parameters I can change for the hover button icon? =
 
@@ -451,6 +447,10 @@ You can select border color, background color and color of the icon, size of the
 = How many icons you have in build in icons library? =
 
 In build library of the icons in gallery you can find 533 icons
+
+= How to change transparency of the gallery thumbnails border? =
+
+When you enable border in gallery settings you will see multiply options for customization of the border. When you open color selector you can also select some transparency value there
 
 = How to turn off social buttons in gallery lightbox? =
 
@@ -488,13 +488,13 @@ Yes. When you open gallery media manager you'll see there list of the gallery im
 
 Our gallery do not require any special permissions for installation of the gallery or during upload of the gallery images. All requirements are basic: our gallery have the same requirements as Wordpress have.
 
-= Is it possible to change color of the hovered image in gallery? =
-
-Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements. 
-
 = How to insert text before/after gallery? =
 
 In our gallery we implemented few additional options which help you to add some text with HTML before/after gallery on your page. IN gallery settings you can find pre/post text fields where you can define some description text for the gallery. This gallery fields support HTML, so you can customize this text with HTML tags or css styles.
+
+= Is it possible to change color of the hovered image in gallery? =
+
+Yes, you can easily change color of the hovered image in gallery in backend. In gallery settings we build-in comfortable color selector which make you able to change color of the gallery interface elements. 
 
 = Is it possible to generate post with gallery inside it ? =
 
