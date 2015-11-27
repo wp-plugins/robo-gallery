@@ -143,7 +143,7 @@ if(!function_exists('rbs_ajax_posts_list')){
 		$posts = get_post_meta( (int) $_POST['galleryid'], 'rbs_gallery_id' , true);
 
 		$posts = json_decode($posts, true);
-		echo '<table class="widefat importers striped" style="width:95%;">';
+		echo '<table class="widefat importers striped">';
 		for ($i=0; $i < count($posts); $i++) { 
 			if( !$posts[$i] ) continue ;
 			$post_info = get_post( $posts[$i] );
@@ -152,13 +152,17 @@ if(!function_exists('rbs_ajax_posts_list')){
 				continue ;
 			}
 			echo '<tr>
-					<td class="desc" style="width:95%;"><a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">'.$post_info->post_title.'</a></td>
+					<td class="desc">'.$post_info->post_title.'</td>
 					<td class="import-system row-title" style="width:10%;">
 						<a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">
 							'.__('Edit', 'rbs_gallery').'
 						</a>
 					</td>
-				
+					<td class="import-system row-title" style="width:10%;">
+						<a href="'. esc_url( get_permalink($post_info->ID) ).'" title="'.__('Preview', 'rbs_gallery').'" target="_blank">
+							'.__('Preview', 'rbs_gallery').'
+						</a>
+					</td>
 				</tr>';
 		}
 		echo '</table>';
