@@ -1,0 +1,684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Robo Gallery\n"
+"POT-Creation-Date: 2015-08-18 14:02+0200\n"
+"PO-Revision-Date: 2015-08-24 08:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: RoboSoft Team <team@robosoft.co>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options/rbs_gallery_options_button.php:18
+msgid "Menu Options"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:26
+msgid "Show Menu"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:36
+msgid "Show Root"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:44
+msgid "Root Label"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:51
+msgid "Show self"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:60
+msgid "Style"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:67
+#: options/rbs_gallery_options_button.php:99
+#: options/rbs_gallery_options_button.php:115
+msgid "Normal"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:68
+msgid "flat"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:69
+msgid "3d"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:70
+#: options/rbs_gallery_options_view.php:127
+msgid "Border"
+msgstr "Ramka"
+
+#: options/rbs_gallery_options_button.php:76
+msgid "Color"
+msgstr "Kolor"
+
+#: options/rbs_gallery_options_button.php:83
+msgid "gray"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:84
+msgid "blue"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:85
+msgid "green"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:86
+msgid "orange"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:87
+msgid "red"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:88
+msgid "purple"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:93
+msgid "Rounds"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:100
+msgid "Rounded"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:101
+msgid "Pill"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:102
+msgid "Circle "
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:107
+msgid "Size"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:113
+msgid "Jumbo"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:114
+msgid "Large"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:116
+msgid "Small"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:117
+msgid "Tiny "
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:122
+msgid "Left Padding"
+msgstr ""
+
+#: options/rbs_gallery_options_button.php:133
+msgid "Bottom Padding"
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:18
+msgid " Clone Gallery"
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:27
+msgid "Source Gallery"
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:28
+msgid ""
+"When you select here to inherit settings from another gallery you'll not be "
+"able to edit some of the options. Gallery will copy all settings from "
+"selected source."
+msgstr ""
+
+#: options/rbs_gallery_options_copy.php:29
+msgid ""
+"Very useful option for the webmasters who planning to create a lot of "
+"galleries. You don't have to configure it every time. Just setup styles of "
+"the gallery in one place and use the same options for another galleries on "
+"your website in another galleries.  Very fast, comfortable, advanced tool to "
+"speed up your workflow!"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:18
+msgid "Hover Options"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:26
+msgid "Hover Mode"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:33 rbs_gallery_media.php:74
+msgid "Off"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:34
+msgid "Options"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:35
+msgid "Template"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:49
+#: options/rbs_gallery_options_lightbox.php:57
+#: options/rbs_gallery_options_loading.php:79
+#: options/rbs_gallery_options_polaroid.php:53
+msgid "Bg Color"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:63 rbs_gallery_media.php:118
+msgid "Effect"
+msgstr "Efekt"
+
+#: options/rbs_gallery_options_hover.php:69 rbs_gallery_media.php:95
+msgid "push-up"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:70 rbs_gallery_media.php:96
+msgid "push-down"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:71 rbs_gallery_media.php:97
+msgid "push-up-100%"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:72 rbs_gallery_media.php:98
+msgid "push-down-100%"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:73 rbs_gallery_media.php:99
+msgid "reveal-top"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:74 rbs_gallery_media.php:100
+msgid "reveal-bottom"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:75 rbs_gallery_media.php:101
+msgid "reveal-top-100%"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:76 rbs_gallery_media.php:102
+msgid "reveal-bottom-100%"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:77 rbs_gallery_media.php:103
+msgid "direction-aware"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:78 rbs_gallery_media.php:104
+msgid "direction-aware-fade"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:79 rbs_gallery_media.php:105
+msgid "direction-right"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:80 rbs_gallery_media.php:106
+msgid "direction-left"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:81 rbs_gallery_media.php:107
+msgid "direction-top"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:82 rbs_gallery_media.php:108
+msgid "direction-bottom"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:83 rbs_gallery_media.php:109
+msgid "fade"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:90
+#: options/rbs_gallery_options_lightbox.php:37
+msgid "Show Title"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:105
+#: options/rbs_gallery_options_polaroid.php:46 rbs_gallery_widget.php:71
+msgid "Title"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:106
+msgid "Link Button"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:107
+msgid "Zoom Button"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:108
+msgid "Description"
+msgstr "Opis"
+
+#: options/rbs_gallery_options_hover.php:117
+msgid "Link Icon"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:137
+msgid "Zoom Icon"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:160
+msgid "Show Description"
+msgstr ""
+
+#: options/rbs_gallery_options_hover.php:181
+msgid "Description Template"
+msgstr ""
+
+#: options/rbs_gallery_options_images.php:18
+msgid "Images Manager"
+msgstr ""
+
+#: options/rbs_gallery_options_images.php:27
+#: options/rbs_gallery_options_images.php:29
+msgid "Manage Images"
+msgstr ""
+
+#: options/rbs_gallery_options_images.php:28
+msgid ""
+"Click on Manage Images button to open Images Manager where you can upload, "
+"edit or delete images from gallery. Also here you can edit settings of every "
+"particular image, define alt, links, description text"
+msgstr ""
+
+#: options/rbs_gallery_options_info.php:18
+#: options/rbs_gallery_options_info.php:31
+#: options/rbs_gallery_options_infowide.php:18 rbs_gallery_about.php:63
+#: rbs_gallery_about.php:64 rbs_gallery_list.php:29
+#: rbs_gallery_topblock.php:20
+msgid "Get Pro version"
+msgstr "Zobacz wersje PRO"
+
+#: options/rbs_gallery_options_info.php:29
+#: options/rbs_gallery_options_infowide.php:28 rbs_gallery_topblock.php:21
+msgid ""
+"with PRO version you get more advanced functionality and even more "
+"flexibility in settings"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:18
+msgid "Lightbox Options"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:26
+msgid "Social Buttons"
+msgstr ""
+
+#: options/rbs_gallery_options_lightbox.php:46
+msgid "Text Color"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:18
+#: options/rbs_gallery_options_loading.php:35
+msgid "Loading Options"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:26
+msgid "Lazy Load"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:36
+msgid "Loading Text"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:44
+msgid "Images Amount"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:53
+msgid "Load More Amount"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:63
+msgid "Wait Thumbs Load"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:71
+msgid "Wait No Matter What"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:91
+msgid "Loading Label"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:101
+msgid "Load More Label"
+msgstr ""
+
+#: options/rbs_gallery_options_loading.php:108
+msgid "No More Entries Label"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:18
+msgid "Polaroid Style Options"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:26
+msgid "Polaroid Style"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:40
+msgid "Source"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:47
+msgid "Desc"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:48
+msgid "Caption"
+msgstr "Podpis"
+
+#: options/rbs_gallery_options_polaroid.php:64
+msgid "Align"
+msgstr "Wyrównanie"
+
+#: options/rbs_gallery_options_polaroid.php:70
+msgid "left"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:71
+msgid "right"
+msgstr ""
+
+#: options/rbs_gallery_options_polaroid.php:72
+msgid "center"
+msgstr ""
+
+#: options/rbs_gallery_options_shortcode.php:18
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: options/rbs_gallery_options_shortcode.php:29
+msgid "use this shortcode to insert this gallery into page, post or widget"
+msgstr ""
+
+#: options/rbs_gallery_options_size.php:18
+msgid "Gallery Size Options"
+msgstr ""
+
+#: options/rbs_gallery_options_size.php:30
+#: options/rbs_gallery_options_size.php:39
+msgid "Thumbs Options"
+msgstr ""
+
+#: options/rbs_gallery_options_size.php:40
+msgid "Size Options"
+msgstr ""
+
+#: options/rbs_gallery_options_size.php:47
+msgid "Custom Ratio"
+msgstr ""
+
+#: options/rbs_gallery_options_size.php:58
+msgid "Colums "
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:18
+msgid "Thumbs View Options"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:28
+msgid "Radius"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:41
+msgid "Hor. Space"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:51
+msgid "Ver. Space"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:64
+msgid "Shadow"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:74
+#: options/rbs_gallery_options_view.php:81
+#: options/rbs_gallery_options_view.php:106
+msgid "Shadow Options"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:82
+msgid "Hover Shadow Options"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:92
+msgid "Hover Shadow"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:137
+#: options/rbs_gallery_options_view.php:144
+#: options/rbs_gallery_options_view.php:171
+msgid "Border Options"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:145
+msgid "Hover Border Options"
+msgstr ""
+
+#: options/rbs_gallery_options_view.php:156
+msgid "Hover Border"
+msgstr ""
+
+#: rbs_gallery_about.php:22
+msgid "Robo Gallery implemented by RoboSoft Team"
+msgstr ""
+
+#: rbs_gallery_about.php:25
+msgid "More details about Robo Gallery you can see on our website"
+msgstr ""
+
+#: rbs_gallery_about.php:31
+msgid "Robo Gallery Pro Features"
+msgstr ""
+
+#: rbs_gallery_about.php:34
+msgid "Unlimited amount of the galleries"
+msgstr ""
+
+#: rbs_gallery_about.php:35
+msgid "Unlimited amount of images in galleries"
+msgstr ""
+
+#: rbs_gallery_about.php:38
+msgid "Custom hover style for border"
+msgstr ""
+
+#: rbs_gallery_about.php:39
+msgid "Custom hover style for shadow"
+msgstr ""
+
+#: rbs_gallery_about.php:42
+msgid "Unlimited multi-categories"
+msgstr ""
+
+#: rbs_gallery_about.php:43
+msgid "High quality thumbnails"
+msgstr ""
+
+#: rbs_gallery_about.php:46
+msgid "Gallery widget"
+msgstr ""
+
+#: rbs_gallery_about.php:47
+msgid "Random ordering"
+msgstr ""
+
+#: rbs_gallery_about.php:50
+msgid "Gallery menu colors"
+msgstr ""
+
+#: rbs_gallery_about.php:51
+msgid "Gallery menu styles"
+msgstr ""
+
+#: rbs_gallery_about.php:54
+msgid "Custom images ordering"
+msgstr ""
+
+#: rbs_gallery_about.php:55
+msgid "Customizable hover style"
+msgstr ""
+
+#: rbs_gallery_about.php:58
+msgid "Custom hover background color"
+msgstr ""
+
+#: rbs_gallery_about.php:59
+msgid "Advanced images description settings"
+msgstr ""
+
+#: rbs_gallery_about.php:69 rbs_gallery_settings.php:63
+msgid "All Rights Reserved"
+msgstr ""
+
+#: rbs_gallery_button.php:22 rbs_gallery_media.php:43
+msgid "Robo Gallery"
+msgstr ""
+
+#: rbs_gallery_button.php:23 rbs_gallery_list.php:28
+msgid "Close"
+msgstr ""
+
+#: rbs_gallery_button.php:24
+msgid "Insert"
+msgstr "Wstaw"
+
+#: rbs_gallery_button.php:30
+msgid "Add Robo Gallery"
+msgstr ""
+
+#: rbs_gallery_button.php:41
+msgid "Select gallery"
+msgstr ""
+
+#: rbs_gallery_button.php:42 rbs_gallery_widget.php:79
+msgid "Configure it in"
+msgstr ""
+
+#: rbs_gallery_button.php:42 rbs_gallery_widget.php:81
+msgid "Robo Gallery plugin"
+msgstr ""
+
+#: rbs_gallery_init.php:21
+msgid "Available in"
+msgstr "Dostępne w"
+
+#: rbs_gallery_init.php:67
+msgid "Galleries List"
+msgstr "Galerie"
+
+#: rbs_gallery_init.php:68 rbs_gallery_init.php:69
+msgid "Add Gallery"
+msgstr ""
+
+#: rbs_gallery_init.php:70
+msgid "Edit Gallery"
+msgstr "Edytuj Galerię"
+
+#: rbs_gallery_list.php:27
+msgid "Get Robo Gallery Pro version"
+msgstr ""
+
+#: rbs_gallery_list.php:31
+msgid ""
+"You can create only 3 galleries. Update to PRO to get unlimited galleries"
+msgstr ""
+
+#: rbs_gallery_list.php:55
+msgid "Shortcode"
+msgstr ""
+
+#: rbs_gallery_media.php:58
+msgid "Column"
+msgstr ""
+
+#: rbs_gallery_media.php:65
+msgid "Link"
+msgstr ""
+
+#: rbs_gallery_media.php:73
+msgid "On"
+msgstr ""
+
+#: rbs_gallery_media.php:78
+msgid "Blank Link"
+msgstr ""
+
+#: rbs_gallery_media.php:86
+msgid "Video"
+msgstr ""
+
+#: rbs_gallery_media.php:110
+msgid "inherit"
+msgstr ""
+
+#: rbs_gallery_settings.php:17
+msgid "Compatibility Settings"
+msgstr ""
+
+#: rbs_gallery_settings.php:30 rbs_gallery_settings.php:33
+msgid "jQuery Version"
+msgstr "Wersja jQuery"
+
+#: rbs_gallery_settings.php:34 rbs_gallery_settings.php:35
+msgid "Default"
+msgstr ""
+
+#: rbs_gallery_settings.php:37 rbs_gallery_settings.php:38
+msgid "Alternative"
+msgstr ""
+
+#: rbs_gallery_settings.php:44 rbs_gallery_settings.php:47
+msgid "Switch Style"
+msgstr ""
+
+#: rbs_gallery_settings.php:48 rbs_gallery_settings.php:49
+msgid "Modern"
+msgstr ""
+
+#: rbs_gallery_settings.php:51 rbs_gallery_settings.php:52
+msgid "Classic"
+msgstr ""
+
+#: rbs_gallery_widget.php:19
+msgid "Robo Gallery Widget"
+msgstr ""
+
+#: rbs_gallery_widget.php:20
+msgid "Publish gallery on your website."
+msgstr ""
+
+#: rbs_gallery_widget.php:35 rbs_gallery_widget.php:67
+msgid "This widget available in Pro version"
+msgstr ""
+
+#: rbs_gallery_widget.php:44
+msgid "New gallery"
+msgstr ""
+
+#: rbs_gallery_widget.php:76
+msgid "Gallery:"
+msgstr ""
