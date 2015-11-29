@@ -27,14 +27,14 @@ if(!function_exists('rbs_ajax_create_article_form')){
 			'value_field'	     => 'term_id',	
 		);
 		if( !isset($_POST['galleryid']) || !(int)$_POST['galleryid'] ){
-			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'._e('Empty  gallery ID','rbs_gallery').'</p>';
+			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'.__('Empty  gallery ID','rbs_gallery').'</p>';
 			return ;
 		} ; 
 		
 		$post_info = get_post( (int) $_POST['galleryid'] );
 
 		if( gettype($post_info)!='object' ) {
-			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'._e('Incorrect  gallery ID','rbs_gallery').'</p>';
+			echo '<p><strong>'.__('Post not created. Error: ','rbs_gallery').'</strong><br><p>'.__('Incorrect  gallery ID','rbs_gallery').'</p>';
 			return ;
 		}
 		echo "<h3>".__('Add new post','rbs_gallery')."</h3>";
@@ -137,28 +137,43 @@ if(!function_exists('rbs_ajax_posts_list')){
 	function rbs_ajax_posts_list(){ 
 		
 		if( !isset($_POST['galleryid']) || !(int)$_POST['galleryid'] ){
-			echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'._e('Empty  gallery ID','rbs_gallery').'</p>';
+			echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'.__('Empty  gallery ID','rbs_gallery').'</p>';
 			return ;
 		} ; 
 		$posts = get_post_meta( (int) $_POST['galleryid'], 'rbs_gallery_id' , true);
 
 		$posts = json_decode($posts, true);
 		echo '<table class="widefat importers striped">';
+		echo '<thead>
+				<tr>
+					<td>'.__('Title').'</td>
+					<td>'.__('Status').'</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</thead>';
 		for ($i=0; $i < count($posts); $i++) { 
 			if( !$posts[$i] ) continue ;
 			$post_info = get_post( $posts[$i] );
+			//print_r($post_info);
 			if( gettype($post_info)!='object' ) {
-				echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'._e('Incorrect  gallery ID','rbs_gallery').'</p>';
+				echo '<p><strong>'.__('Error: ','rbs_gallery').'</strong><br><p>'.__('Incorrect  gallery ID','rbs_gallery').'</p>';
 				continue ;
 			}
 			echo '<tr>
-					<td class="desc">'.$post_info->post_title.'</td>
-					<td class="import-system row-title" style="width:10%;">
+					<td class="row-title">
+						'.$post_info->post_title.'
+					</td>
+					<td class="import-system"  style="width:10%;">
+						'.__($post_info->post_status=='publish'?'Published':$post_info->post_status).'
+					</td>
+					
+					<td class="import-system" style="width:10%;">
 						<a href="'.esc_url( get_edit_post_link($post_info->ID)).'"  title="'.__('Edit', 'rbs_gallery').'"  target="_blank">
 							'.__('Edit', 'rbs_gallery').'
 						</a>
 					</td>
-					<td class="import-system row-title" style="width:10%;">
+					<td class="import-system" style="width:10%;">
 						<a href="'. esc_url( get_permalink($post_info->ID) ).'" title="'.__('Preview', 'rbs_gallery').'" target="_blank">
 							'.__('Preview', 'rbs_gallery').'
 						</a>
